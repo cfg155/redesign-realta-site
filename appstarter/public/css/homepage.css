@@ -1,3 +1,45 @@
 * {
   padding: 0;
   margin: 0; }
+
+html {
+  font-size: 16px; }
+
+.container {
+  width: 90%;
+  margin: auto; }
+  .container .section-1 {
+    display: flex;
+    justify-content: center;
+    height: 100vh; }
+    .container .section-1__left {
+      width: 50%; }
+      .container .section-1__left .logo {
+        width: 20%; }
+      .container .section-1__left h1 {
+        padding-bottom: 7px; }
+      .container .section-1__left p {
+        padding: 20px 0; }
+      .container .section-1__left .rating {
+        display: flex; }
+        .container .section-1__left .rating__left {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .container .section-1__left .rating__left--years {
+            font-size: 1.5rem; }
+    .container .section-1__right {
+      position: relative;
+      width: 50%;
+      background-image: url("../assets/mobile-slider-bg.png");
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center; }
+      .container .section-1__right .phone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%); }
+        .container .section-1__right .phone .svg-img {
+          width: 95%;
+          height: 95%; }

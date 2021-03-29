@@ -2,3 +2,68 @@
   padding: 0;
   margin: 0;
 }
+
+html {
+  font-size: 16px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+
+  .section-1 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+    &__left {
+      width: 50%;
+
+      .logo {
+        width: 20%;
+      }
+
+      h1 {
+        padding-bottom: 7px;
+      }
+
+      p {
+        padding: 20px 0;
+      }
+
+      .rating {
+        display: flex;
+
+        &__left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &--years {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
+    &__right {
+      position: relative;
+      width: 50%;
+      background-image: url("../assets/mobile-slider-bg.png");
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      .phone {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        .svg-img {
+          width: 95%;
+          height: 95%;
+        }
+      }
+    }
+  }
+}
