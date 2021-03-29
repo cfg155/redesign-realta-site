@@ -5,6 +5,7 @@
 
 html {
   font-size: 16px;
+  background-color: #fafafa;
 }
 
 .container {
@@ -14,10 +15,11 @@ html {
   .section-1 {
     display: flex;
     justify-content: center;
+    // align-items: center;
     height: 100vh;
 
     &__left {
-      width: 50%;
+      width: 60%;
 
       .logo {
         width: 20%;
@@ -28,21 +30,54 @@ html {
       }
 
       p {
-        padding: 20px 0;
+        padding: 2em 0;
+        margin-bottom: 0.5em;
+        font-size: 1.3rem;
       }
 
       .rating {
         display: flex;
+        width: 100%;
+        margin-bottom: 6em;
 
-        &__left {
+        &__wrapper {
           display: flex;
           justify-content: center;
           align-items: center;
+          margin-right: 1em;
+          background-color: #ffffff;
+          box-sizing: border-box;
+          padding: 0.3em 1em;
+          border-radius: 25px;
+          box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
+
+          &--exp .stars {
+            margin-bottom: 0.5em;
+          }
+
+          &--exp .stars svg {
+            margin-right: 0.5em;
+          }
 
           &--years {
             font-size: 1.5rem;
+            text-align: center;
+            padding: 10px;
+            line-height: 1.5rem;
+
+            span {
+              font-size: 2.3rem;
+            }
           }
         }
+      }
+
+      .btn-learn-more {
+        text-decoration: none;
+        padding: 1em 3.5em;
+        background-color: #5d2e8f;
+        color: white;
+        border-radius: 50px;
       }
     }
 
@@ -50,7 +85,7 @@ html {
       position: relative;
       width: 50%;
       background-image: url("../assets/mobile-slider-bg.png");
-      background-size: 75%;
+      background-size: 95%;
       background-repeat: no-repeat;
       background-position: center;
 
@@ -58,7 +93,7 @@ html {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -40%);
+        transform: translate(-50%, -35%);
         .svg-img {
           width: 95%;
           height: 95%;

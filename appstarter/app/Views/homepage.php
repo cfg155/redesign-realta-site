@@ -20,8 +20,8 @@
                 <h2>MANAGEMENT SYSTEM</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem temporibus provid ent, a omnis ipsum vitae odio quae alias cumque fugit rem porro voluptas nulla magni nisi vero libero! Aperiam.</p>
                 <div class="rating">
-                    <div class="rating__left">
-                        <div class="rating__left--exp">
+                    <div class="rating__wrapper">
+                        <div class="rating__wrapper--exp">
                             <div class="stars">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
                                     <defs>
@@ -111,13 +111,107 @@
                             </div>
                             <span>Experienced more than</span>
                         </div>
-                        <div class="rating__left--years">
-                            <span>35</span><br>Years
+                        <div class="rating__wrapper--years">
+                            <span>35</span><br>years
                         </div>
                     </div>
-                    <div class="rating__right"></div>
+                    <div class="rating__wrapper">
+                        <div class="rating__wrapper--exp">
+                            <div class="stars">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
+                                    <defs>
+                                        <style>
+                                            .a {
+                                                fill: url(#a);
+                                            }
+                                        </style>
+                                        <linearGradient id="a" x1="0.5" x2="0.801" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#fa0" />
+                                            <stop offset="0.258" stop-color="#fcb700" />
+                                            <stop offset="0.422" stop-color="#ffc300" />
+                                            <stop offset="0.663" stop-color="#ffb218" />
+                                            <stop offset="1" stop-color="#ff9800" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path class="a" d="M9.965.635,7.634,5.361l-5.215.76A1.143,1.143,0,0,0,1.788,8.07l3.773,3.677L4.668,16.94a1.142,1.142,0,0,0,1.656,1.2l4.665-2.452,4.665,2.452a1.142,1.142,0,0,0,1.656-1.2l-.892-5.194L20.192,8.07a1.143,1.143,0,0,0-.632-1.949l-5.215-.76L12.014.635a1.143,1.143,0,0,0-2.049,0Z" transform="translate(-1.441 0.001)" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
+                                    <defs>
+                                        <style>
+                                            .a {
+                                                fill: url(#a);
+                                            }
+                                        </style>
+                                        <linearGradient id="a" x1="0.5" x2="0.801" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#fa0" />
+                                            <stop offset="0.258" stop-color="#fcb700" />
+                                            <stop offset="0.422" stop-color="#ffc300" />
+                                            <stop offset="0.663" stop-color="#ffb218" />
+                                            <stop offset="1" stop-color="#ff9800" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path class="a" d="M9.965.635,7.634,5.361l-5.215.76A1.143,1.143,0,0,0,1.788,8.07l3.773,3.677L4.668,16.94a1.142,1.142,0,0,0,1.656,1.2l4.665-2.452,4.665,2.452a1.142,1.142,0,0,0,1.656-1.2l-.892-5.194L20.192,8.07a1.143,1.143,0,0,0-.632-1.949l-5.215-.76L12.014.635a1.143,1.143,0,0,0-2.049,0Z" transform="translate(-1.441 0.001)" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
+                                    <defs>
+                                        <style>
+                                            .a {
+                                                fill: url(#a);
+                                            }
+                                        </style>
+                                        <linearGradient id="a" x1="0.5" x2="0.801" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#fa0" />
+                                            <stop offset="0.258" stop-color="#fcb700" />
+                                            <stop offset="0.422" stop-color="#ffc300" />
+                                            <stop offset="0.663" stop-color="#ffb218" />
+                                            <stop offset="1" stop-color="#ff9800" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path class="a" d="M9.965.635,7.634,5.361l-5.215.76A1.143,1.143,0,0,0,1.788,8.07l3.773,3.677L4.668,16.94a1.142,1.142,0,0,0,1.656,1.2l4.665-2.452,4.665,2.452a1.142,1.142,0,0,0,1.656-1.2l-.892-5.194L20.192,8.07a1.143,1.143,0,0,0-.632-1.949l-5.215-.76L12.014.635a1.143,1.143,0,0,0-2.049,0Z" transform="translate(-1.441 0.001)" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
+                                    <defs>
+                                        <style>
+                                            .a {
+                                                fill: url(#a);
+                                            }
+                                        </style>
+                                        <linearGradient id="a" x1="0.5" x2="0.801" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#fa0" />
+                                            <stop offset="0.258" stop-color="#fcb700" />
+                                            <stop offset="0.422" stop-color="#ffc300" />
+                                            <stop offset="0.663" stop-color="#ffb218" />
+                                            <stop offset="1" stop-color="#ff9800" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path class="a" d="M9.965.635,7.634,5.361l-5.215.76A1.143,1.143,0,0,0,1.788,8.07l3.773,3.677L4.668,16.94a1.142,1.142,0,0,0,1.656,1.2l4.665-2.452,4.665,2.452a1.142,1.142,0,0,0,1.656-1.2l-.892-5.194L20.192,8.07a1.143,1.143,0,0,0-.632-1.949l-5.215-.76L12.014.635a1.143,1.143,0,0,0-2.049,0Z" transform="translate(-1.441 0.001)" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
+                                    <defs>
+                                        <style>
+                                            .a {
+                                                fill: url(#a);
+                                            }
+                                        </style>
+                                        <linearGradient id="a" x1="0.5" x2="0.801" y2="1" gradientUnits="objectBoundingBox">
+                                            <stop offset="0" stop-color="#fa0" />
+                                            <stop offset="0.258" stop-color="#fcb700" />
+                                            <stop offset="0.422" stop-color="#ffc300" />
+                                            <stop offset="0.663" stop-color="#ffb218" />
+                                            <stop offset="1" stop-color="#ff9800" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path class="a" d="M9.965.635,7.634,5.361l-5.215.76A1.143,1.143,0,0,0,1.788,8.07l3.773,3.677L4.668,16.94a1.142,1.142,0,0,0,1.656,1.2l4.665-2.452,4.665,2.452a1.142,1.142,0,0,0,1.656-1.2l-.892-5.194L20.192,8.07a1.143,1.143,0,0,0-.632-1.949l-5.215-.76L12.014.635a1.143,1.143,0,0,0-2.049,0Z" transform="translate(-1.441 0.001)" />
+                                </svg>
+                            </div>
+                            <span>ISO Certified 9001 2015</span>
+                        </div>
+                        <div class="rating__wrapper--years">
+                            <img src="assets/LOGO ISO.png" alt="">
+                        </div>
+                    </div>
                 </div>
-                <a href="#">Learn More</a>
+                <a href="#" class="btn-learn-more">LEARN MORE</a>
                 <div class="slidebar">
                     <!-- Slidebar -->
                     <!-- Empty -->
