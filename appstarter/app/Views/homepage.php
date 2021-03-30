@@ -276,9 +276,18 @@
             <!-- Clients' list -->
             <h1>We build solutions <br>that these companies run</h1>
             <div class="section-2__wrapper">
-                <div class="section-2--item">
-                    <img src="assets/sera-logo.png">
-                </div>
+                <img src="assets/sera-logo.png" class="section-2__wrapper--item">
+                <img src="assets/wyeth-logo.png" class="section-2__wrapper--item">
+                <img src="assets/bca-logo.png" class="section-2__wrapper--item">
+                <img src="assets/astra-logo.png" class="section-2__wrapper--item">
+                <img src="assets/btn-logo.png" class="section-2__wrapper--item">
+                <img src="assets/kpc-logo.png" class="section-2__wrapper--item">
+                <img src="assets/indofood-logo.png" class="section-2__wrapper--item">
+                <img src="assets/mazda-logo.png" class="section-2__wrapper--item">
+                <img src="assets/kalbe-logo.png" class="section-2__wrapper--item">
+                <img src="assets/summarecon-logo.png" class="section-2__wrapper--item">
+                <img src="assets/yamaha-logo.png" class="section-2__wrapper--item">
+                <img src="assets/sampoerna-logo.png" class="section-2__wrapper--item">
             </div>
         </div>
 
