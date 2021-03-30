@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- Include Navbar -->
     <?= $this->include('layout/component/navbar'); ?>
     <div class="container">
         <div class="section-1">
@@ -218,7 +219,6 @@
                 </div>
             </div>
             <div class="section-1__right">
-                <!-- <img src="assets/mobile-slider-bg.png" class="section-1__right--bg"> -->
                 <div class="phone">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="452" height="851" viewBox="0 0 452 851" class="svg-img">
                         <defs>
@@ -268,7 +268,6 @@
                             </g>
                         </g>
                     </svg>
-
                 </div>
             </div>
         </div>
@@ -324,6 +323,7 @@
             </div>
         </div>
     </div>
+    <!-- Include Footer -->
     <?= $this->include('layout/component/footer'); ?>
 </body>
 
