@@ -8,14 +8,26 @@ html {
   background-color: #fafafa;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
+@mixin flex-item-center($justify-content) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify-content;
+}
 
+%btn {
+  text-decoration: none;
+  padding: 1em 3.5em;
+  background-color: #5d2e8f;
+  color: white;
+  border-radius: 50px;
+}
+
+.container {
   .section-1 {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    // align-items: center;
     height: 100vh;
 
     &__left {
@@ -40,9 +52,7 @@ html {
         margin-bottom: 6em;
 
         &__wrapper {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          @include flex-item-center(center);
           margin-right: 1em;
           background-color: #ffffff;
           box-sizing: border-box;
@@ -56,10 +66,9 @@ html {
             font-size: 0.8rem;
 
             .stars {
-              display: flex;
+              @include flex-item-center(space-between);
               width: 100%;
               margin-bottom: 0.8em;
-              justify-content: space-between;
             }
           }
 
@@ -77,11 +86,7 @@ html {
       }
 
       .btn-learn-more {
-        text-decoration: none;
-        padding: 1em 3.5em;
-        background-color: #5d2e8f;
-        color: white;
-        border-radius: 50px;
+        @extend %btn;
       }
     }
 
@@ -89,20 +94,24 @@ html {
       position: relative;
       width: 50%;
       background-image: url("../assets/mobile-slider-bg.png");
-      background-size: 95%;
+      background-size: 80%;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: top center;
 
       .phone {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -35%);
+        transform: translate(-50%, -50%);
         .svg-img {
-          max-width: 100%;
-          height: 100%;
+          max-width: 80%;
+          height: 80%;
         }
       }
     }
+  }
+
+  .section-2 {
+    background-color: #ffffff;
   }
 }

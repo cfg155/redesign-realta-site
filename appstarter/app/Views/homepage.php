@@ -274,6 +274,12 @@
 
         <div class="section-2">
             <!-- Clients' list -->
+            <h1>We build solutions <br>that these companies run</h1>
+            <div class="section-2__wrapper">
+                <div class="section-2--item">
+                    <img src="assets/sera-logo.png">
+                </div>
+            </div>
         </div>
 
         <div class="section-3">
