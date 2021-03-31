@@ -153,7 +153,8 @@ html {
   display: flex;
   width: 90%;
   height: 100vh;
-  margin: auto; }
+  margin: auto;
+  padding: 3em 0; }
   .container .section-5__left {
     width: 40%; }
     .container .section-5__left h1 {
@@ -206,3 +207,50 @@ html {
     .container .section-5__right .item:nth-child(9) {
       top: 70%;
       right: 0; }
+
+.container .section-6 {
+  width: 90%;
+  margin: auto;
+  padding: 4em 0; }
+  .container .section-6--title {
+    text-align: center;
+    padding-bottom: 3em; }
+  .container .section-6__wrapper {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 40vh;
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .container .section-6__wrapper__left {
+      padding: 2em;
+      box-sizing: border-box;
+      width: 50%; }
+      .container .section-6__wrapper__left p {
+        padding: 3em 0; }
+      .container .section-6__wrapper__left a {
+        text-decoration: none;
+        color: black;
+        padding: 0.5em 1.5em;
+        border: 1px solid #000;
+        border-radius: 50px; }
+    .container .section-6__wrapper__right {
+      width: 50%;
+      height: 100%;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url("../assets/entitas-privat.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+
+.container .section-7 {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto; }
+  .container .section-7__left p {
+    padding: 1em 0;
+    width: 50%; }

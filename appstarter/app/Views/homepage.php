@@ -414,21 +414,30 @@
 
         <div class="section-6">
             <!-- Mission -->
-            <h1>Realta delivers "Peace of Mind" to All our clients through ICT ONE Solutions</h1>
-            <div class="section-6__left">
-                <!-- Text -->
+            <div class="section-6--title">
+                <h1>Realta delivers "Peace of Mind" <br> to All our clients through ICT ONE Solutions</h1>
             </div>
-            <div class="section-6__right">
-                <!-- Img -->
+            <div class="section-6__wrapper">
+                <div class="section-6__wrapper__left">
+                    <h3>ICT ONE Solutions</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ratione labore eveniet culpa incidunt odit, beatae eum magni provident accusantium quo doloribus doloremque eius, aperiam nihil modi, ea dolore rem?</p>
+                    <a href="">About Us</a>
+                </div>
+
+                <div class="section-6__wrapper__right">
+                </div>
             </div>
+
+
         </div>
         <div class="section-7">
             <!-- Form -->
             <div class="section-7__left">
-                <!-- Text -->
+                <h1>What Are You Waiting for ?<br>Just Make It Happen!</h1>
+                <p>We'll have a Business Development Representative contact you withhin 24 business hours</p>
             </div>
             <div class="section-7__right">
-                <!-- Form -->
+                <?= $this->include('layout/component/form'); ?>
             </div>
         </div>
     </div>
