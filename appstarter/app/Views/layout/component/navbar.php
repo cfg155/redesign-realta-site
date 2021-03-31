@@ -2,6 +2,7 @@
     nav {
         width: 95%;
         margin: auto;
+        height: 15vh;
     }
 
     .nav {
@@ -15,7 +16,7 @@
         display: flex;
         justify-content: space-between;
         text-decoration: none;
-        width: 50%;
+        width: 70%;
     }
 
     .nav--links a {
@@ -27,7 +28,7 @@
 
     .contact-us {
         text-decoration: none;
-        padding: 1em 3.5em;
+        padding: 1em 3em;
         background-color: #5d2e8f;
         color: white !important;
         border-radius: 50px;

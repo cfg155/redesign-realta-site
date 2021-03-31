@@ -301,20 +301,114 @@
 
         <div class="section-4">
             <!-- Modules : How can we help -->
-            <h1>How Can We Help?</h1>
-            <div class="section-4__left"></div>
-            <div class="section-4__right"></div>
+            <span class="section-4--title">
+                <h1>How Can We Help?</h1>
+            </span>
+
+            <div class="section-4__wrapper">
+                <div class="section-4__wrapper__left">
+                    <div class="card">
+                        <div class="card--header">
+                            <img src="assets/mobile-friendly.png">
+                            <h4>Mobile Friendly</h4>
+                        </div>
+                        <div class="card--body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--header">
+                            <img src="assets/cloud-system.png">
+                            <h4>Cloud System</h4>
+                        </div>
+                        <div class="card--body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--header">
+                            <img src="assets/integration-support.png">
+                            <h4>Integration Support</h4>
+                        </div>
+                        <div class="card--body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--header">
+                            <img src="assets/customize-module.png">
+                            <h4>Customize Module</h4>
+                        </div>
+                        <div class="card--body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card--header">
+                            <img src="assets/dashboard-monitoring.png">
+                            <h4>Dashboard Monitoring</h4>
+                        </div>
+                        <div class="card--body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                        </div>
+                    </div>
+                </div>
+                <div class="section-4__wrapper__right">
+                    <img src="assets/Group 13.png" class="phone-img">
+                    <img src="assets/mobile-variation-bg.png" class="bg">
+                </div>
+            </div>
         </div>
+
 
         <div class="section-5">
             <!-- Integrate Seamslessly -->
             <div class="section-5__left">
                 <h1>Integrate Seamlessly</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam optio recusandae praesentium et, sequi alias porro repellat ipsum sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit incidunt minus, nulla a atque veritatis illo nihil repudiandae sequi quos, quis earum eum tempora sapiente error quo esse et? Aliquid, amet animi velit magnam cum tempora ducimus quo voluptas veniam eum repellendus sapiente itaque excepturi maxime placeat vitae. Odit, necessitatibus.</p>
                 <!-- Video Player -->
+                <video width="100%" height="300px" controls class="vp-promo">
+                    <!-- <source src=" movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg"> -->
+                    <!-- Your browser does not support the video tag. -->
+                </video>
             </div>
             <div class="section-5__right">
-                <!-- Icons, ex Microsoft -->
+                <div class="item">
+                    <img src="assets/microsoft-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/rhapsody-golf-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/siap-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/rhapsody-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/bimasakti-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/ivanti-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/amp-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/hewlet-icon.png" class="item-img">
+                </div>
+
+                <div class="item">
+                    <img src="assets/hp-icon2.png" class="item-img">
+                </div>
             </div>
         </div>
 
