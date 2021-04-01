@@ -294,7 +294,7 @@
         <div class="section-3">
             <!-- Solutions -->
             <div class="section-3--title">
-                <h1>You can customize a solution based on your industry</h1>
+                <h1>You can customize a solution <br> based on your industry</h1>
             </div>
             <div class="section-3__wrapper">
                 <!-- Use Swiper.js -->
@@ -302,25 +302,152 @@
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide">Slide 1</div>
-                        <div class="swiper-slide">Slide 2</div>
-                        <div class="swiper-slide">Slide 3</div>
-                        ...
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card--header" style="background-color: #09397f;">
+                                    <h3>Property</h3>
+                                </div>
+                                <div class="card--body" style="background-color: #0e4eac;">
+                                    <ul>
+                                        <li>Inventory Control</li>
+                                        <li>Cost Control</li>
+                                        <li>Finance & Accounting</li>
+                                        <li>Logistic</li>
+                                        <li>Tenant Complaint</li>
+                                        <li>Multi Currency</li>
+                                        <li>Multi Payment Term</li>
+                                        <li>Automatic Billing Process</li>
+                                        <li>Renewal Reminder</li>
+                                    </ul>
+                                </div>
+                                <div class="card--footer" style="background-color: #0e4eac;"><a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card--header" style="background-color: #B30169;">
+                                    <h3>People</h3>
+                                </div>
+                                <div class="card--body" style="background-color: #EC008B;">
+                                    <ul>
+                                        <li>Mobile Attendance</li>
+                                        <li>Payroll</li>
+                                        <li>Medical & Loan</li>
+                                        <li>Personel</li>
+                                        <li>Recruitment</li>
+                                        <li>Job Competency</li>
+                                        <li>Training</li>
+                                        <li>Performance Appraisal</li>
+                                        <li>Human Capital Analysis</li>
+                                    </ul>
+                                </div>
+                                <div class="card--footer" style="background-color: #EC008B;"><a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card--header" style="background-color: #0D2E57;">
+                                    <h3>Manufacturing</h3>
+                                </div>
+                                <div class="card--body" style="background-color: #144788;">
+                                    <ul>
+                                        <li>Industry ERP</li>
+                                        <li>Core Financials</li>
+                                        <li>Performance Management</li>
+                                        <li>Risk & Compliance</li>
+                                        <li>Reduce Costs</li>
+                                        <li>Supply Chain Management</li>
+                                    </ul>
+                                </div>
+                                <div class="card--footer" style="background-color: #144788;"><a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card--header" style="background-color: #AE2712;">
+                                    <h3>IT Service & Assessment</h3>
+                                </div>
+                                <div class="card--body" style="background-color: #DF3319;">
+                                    <ul>
+                                        <li>Asset Manager</li>
+                                        <li>Service Managerl</li>
+                                        <li>Supply Chain</li>
+                                        <li>Endpoint Management</li>
+                                        <li>Tenant Complaint</li>
+                                        <li>Security</li>
+                                        <li>Multi Payment Term</li>
+                                        <li>Monitoring Dashboard</li>
+                                    </ul>
+                                </div>
+                                <div class="card--footer" style="background-color: #DF3319;"><a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card--header" style="background-color: #800B72;">
+                                    <h3>Hospitality</h3>
+                                </div>
+                                <div class="card--body" style="background-color: #99358D;">
+                                    <ul>
+                                        <li>3+ Stars Hotel</li>
+                                        <li>Front & Back Office</li>
+                                        <li>Logistic</li>
+                                        <li>Mobile Taking Order</li>
+                                        <li>Mobile Check-In</li>
+                                        <li>Golf Course Management</li>
+                                        <li>Restaurant & Bar</li>
+                                        <li>Banquet</li>
+                                        <li>Budget & Business Hotel</li>
+                                    </ul>
+                                </div>
+                                <div class="card--footer" style="background-color: #99358D;"><a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card--header" style="background-color: #35A17D;">
+                                    <h3>Property</h3>
+                                </div>
+                                <div class="card--body" style="background-color: #47DCAB;">
+                                    <ul>
+                                        <li>Mobile Attendance</li>
+                                        <li>Payroll</li>
+                                        <li>Medical & Loan</li>
+                                        <li>Personel</li>
+                                        <li>Recruitment</li>
+                                        <li>Job Competency</li>
+                                        <li>Training</li>
+                                        <li>Performance Appraisal</li>
+                                        <li>Human Capital Analysis</li>
+                                    </ul>
+                                </div>
+                                <div class="card--footer" style="background-color: #47DCAB;"><a href="#">Learn More</a></div>
+                            </div>
+                        </div>
+
                     </div>
                     <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper-pagination"></div> -->
 
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
 
                     <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
+                    <!-- <div class="swiper-scrollbar"></div> -->
                 </div>
                 <script src="./js/homepage.js"></script>
                 <link rel="stylesheet" href="css/swiper-bundle.min.css">
+                <script></script>
             </div>
-            <a href="#">Tell us your problem</a>
+            <div class="section-3--learn-more">
+                <a href="#">Tell us your problem</a>
+            </div>
         </div>
 
         <div class="section-4">
