@@ -411,7 +411,7 @@
                         <div class="swiper-slide">
                             <div class="card">
                                 <div class="card--header" style="background-color: #35A17D;">
-                                    <h3>Property</h3>
+                                    <h3>Distribution</h3>
                                 </div>
                                 <div class="card--body" style="background-color: #47DCAB;">
                                     <ul>
@@ -432,7 +432,7 @@
 
                     </div>
                     <!-- If we need pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
+                    <div class="swiper-pagination"></div>
 
                     <!-- If we need navigation buttons -->
                     <!-- <div class="swiper-button-prev"></div>
@@ -440,10 +440,12 @@
 
                     <!-- If we need scrollbar -->
                     <!-- <div class="swiper-scrollbar"></div> -->
+
+
                 </div>
+
                 <script src="./js/homepage.js"></script>
                 <link rel="stylesheet" href="css/swiper-bundle.min.css">
-                <script></script>
             </div>
             <div class="section-3--learn-more">
                 <a href="#">Tell us your problem</a>
