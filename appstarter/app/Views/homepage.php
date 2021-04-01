@@ -293,8 +293,32 @@
 
         <div class="section-3">
             <!-- Solutions -->
+            <div class="section-3--title">
+                <h1>You can customize a solution based on your industry</h1>
+            </div>
             <div class="section-3__wrapper">
                 <!-- Use Swiper.js -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <script src="./js/homepage.js"></script>
+                <link rel="stylesheet" href="css/swiper-bundle.min.css">
             </div>
             <a href="#">Tell us your problem</a>
         </div>
