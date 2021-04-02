@@ -81,9 +81,8 @@ html {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -30%); }
-      .container .product-section__right .phone .svg-img {
-        max-width: 90%;
-        height: 90%; }
+      .container .product-section__right .phone img {
+        width: 100%; }
 
 .container .section-2 h1 {
   text-align: center;
