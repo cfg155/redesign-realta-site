@@ -55,7 +55,7 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
 
       .rating {
         display: flex;
-        margin-bottom: 6em;
+        margin-bottom: 3em;
 
         &__wrapper {
           @include flex-item-center(center);
@@ -95,6 +95,12 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
         @extend %btn;
         border-radius: 25px;
         box-shadow: $box-shadow;
+      }
+
+      .slidebar {
+        @include flex-item-center(space-between);
+        width: 50px;
+        margin-top: 2em;
       }
     }
 
