@@ -22,14 +22,20 @@ html {
   height: calc(100vh - 15vh); }
   .container .product-section__left {
     width: 40%; }
+    .container .product-section__left .text-bg {
+      position: absolute;
+      left: 10px;
+      font-size: 10rem;
+      color: #f0f0f0;
+      z-index: -1; }
     .container .product-section__left .logo {
       width: 20%; }
-    .container .product-section__left h1 {
-      padding-bottom: 7px; }
-    .container .product-section__left p {
+    .container .product-section__left .title {
+      padding-bottom: 7px;
+      font-size: 2.5rem; }
+    .container .product-section__left .desc {
       padding: 2em 0;
-      margin-bottom: 0.5em;
-      font-size: 1.3rem; }
+      margin-bottom: 0.5em; }
     .container .product-section__left .rating {
       display: flex;
       margin-bottom: 3em; }

@@ -39,18 +39,26 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
     &__left {
       width: 40%;
 
+      .text-bg {
+        position: absolute;
+        left: 10px;
+        font-size: 10rem;
+        color: #f0f0f0;
+        z-index: -1;
+      }
+
       .logo {
         width: 20%;
       }
 
-      h1 {
+      .title {
         padding-bottom: 7px;
+        font-size: 2.5rem;
       }
 
-      p {
+      .desc {
         padding: 2em 0;
         margin-bottom: 0.5em;
-        font-size: 1.3rem;
       }
 
       .rating {

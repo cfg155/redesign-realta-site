@@ -17,10 +17,10 @@
         <div class="product-section">
             <!-- Banner Section -->
             <div class="product-section__left">
+                <span class="text-bg"></span>
                 <img src="assets/bimasakti-logo.png" class="logo">
-                <h1>PROPERTY</h1>
-                <h2>MANAGEMENT SYSTEM</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem temporibus provid ent, a omnis ipsum vitae odio quae alias cumque fugit rem porro voluptas nulla magni nisi vero libero! Aperiam.</p>
+                <h1 class="title"></h1>
+                <p class="desc"></p>
                 <div class="rating">
                     <div class="rating__wrapper">
                         <div class="rating__wrapper--exp">
