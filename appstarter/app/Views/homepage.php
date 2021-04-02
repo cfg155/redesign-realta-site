@@ -236,7 +236,8 @@
             </div>
             <div class="product-section__right">
                 <div class="phone">
-                    <img src="assets/Group 13.png">
+                    <img src="assets/Group 13.png" class="phone-img">
+                    <img src="assets/play-button.png" class="play-button">
                 </div>
             </div>
         </div>
