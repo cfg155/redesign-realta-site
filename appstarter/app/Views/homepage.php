@@ -13,9 +13,9 @@
     <!-- Include Navbar -->
     <?= $this->include('layout/component/navbar'); ?>
     <div class="container">
-        <div class="section-1">
+        <div class="product-section">
             <!-- Banner Section -->
-            <div class="section-1__left">
+            <div class="product-section__left">
                 <img src="assets/bimasakti-logo.png" class="logo">
                 <h1>PROPERTY</h1>
                 <h2>MANAGEMENT SYSTEM</h2>
@@ -218,7 +218,7 @@
                     <!-- Empty -->
                 </div>
             </div>
-            <div class="section-1__right">
+            <div class="product-section__right">
                 <div class="phone">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="452" height="851" viewBox="0 0 452 851" class="svg-img">
                         <defs>

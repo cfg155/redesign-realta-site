@@ -28,7 +28,7 @@ html {
 $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
 
 .container {
-  .section-1 {
+  .product-section {
     width: 90%;
     margin: auto;
     padding-bottom: 5em;
@@ -177,7 +177,7 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
         // Ref : https://codepen.io/ncer/pen/xpqemZ
         .swiper-pagination-bullet {
           box-sizing: $box-shadow;
-          margin: 1em 5em;
+          // margin: 1em 5em;
           border-radius: 0;
           padding-top: 5em;
           height: 30px;
@@ -185,6 +185,7 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
           opacity: 1;
           width: auto;
           background: rgba(0, 0, 0, 00);
+          z-index: 99999;
         }
 
         .swiper-pagination-bullet-active {
