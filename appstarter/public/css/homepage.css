@@ -105,18 +105,18 @@ html {
         transform: translate(-50%, -50%);
         cursor: pointer; }
 
-.container .section-2 h1 {
+.container .section-client h1 {
   text-align: center;
   padding: 1.2em 0; }
 
-.container .section-2__wrapper {
+.container .section-client__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-row-gap: 2em;
   place-items: center;
   padding-bottom: 7em; }
-  .container .section-2__wrapper--item {
+  .container .section-client__wrapper--item {
     width: 75%;
     padding: 10px;
     border-radius: 10px;
