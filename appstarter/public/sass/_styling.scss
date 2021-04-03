@@ -1,0 +1,13 @@
+@mixin flex-item-center($justify-content) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify-content;
+}
+
+%btn {
+  text-decoration: none;
+  padding: 1em 3.5em;
+  background-color: $primary-color;
+  color: white;
+  border-radius: 50px;
+}
