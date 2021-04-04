@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "scss": "node-sass --watch ./appstarter/public/sass/ -o ./appstarter/public/css/",
-    "build-homepage-module": "browserify ./js/homepage-module.js > ./appstarter/public/js/homepage-module.js -t babelify --plugin tinyify",
-    "watch-homepage-module": "watchify ./js/homepage-module.js -o ./appstarter/public/js/homepage-module.js -t babelify -d -v"
+    "build-homepage": "browserify ./js/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
+    "watch-homepage": "watchify ./js/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,6 @@
     "@babel/preset-env": "^7.13.12",
     "babelify": "^10.0.0",
     "tinyify": "^3.0.0"
-  }
+  },
+  "type": "module"
 }

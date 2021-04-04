@@ -242,22 +242,52 @@
             </div>
         </div>
 
-        <div class="section-2">
+        <div class="section-client">
             <!-- Clients' list -->
             <h1>We build solutions <br>that these companies run</h1>
-            <div class="section-2__wrapper">
-                <img src="assets/sera-logo.png" class="section-2__wrapper--item">
-                <img src="assets/wyeth-logo.png" class="section-2__wrapper--item">
-                <img src="assets/bca-logo.png" class="section-2__wrapper--item">
-                <img src="assets/astra-logo.png" class="section-2__wrapper--item">
-                <img src="assets/btn-logo.png" class="section-2__wrapper--item">
-                <img src="assets/kpc-logo.png" class="section-2__wrapper--item">
-                <img src="assets/indofood-logo.png" class="section-2__wrapper--item">
-                <img src="assets/mazda-logo.png" class="section-2__wrapper--item">
-                <img src="assets/kalbe-logo.png" class="section-2__wrapper--item">
-                <img src="assets/summarecon-logo.png" class="section-2__wrapper--item">
-                <img src="assets/yamaha-logo.png" class="section-2__wrapper--item">
-                <img src="assets/sampoerna-logo.png" class="section-2__wrapper--item">
+            <div class="section-client__wrapper">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="assets/sera-logo.png">
+                            <img src="assets/wyeth-logo.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/bca-logo.png">
+                            <img src="assets/astra-logo.png">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/btn-logo.png">
+                            <img src="assets/kpc-logo.png">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/indofood-logo.png">
+                            <img src="assets/mazda-logo.png">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/kalbe-logo.png">
+                            <img src="assets/summarecon-logo.png">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="assets/yamaha-logo.png">
+                            <img src="assets/sampoerna-logo.png">
+                        </div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
             </div>
         </div>
 
