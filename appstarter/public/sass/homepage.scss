@@ -349,10 +349,12 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
 
   .section-promo {
     display: flex;
+    justify-content: space-between;
     width: 90%;
     height: 100vh;
     margin: auto;
     padding: 3em 0;
+    overflow: hidden;
 
     &__left {
       width: 40%;
@@ -368,7 +370,7 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
 
     &__right {
       position: relative;
-      width: 60%;
+      width: 55%;
       // background-color: red;
 
       .item {
@@ -388,52 +390,189 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
         top: 0;
         left: 0;
         transform: translate(0, 0);
+        @include homepagePromoAnimation(item1);
+      }
+
+      @keyframes item1 {
+        from {
+          top: 0;
+          left: 0;
+          transform: translate(0, 0);
+        }
+
+        to {
+          top: 0;
+          left: 0;
+          transform: translate(100px, 50px);
+        }
       }
 
       .item:nth-child(2) {
         top: 0;
         right: 0;
         transform: translate(0, 0);
+        @include homepagePromoAnimation(item2);
+      }
+
+      @keyframes item2 {
+        from {
+          top: 0;
+          right: 0;
+          transform: translate(0, 0);
+        }
+
+        to {
+          top: 0;
+          right: 0;
+          transform: translate(-100px, 25px);
+        }
       }
 
       .item:nth-child(3) {
         top: 30%;
         left: 50%;
         transform: translate(-30%, -50%);
+        @include homepagePromoAnimation(item3);
+      }
+
+      @keyframes item3 {
+        from {
+          top: 30%;
+          left: 50%;
+          transform: translate(-30%, -100%);
+        }
+
+        to {
+          top: 30%;
+          left: 50%;
+          transform: translate(-30%, -20%);
+        }
       }
 
       .item:nth-child(4) {
         top: 50%;
         left: 0;
         transform: translateY(-50%);
+        @include homepagePromoAnimation(item4);
+      }
+
+      @keyframes item4 {
+        from {
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+        }
+
+        to {
+          top: 50%;
+          left: 0;
+          transform: translate(25%, -40%);
+        }
       }
 
       .item:nth-child(5) {
         top: 70%;
         left: 50%;
         transform: translate(-40%, -70%);
+        @include homepagePromoAnimation(item5);
+      }
+
+      @keyframes item5 {
+        from {
+          top: 70%;
+          left: 50%;
+          transform: translate(-40%, -50%);
+        }
+
+        to {
+          top: 70%;
+          left: 50%;
+          transform: translate(-40%, -70%);
+        }
       }
 
       .item:nth-child(6) {
         top: 50%;
         right: 0;
-        transform: translateY(-50%);
+        transform: translate(-50%, 0);
+        @include homepagePromoAnimation(item6);
       }
+
+      @keyframes item6 {
+        from {
+          top: 50%;
+          right: 0;
+          transform: translate(30%, -50%);
+        }
+
+        to {
+          top: 50%;
+          right: 0;
+          transform: translate(-10%, -50%);
+        }
+      }
+
       .item:nth-child(7) {
         top: 70%;
         left: 0;
-        // transform: translateY(-50%);
+        transform: translate(0, 70%);
+        @include homepagePromoAnimation(item7);
+      }
+
+      @keyframes item7 {
+        from {
+          top: 70%;
+          left: 0;
+          transform: translate(0, 70%);
+        }
+
+        to {
+          top: 70%;
+          left: 0;
+          transform: translate(50%, 25%);
+        }
       }
 
       .item:nth-child(8) {
         top: 100%;
         left: 50%;
         transform: translate(-50%, -100%);
+        @include homepagePromoAnimation(item8);
+      }
+
+      @keyframes item8 {
+        from {
+          top: 110%;
+          left: 50%;
+          transform: translate(-20%, -100%);
+        }
+
+        to {
+          top: 100%;
+          left: 50%;
+          transform: translate(-20%, -100%);
+        }
       }
 
       .item:nth-child(9) {
-        top: 70%;
+        top: 100%;
         right: 0;
+        transform: translate(0, -100%);
+        @include homepagePromoAnimation(item9);
+      }
+
+      @keyframes item9 {
+        from {
+          top: 110%;
+          right: 0;
+          transform: translate(40%, -100%);
+        }
+
+        to {
+          top: 90%;
+          right: 0;
+          transform: translate(0, -100%);
+        }
       }
     }
   }
