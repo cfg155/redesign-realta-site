@@ -106,12 +106,32 @@ moduleSection()
 
 function featureSection(){
   let card = document.querySelectorAll('.section-feature__wrapper__left .card')
-  let cardHeader = []
-  let cardBody = []
+
+  function dropdown(){
+    let isCollapsed = this.getAttribute('data-collapsed') === 'true'
+
+    if(isCollapsed){
+      this.setAttribute('data-collapsed','false')
+      console.log('not collpsed')
+      let getTextHeight = this.lastElementChild.firstElementChild.scrollHeight
+      this.lastElementChild.firstElementChild.style.maxHeight = `0`
+      this.lastElementChild.style.padding = `0`
+    }else {
+      this.setAttribute('data-collapsed','true')
+      console.log('collapsed')
+      let getTextHeight = this.lastElementChild.firstElementChild.scrollHeight
+      this.lastElementChild.firstElementChild.style.maxHeight = `${getTextHeight}px`
+      this.lastElementChild.style.padding = `1em 0`
+    }
+  }
+
+  if(card[0].getAttribute('data-collapsed') === 'true' ){
+    card[0].lastElementChild.style.padding = '1em 0'
+    card[0].lastElementChild.firstElementChild.style.maxHeight = '100px'
+  }
 
   card.forEach((item,index) => {
-    cardHeader.push(item.firstElementChild)
-    cardBody.push(item.lastElementChild)
+    item.addEventListener('click',dropdown)
   })
 }
 

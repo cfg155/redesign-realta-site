@@ -456,7 +456,7 @@
 
             <div class="section-feature__wrapper">
                 <div class="section-feature__wrapper__left">
-                    <div class="card">
+                    <div class="card" data-collapsed="true">
                         <div class="card--header">
                             <img src="assets/mobile-friendly.png">
                             <h4>Mobile Friendly</h4>

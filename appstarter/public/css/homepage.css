@@ -216,10 +216,12 @@ html {
           .container .section-feature__wrapper__left .card--header h4 {
             padding-left: 20px; }
         .container .section-feature__wrapper__left .card--body {
-          padding: 10px 0; }
+          padding: 0;
+          transition: padding 1s; }
           .container .section-feature__wrapper__left .card--body p {
             max-height: 0;
-            overflow: hidden; }
+            overflow: hidden;
+            transition: max-height 1s; }
     .container .section-feature__wrapper__right {
       width: 50%;
       position: relative; }
