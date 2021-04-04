@@ -521,9 +521,9 @@
         </div>
 
 
-        <div class="section-5">
+        <div class="section-promo">
             <!-- Integrate Seamslessly -->
-            <div class="section-5__left">
+            <div class="section-promo__left">
                 <h1>Integrate Seamlessly</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit incidunt minus, nulla a atque veritatis illo nihil repudiandae sequi quos, quis earum eum tempora sapiente error quo esse et? Aliquid, amet animi velit magnam cum tempora ducimus quo voluptas veniam eum repellendus sapiente itaque excepturi maxime placeat vitae. Odit, necessitatibus.</p>
                 <!-- Video Player -->
@@ -533,7 +533,7 @@
                     <!-- Your browser does not support the video tag. -->
                 </video>
             </div>
-            <div class="section-5__right">
+            <div class="section-promo__right">
                 <div class="item">
                     <img src="assets/microsoft-icon.png" class="item-img">
                 </div>
