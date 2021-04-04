@@ -73,7 +73,7 @@ function moduleSection(){
   Swiper.use([Navigation,Pagination])
 
   var menu = ['Property','People','Manufacturing','IT Service & Asset','Hospitality','Distribution']
-  const swiper = new Swiper('.section-3 .swiper-container', {
+  const swiper = new Swiper('.section-module .swiper-container', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -82,7 +82,7 @@ function moduleSection(){
   
     // If we need pagination
     pagination: {
-      el: '.section-3 .swiper-pagination',
+      el: '.section-module .swiper-pagination',
       clickable: true,
       renderBullet: function (index, className) {
           return '<span class="' + className + '">' + (menu[index]) + '</span>';

@@ -291,12 +291,12 @@
             </div>
         </div>
 
-        <div class="section-3">
+        <div class="section-module">
             <!-- Solutions -->
-            <div class="section-3--title">
+            <div class="section-module--title">
                 <h1>You can customize a solution <br> based on your industry</h1>
             </div>
-            <div class="section-3__wrapper">
+            <div class="section-module__wrapper">
                 <!-- Use Swiper.js -->
                 <div class="swiper-container">
                     <!-- Additional required wrapper -->
@@ -443,7 +443,7 @@
                 </div>
 
             </div>
-            <div class="section-3--learn-more">
+            <div class="section-module--learn-more">
                 <a href="#">Tell us your problem</a>
             </div>
         </div>
