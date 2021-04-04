@@ -137,3 +137,10 @@ function featureSection(){
 
 featureSection()
 
+function aboutUs(){
+  let aboutUs = document.querySelector('.section-about-us')
+  let aboutUsCount = homepageData[4]
+  console.log(aboutUsCount)
+}
+
+aboutUs()
