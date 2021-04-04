@@ -572,19 +572,19 @@
             </div>
         </div>
 
-        <div class="section-6">
+        <div class="section-about-us">
             <!-- Mission -->
-            <div class="section-6--title">
+            <div class="section-about-us--title">
                 <h1>Realta delivers "Peace of Mind" <br> to All our clients through ICT ONE Solutions</h1>
             </div>
-            <div class="section-6__wrapper">
-                <div class="section-6__wrapper__left">
+            <div class="section-about-us__wrapper">
+                <div class="section-about-us__wrapper__left">
                     <h3>ICT ONE Solutions</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ratione labore eveniet culpa incidunt odit, beatae eum magni provident accusantium quo doloribus doloremque eius, aperiam nihil modi, ea dolore rem?</p>
                     <a href="">About Us</a>
                 </div>
 
-                <div class="section-6__wrapper__right"></div>
+                <div class="section-about-us__wrapper__right"></div>
             </div>
 
 

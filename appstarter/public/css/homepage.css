@@ -419,14 +419,14 @@ html {
     right: 0;
     transform: translate(0, -100%); } }
 
-.container .section-6 {
+.container .section-about-us {
   width: 90%;
   margin: auto;
   padding: 4em 0; }
-  .container .section-6--title {
+  .container .section-about-us--title {
     text-align: center;
     padding-bottom: 3em; }
-  .container .section-6__wrapper {
+  .container .section-about-us__wrapper {
     display: flex;
     background-color: #ffffff;
     border-radius: 25px;
@@ -435,19 +435,19 @@ html {
     display: flex;
     align-items: center;
     justify-content: center; }
-    .container .section-6__wrapper__left {
+    .container .section-about-us__wrapper__left {
       padding: 2em;
       box-sizing: border-box;
       width: 50%; }
-      .container .section-6__wrapper__left p {
+      .container .section-about-us__wrapper__left p {
         padding: 3em 0; }
-      .container .section-6__wrapper__left a {
+      .container .section-about-us__wrapper__left a {
         text-decoration: none;
         color: black;
         padding: 0.5em 1.5em;
         border: 1px solid #000;
         border-radius: 50px; }
-    .container .section-6__wrapper__right {
+    .container .section-about-us__wrapper__right {
       width: 50%;
       height: 100%;
       border-top-right-radius: 25px;
