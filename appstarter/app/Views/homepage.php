@@ -462,7 +462,10 @@
                             <h4>Mobile Friendly</h4>
                         </div>
                         <div class="card--body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            </p>
+
                         </div>
                     </div>
                     <div class="card">
@@ -471,7 +474,9 @@
                             <h4>Cloud System</h4>
                         </div>
                         <div class="card--body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            </p>
                         </div>
                     </div>
                     <div class="card">
@@ -480,7 +485,9 @@
                             <h4>Integration Support</h4>
                         </div>
                         <div class="card--body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            </p>
                         </div>
                     </div>
                     <div class="card">
@@ -489,7 +496,9 @@
                             <h4>Customize Module</h4>
                         </div>
                         <div class="card--body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            </p>
                         </div>
                     </div>
                     <div class="card">
@@ -498,7 +507,9 @@
                             <h4>Dashboard Monitoring</h4>
                         </div>
                         <div class="card--body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatem laudantium maxime consequuntur a sit iure nulla quibusdam quos! Maiores minima soluta quisquam delectus adipisci quia ullam harum ea illum!
+                            </p>
                         </div>
                     </div>
                 </div>

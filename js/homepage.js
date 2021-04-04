@@ -2,8 +2,8 @@ import Swiper, {Navigation,Pagination,Autoplay} from 'swiper';
 import homepageData from './homepageData';
 
 function productSection(){
-  var title = document.querySelector('.product-section__left .title')
-  var desc = document.querySelector('.product-section__left .desc')
+  let title = document.querySelector('.product-section__left .title')
+  let desc = document.querySelector('.product-section__left .desc')
   let count = 0
   
   function setData(count){
@@ -72,7 +72,7 @@ clientSection()
 function moduleSection(){
   Swiper.use([Navigation,Pagination])
 
-  var menu = ['Property','People','Manufacturing','IT Service & Asset','Hospitality','Distribution']
+  let menu = ['Property','People','Manufacturing','IT Service & Asset','Hospitality','Distribution']
   const swiper = new Swiper('.section-module .swiper-container', {
     // Optional parameters
     direction: 'horizontal',
@@ -103,4 +103,17 @@ function moduleSection(){
 }
 
 moduleSection()
+
+function featureSection(){
+  let card = document.querySelectorAll('.section-feature__wrapper__left .card')
+  let cardHeader = []
+  let cardBody = []
+
+  card.forEach((item,index) => {
+    cardHeader.push(item.firstElementChild)
+    cardBody.push(item.lastElementChild)
+  })
+}
+
+featureSection()
 

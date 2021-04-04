@@ -200,6 +200,7 @@ html {
       width: 40%;
       padding-left: 5%; }
       .container .section-feature__wrapper__left .card {
+        cursor: pointer;
         margin-bottom: 15px;
         background-color: #ffffff;
         border-radius: 20px;
@@ -216,6 +217,9 @@ html {
             padding-left: 20px; }
         .container .section-feature__wrapper__left .card--body {
           padding: 10px 0; }
+          .container .section-feature__wrapper__left .card--body p {
+            max-height: 0;
+            overflow: hidden; }
     .container .section-feature__wrapper__right {
       width: 50%;
       position: relative; }
