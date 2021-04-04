@@ -438,10 +438,12 @@ html {
     .container .section-about-us__wrapper__left {
       padding: 2em;
       box-sizing: border-box;
-      width: 50%; }
-      .container .section-about-us__wrapper__left p {
+      width: 50%;
+      opacity: 1;
+      transition: opacity 1.5s; }
+      .container .section-about-us__wrapper__left .desc {
         padding: 3em 0; }
-      .container .section-about-us__wrapper__left a {
+      .container .section-about-us__wrapper__left .btn-about-us {
         text-decoration: none;
         color: black;
         padding: 0.5em 1.5em;
@@ -452,10 +454,11 @@ html {
       height: 100%;
       border-top-right-radius: 25px;
       border-bottom-right-radius: 25px;
-      background-image: url("../assets/entitas-privat.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
-      background-position: center; }
+      background-position: center;
+      opacity: 1;
+      transition: opacity 1.5s; }
 
 .container .section-7 {
   display: flex;

@@ -579,9 +579,9 @@
             </div>
             <div class="section-about-us__wrapper">
                 <div class="section-about-us__wrapper__left">
-                    <h3>ICT ONE Solutions</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ratione labore eveniet culpa incidunt odit, beatae eum magni provident accusantium quo doloribus doloremque eius, aperiam nihil modi, ea dolore rem?</p>
-                    <a href="">About Us</a>
+                    <h3 class="title"></h3>
+                    <p class="desc"></p>
+                    <a href="" class="btn-about-us">About Us</a>
                 </div>
 
                 <div class="section-about-us__wrapper__right"></div>

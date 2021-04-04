@@ -138,9 +138,49 @@ function featureSection(){
 featureSection()
 
 function aboutUs(){
-  let aboutUs = document.querySelector('.section-about-us')
-  let aboutUsCount = homepageData[4]
-  console.log(aboutUsCount)
+  let aboutUs = document.querySelector('.section-about-us__wrapper')
+  let aboutUsCount = homepageData[4].aboutUs.length
+
+  let count = 0
+
+  let data = []
+  data.push(homepageData[4].aboutUs)
+  
+  document.querySelector('.section-about-us__wrapper__left .title').innerHTML = data[0][count].title
+  document.querySelector('.section-about-us__wrapper__left .desc').innerHTML = data[0][count].desc
+  document.querySelector('.section-about-us__wrapper__left .btn-about-us').href = data[0][count].linkURL
+  document.querySelector('.section-about-us__wrapper__right').style.backgroundImage = `url(${data[0][count].imageURL})`
+
+  if(aboutUsCount > 1){
+    function aboutUsTransition(){
+      let leftPanel = document.querySelector('.section-about-us__wrapper__left')
+      let rightPanel = document.querySelector('.section-about-us__wrapper__right')
+      
+      setTimeout(() => {
+        leftPanel.style.opacity = '0'
+        rightPanel.style.opacity = '0'
+
+        setTimeout(() => {
+          count++
+          if(count > aboutUsCount-1) count = 0
+  
+          document.querySelector('.section-about-us__wrapper__left .title').innerHTML = data[0][count].title
+          document.querySelector('.section-about-us__wrapper__left .desc').innerHTML = data[0][count].desc
+          document.querySelector('.section-about-us__wrapper__left .btn-about-us').href = data[0][count].linkURL
+          document.querySelector('.section-about-us__wrapper__right').style.backgroundImage = `url(${data[0][count].imageURL})`
+
+          leftPanel.style.opacity = '1'
+          rightPanel.style.opacity = '1'
+        }, 1500);
+
+        aboutUsTransition()
+      }, 10000);
+    }
+
+    aboutUsTransition()
+  }else{
+    console.log('about us only contain one data')
+  }
 }
 
 aboutUs()
