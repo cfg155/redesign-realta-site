@@ -448,14 +448,14 @@
             </div>
         </div>
 
-        <div class="section-4">
+        <div class="section-feature">
             <!-- Modules : How can we help -->
-            <span class="section-4--title">
+            <span class="section-feature--title">
                 <h1>How Can We Help?</h1>
             </span>
 
-            <div class="section-4__wrapper">
-                <div class="section-4__wrapper__left">
+            <div class="section-feature__wrapper">
+                <div class="section-feature__wrapper__left">
                     <div class="card">
                         <div class="card--header">
                             <img src="assets/mobile-friendly.png">
@@ -502,7 +502,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-4__wrapper__right">
+                <div class="section-feature__wrapper__right">
                     <img src="assets/Group 13.png" class="phone-img">
                     <img src="assets/mobile-variation-bg.png" class="bg">
                 </div>

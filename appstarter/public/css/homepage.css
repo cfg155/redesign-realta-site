@@ -115,7 +115,7 @@ html {
   .container .section-client__wrapper .swiper-container {
     width: 100%; }
     .container .section-client__wrapper .swiper-container .swiper-slide img {
-      width: 0%;
+      width: 80%;
       margin: 2em 2em;
       padding: 1em;
       box-sizing: border-box;
@@ -148,8 +148,8 @@ html {
       .container .section-module__wrapper .swiper-container .swiper-pagination-bullet {
         box-sizing: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
         border-radius: 0;
-        padding-top: 5em;
-        height: 30px;
+        margin-top: 5em;
+        height: auto;
         color: #000;
         opacity: 1;
         width: auto;
@@ -185,48 +185,48 @@ html {
           color: white;
           text-decoration: none; }
 
-.container .section-4 {
+.container .section-feature {
   overflow: hidden;
   padding: 4em; }
-  .container .section-4--title {
+  .container .section-feature--title {
     text-align: center; }
-    .container .section-4--title h1 {
+    .container .section-feature--title h1 {
       padding-bottom: 3em; }
-  .container .section-4--bg {
+  .container .section-feature--bg {
     position: absolute; }
-  .container .section-4__wrapper {
+  .container .section-feature__wrapper {
     display: flex; }
-    .container .section-4__wrapper__left {
+    .container .section-feature__wrapper__left {
       width: 40%;
       padding-left: 5%; }
-      .container .section-4__wrapper__left .card {
+      .container .section-feature__wrapper__left .card {
         margin-bottom: 15px;
         background-color: #ffffff;
         border-radius: 20px;
         padding: 1.5em;
         box-sizing: border-box;
         box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09); }
-        .container .section-4__wrapper__left .card--header {
+        .container .section-feature__wrapper__left .card--header {
           display: flex;
           align-items: center;
           justify-content: inherit; }
-          .container .section-4__wrapper__left .card--header img {
+          .container .section-feature__wrapper__left .card--header img {
             width: 15%; }
-          .container .section-4__wrapper__left .card--header h4 {
+          .container .section-feature__wrapper__left .card--header h4 {
             padding-left: 20px; }
-        .container .section-4__wrapper__left .card--body {
+        .container .section-feature__wrapper__left .card--body {
           padding: 10px 0; }
-    .container .section-4__wrapper__right {
+    .container .section-feature__wrapper__right {
       width: 50%;
       position: relative; }
-      .container .section-4__wrapper__right .phone-img {
+      .container .section-feature__wrapper__right .phone-img {
         position: absolute;
         z-index: 999999;
         width: 45%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -60%); }
-      .container .section-4__wrapper__right .bg {
+      .container .section-feature__wrapper__right .bg {
         position: absolute;
         width: 120%;
         right: -200px;
