@@ -2,7 +2,7 @@
 <nav>
     <!-- This is Navbar area -->
     <div class="nav">
-        <img src="assets/LOGO-Realta-with-since-1983.png" alt="" class="nav--logo">
+        <img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo">
         <div class="nav--links">
             <a href="#" class="current">SOLUTIONS</a>
             <a href="#">COMPANY</a>
@@ -12,7 +12,6 @@
         </div>
     </div>
     <label for="switch" class="nav--switch">
-        <div class="cur-lang"></div>
         <div class="ina-lang">INA</div>
         <div class="en-lang">ENG</div>
     </label>

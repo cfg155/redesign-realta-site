@@ -10,6 +10,11 @@
   animation-direction: alternate;
 }
 
+@mixin flex-justify-content($justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+}
+
 %btn {
   text-decoration: none;
   padding: 1em 3.5em;
@@ -22,21 +27,21 @@
 
 // x>992px
 @mixin large-screen {
-  @media (max: width 992px) {
+  @media (max-width: 992px) {
     @content;
   }
 }
 
 // x>768px
 @mixin medium-screen {
-  @media (max: width 768px) {
+  @media (max-width: 768px) {
     @content;
   }
 }
 
 //x>576px
-@mixin large-screen {
-  @media (max: width 576px) {
+@mixin small-screen {
+  @media (max-width: 576px) {
     @content;
   }
 }

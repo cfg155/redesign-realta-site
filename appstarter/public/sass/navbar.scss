@@ -3,16 +3,28 @@
 nav {
   width: 95%;
   margin: auto;
-  height: 15vh;
+  height: 20vh;
+
   .nav {
     @include flex-item-center(space-between);
 
     &--links {
-      display: flex;
-      justify-content: space-between;
+      @include flex-justify-content(space-between);
       text-decoration: none;
       width: 70%;
       color: red;
+
+      @include large-screen {
+        font-size: 0.8rem;
+      }
+
+      @include medium-screen {
+        font-size: 0.6rem;
+      }
+
+      @include small-screen {
+        font-size: 0.6rem;
+      }
 
       a {
         text-decoration: none;
@@ -25,6 +37,16 @@ nav {
         @extend %btn;
       }
     }
+
+    &--logo {
+      @include small-screen {
+        width: 25%;
+      }
+
+      @include medium-screen {
+        width: 25%;
+      }
+    }
   }
 
   .nav--switch {
@@ -32,7 +54,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #f3f3f3;
-    width: 120px;
+    width: 8em;
     height: 30px;
     position: relative;
     border-radius: 50px;
@@ -40,8 +62,37 @@ nav {
     box-sizing: border-box;
     padding: 0 20px;
 
-    .cur-lang {
+    @include large-screen {
+      font-size: 0.8rem;
+    }
+
+    @include medium-screen {
+      font-size: 0.6rem;
+    }
+
+    @include small-screen {
+      font-size: 0.6rem;
+    }
+
+    .ina-lang {
+      width: 50%;
+      height: 100%;
+      background-color: $primary-color;
       position: absolute;
+      left: 0;
+      @include flex-item-center(center);
+      color: white;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+
+    .en-lang {
+      color: #000;
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      @include flex-item-center(center);
     }
   }
 }
