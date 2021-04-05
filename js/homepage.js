@@ -92,10 +92,21 @@ function moduleSection(){
     centeredSlides: true,
     slidesPerView : 5,
     breakpoints : {
-      320: {
-        slidesPerView: 2
-      }
+      300 : {
+        slidesPerView : 2
+      },
+
+      576 : {
+        slidesPerView : 3
+      },
+
+      768 : {
+        slidesPerView : 4
+      },
       
+      992 : {
+        slidesPerView : 5
+      }
     },
   
     // If we need pagination
@@ -144,8 +155,9 @@ function featureSection(){
   }
 
   if(card[0].getAttribute('data-collapsed') === 'true' ){
+    let getScrollHeight = card[0].lastElementChild.firstElementChild.scrollHeight
     card[0].lastElementChild.style.padding = '1em 0'
-    card[0].lastElementChild.firstElementChild.style.maxHeight = '100px'
+    card[0].lastElementChild.firstElementChild.style.maxHeight =`${getScrollHeight}px`
   }
 
   card.forEach((item,index) => {
