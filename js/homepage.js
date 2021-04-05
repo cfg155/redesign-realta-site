@@ -77,8 +77,14 @@ function moduleSection(){
     // Optional parameters
     direction: 'horizontal',
     loop: true,
-    slidesPerView : 6,
     centeredSlides: true,
+    slidesPerView : 5,
+    breakpoints : {
+      320: {
+        slidesPerView: 2
+      }
+      
+    },
   
     // If we need pagination
     pagination: {

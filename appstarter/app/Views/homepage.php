@@ -589,13 +589,13 @@
 
 
         </div>
-        <div class="section-7">
+        <div class="section-form">
             <!-- Form -->
-            <div class="section-7__left">
+            <div class="section-form__left">
                 <h1>What Are You Waiting for ?<br>Just Make It Happen!</h1>
                 <p>We'll have a Business Development Representative contact you withhin 24 business hours</p>
             </div>
-            <div class="section-7__right">
+            <div class="section-form__right">
                 <?= $this->include('layout/component/form'); ?>
             </div>
         </div>
