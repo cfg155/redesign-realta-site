@@ -1,0 +1,40 @@
+nav .nav--links .contact-us {
+  text-decoration: none;
+  padding: 1em 3.5em;
+  background-color: #5d2e8f;
+  color: white;
+  border-radius: 50px; }
+
+nav {
+  width: 95%;
+  margin: auto;
+  height: 15vh; }
+  nav .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    nav .nav--links {
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      width: 70%;
+      color: red; }
+      nav .nav--links a {
+        text-decoration: none;
+        color: #000000;
+        display: flex;
+        align-items: center; }
+  nav .nav--switch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+    width: 120px;
+    height: 30px;
+    position: relative;
+    border-radius: 50px;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 0 20px; }
+    nav .nav--switch .cur-lang {
+      position: absolute; }
