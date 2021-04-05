@@ -157,7 +157,7 @@ function featureSection(){
   if(card[0].getAttribute('data-collapsed') === 'true' ){
     let getScrollHeight = card[0].lastElementChild.firstElementChild.scrollHeight
     card[0].lastElementChild.style.padding = '1em 0'
-    card[0].lastElementChild.firstElementChild.style.maxHeight =`${getScrollHeight}px`
+    card[0].lastElementChild.firstElementChild.style.maxHeight =`${getScrollHeight+50}px`
   }
 
   card.forEach((item,index) => {
