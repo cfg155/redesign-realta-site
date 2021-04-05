@@ -323,11 +323,22 @@ html {
   .section-feature {
     overflow: hidden;
     padding: 4em;
+    padding-right: 0;
+
+    @include small-screen {
+      padding-bottom: 0;
+      padding-left: 0;
+    }
+
     &--title {
       text-align: center;
 
       h1 {
         padding-bottom: 3em;
+
+        @include small-screen {
+          padding-bottom: 0;
+        }
       }
     }
 
@@ -338,9 +349,19 @@ html {
     &__wrapper {
       display: flex;
 
+      @include small-screen {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+
       &__left {
-        width: 40%;
+        width: 50%;
         padding-left: 5%;
+
+        @include small-screen {
+          width: 80%;
+          padding-left: 0;
+        }
 
         .card {
           cursor: pointer;
@@ -376,24 +397,40 @@ html {
       }
 
       &__right {
-        width: 50%;
+        width: 90%;
+        height: 100vh;
+        background-image: url("../assets/mobile-variation-bg.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-position-x: 150%;
+        // background-position-y: 50%;
         position: relative;
 
-        .phone-img {
-          position: absolute;
-          z-index: 999999;
-          width: 45%;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -60%);
+        @include small-screen {
+          width: 100%;
+          margin-bottom: 2.5em;
         }
 
-        .bg {
+        .phone {
           position: absolute;
-          width: 120%;
-          right: -200px;
           top: 50%;
-          transform: translateY(-50%);
+          left: 50%;
+          transform: translate(-50%, -30%);
+
+          .phone-img {
+            width: 100%;
+            height: 80%;
+          }
+
+          .play-button {
+            width: 30%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+          }
         }
       }
     }
@@ -408,8 +445,20 @@ html {
     padding: 3em 0;
     overflow: hidden;
 
+    @include medium-screen {
+      padding: 0;
+    }
+
+    @include small-screen {
+      padding: 0;
+    }
+
     &__left {
       width: 40%;
+
+      @include medium-screen {
+        width: 100%;
+      }
 
       h1 {
         padding: 1.5em 0;
@@ -423,7 +472,14 @@ html {
     &__right {
       position: relative;
       width: 55%;
-      // background-color: red;
+
+      @include medium-screen {
+        display: none;
+      }
+
+      @include small-screen {
+        display: none;
+      }
 
       .item {
         position: absolute;
@@ -432,9 +488,18 @@ html {
         border-radius: 15px;
         box-sizing: border-box;
         box-shadow: $box-shadow;
+        @include flex-item-center(center);
+
+        @include large-screen {
+          padding: 1em;
+        }
 
         img {
           width: 100%;
+
+          @include large-screen {
+            width: 70%;
+          }
         }
       }
 
@@ -647,6 +712,16 @@ html {
       box-shadow: $box-shadow;
       @include flex-item-center(center);
 
+      @include medium-screen {
+        flex-direction: column-reverse;
+        height: 80vh;
+      }
+
+      @include small-screen {
+        flex-direction: column-reverse;
+        height: 80vh;
+      }
+
       &__left {
         padding: 2em;
         box-sizing: border-box;
@@ -654,9 +729,16 @@ html {
         opacity: 1;
         transition: opacity 1.5s;
 
+        @include medium-screen {
+          width: 100%;
+        }
+
         .desc {
           padding: 3em 0;
-          // transition: opacity 1s;
+
+          @include medium-screen {
+            padding: 1.5em 0;
+          }
         }
 
         .btn-about-us {
@@ -679,6 +761,15 @@ html {
         background-position: center;
         opacity: 1;
         transition: opacity 1.5s;
+
+        @include medium-screen {
+          width: 100%;
+          height: 100%;
+          background-size: 100% cover;
+          border-top-right-radius: 25px;
+          border-top-left-radius: 25px;
+          border-bottom-right-radius: 0;
+        }
       }
     }
   }
@@ -689,9 +780,25 @@ html {
     width: 70%;
     margin: auto;
 
+    @include medium-screen {
+      flex-direction: column;
+    }
+
+    @include small-screen {
+      flex-direction: column;
+    }
+
     &__left p {
       padding: 1em 0;
       width: 50%;
+
+      @include medium-screen {
+        width: 100%;
+      }
+
+      @include small-screen {
+        width: 100%;
+      }
     }
   }
 }

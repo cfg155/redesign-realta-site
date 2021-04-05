@@ -514,8 +514,10 @@
                     </div>
                 </div>
                 <div class="section-feature__wrapper__right">
-                    <img src="assets/Group 13.png" class="phone-img">
-                    <img src="assets/mobile-variation-bg.png" class="bg">
+                    <div class="phone">
+                        <img src="assets/Group 13.png" class="phone-img">
+                        <img src="assets/play-button.png" class="play-button">
+                    </div>
                 </div>
             </div>
         </div>
