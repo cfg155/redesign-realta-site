@@ -57,8 +57,20 @@ function clientSection(){
     direction: 'horizontal',
     loop: true,
     slidesPerView: 5,
+    breakpoints : {
+      576 : {
+        slidesPerView : 3
+      },
+
+      768 : {
+        slidesPerView : 4
+      },
+      
+      992 : {
+        slidesPerView : 5
+      }
+    },
     allowTouchMove:false,
-    centeredSlides:true,
     autoplay: {
       delay:1000
     },

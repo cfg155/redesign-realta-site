@@ -23,7 +23,7 @@
                 <p class="desc"></p>
                 <div class="rating">
                     <div class="rating__wrapper">
-                        <div class="rating__wrapper--exp">
+                        <div class="rating__wrapper--left">
                             <div class="stars">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
                                     <defs>
@@ -113,12 +113,12 @@
                             </div>
                             <span>Experienced more than</span>
                         </div>
-                        <div class="rating__wrapper--years">
+                        <div class="rating__wrapper--right">
                             <span>35</span><br>years
                         </div>
                     </div>
                     <div class="rating__wrapper">
-                        <div class="rating__wrapper--exp">
+                        <div class="rating__wrapper--left">
                             <div class="stars">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.097" height="18.278" viewBox="0 0 19.097 18.278">
                                     <defs>
@@ -208,8 +208,8 @@
                             </div>
                             <span>ISO Certified 9001 2015</span>
                         </div>
-                        <div class="rating__wrapper--years">
-                            <img src="assets/LOGO ISO.png" alt="">
+                        <div class="rating__wrapper--right">
+                            <img src="assets/LOGO ISO.png">
                         </div>
                     </div>
                 </div>
