@@ -1,3 +1,15 @@
+@font-face {
+  font-family: MaisonNeue-Bold;
+  src: url("../css/font/MaisonNeue-Bold.ttf"); }
+
+@font-face {
+  font-family: MaisonNeue-Light;
+  src: url("../css/font/MaisonNeue-Light.ttf"); }
+
+@font-face {
+  font-family: MaisonNeue-Book;
+  src: url("../css/font/MaisonNeue-Book.ttf"); }
+
 nav .nav--links .contact-us {
   text-decoration: none;
   padding: 1em 3.5em;
@@ -8,7 +20,8 @@ nav .nav--links .contact-us {
 nav {
   width: 95%;
   margin: auto;
-  height: 20vh; }
+  height: 20vh;
+  font-family: MaisonNeue-Book; }
   nav .nav {
     display: flex;
     align-items: center;

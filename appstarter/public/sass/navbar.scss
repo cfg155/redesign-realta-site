@@ -4,6 +4,7 @@ nav {
   width: 95%;
   margin: auto;
   height: 20vh;
+  font-family: MaisonNeue-Book;
 
   .nav {
     @include flex-item-center(space-between);
