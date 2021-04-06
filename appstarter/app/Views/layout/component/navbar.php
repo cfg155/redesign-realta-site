@@ -5,7 +5,7 @@
         <img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo">
         <div class="nav--links">
             <a href="#" class="current">SOLUTIONS</a>
-            <a href="#">COMPANY</a>
+            <a href="<?php echo base_url('/company') ?>">COMPANY</a>
             <a href="#">SUPPORT</a>
             <a href="#">RESOURCES</a>
             <a href="#" class="contact-us">CONTACT US</a>
