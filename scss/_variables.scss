@@ -2,6 +2,7 @@ $primary-color: #5d2e8f;
 $secondary-color: #fafafa;
 $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
 
+// Init Font
 @font-face {
   font-family: MaisonNeue-Bold;
   src: url("../css/font/MaisonNeue-Bold.ttf");
@@ -16,3 +17,6 @@ $box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09);
   font-family: MaisonNeue-Book;
   src: url("../css/font/MaisonNeue-Book.ttf");
 }
+
+// Navbar Height
+$navbar-height: 20vh;
