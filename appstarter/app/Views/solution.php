@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company</title>
-    <link rel="stylesheet" href="css/company.css">
+    <link rel="stylesheet" href="css/solution.css">
 </head>
 
 <body>
@@ -14,6 +14,9 @@
     <?= $this->include('layout/component/navbar'); ?>
 
     <div class="container">
+        <h1 class="title">Solutions<br>Realta Chakradarma</h1>
+
+        <div class="category"></div>
 
     </div>
 
@@ -22,3 +25,4 @@
 </body>
 
 </html>
+<script src="/js/solution.js"></script>

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: MaisonNeue-Bold;
+  src: url("../css/font/MaisonNeue-Bold.ttf"); }
+
+@font-face {
+  font-family: MaisonNeue-Light;
+  src: url("../css/font/MaisonNeue-Light.ttf"); }
+
+@font-face {
+  font-family: MaisonNeue-Book;
+  src: url("../css/font/MaisonNeue-Book.ttf"); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 16px;
+  background-color: #fafafa;
+  font-family: MaisonNeue-Book; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+  .container .title {
+    padding: 2em 0; }
+  .container .category {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em; }
+    .container .category__card:nth-child(even) {
+      margin-top: 5em; }
+    .container .category__card--header {
+      width: 90%; }
+    .container .category__card--title {
+      display: flex;
+      align-items: center;
+      margin-top: 1em; }
+      .container .category__card--title .logo {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        margin-right: 1em; }
+    .container .category__card--tag {
+      padding: 1em 0;
+      font-size: 0.8rem;
+      text-align: left;
+      color: #cecece; }

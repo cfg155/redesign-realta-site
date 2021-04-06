@@ -1,0 +1,29 @@
+@font-face {
+  font-family: MaisonNeue-Bold;
+  src: url("../css/font/MaisonNeue-Bold.ttf"); }
+
+@font-face {
+  font-family: MaisonNeue-Light;
+  src: url("../css/font/MaisonNeue-Light.ttf"); }
+
+@font-face {
+  font-family: MaisonNeue-Book;
+  src: url("../css/font/MaisonNeue-Book.ttf"); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 16px;
+  background-color: #fafafa;
+  font-family: MaisonNeue-Book; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+  .container .title {
+    padding: 2em 0; }
+  .container .category {
+    width: 80%;
+    margin: auto; }

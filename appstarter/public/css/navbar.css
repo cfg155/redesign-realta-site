@@ -18,7 +18,7 @@ nav .nav--links .contact-us {
   border-radius: 50px; }
 
 nav {
-  width: 95%;
+  width: 80%;
   margin: auto;
   height: 20vh;
   font-family: MaisonNeue-Book; }
@@ -30,8 +30,9 @@ nav {
       display: flex;
       justify-content: space-between;
       text-decoration: none;
-      width: 70%;
-      color: red; }
+      width: 50%;
+      color: red;
+      font-size: 0.7rem; }
       @media (max-width: 992px) {
         nav .nav--links {
           font-size: 0.8rem; } }

@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Company extends BaseController
+class Solution extends BaseController
 {
     public function index()
     {
-        return view('company');
+        return view('solution');
     }
 }

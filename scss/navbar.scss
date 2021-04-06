@@ -1,7 +1,7 @@
 @import "variables", "styling";
 
 nav {
-  width: 95%;
+  width: 80%;
   margin: auto;
   height: $navbar-height;
   font-family: MaisonNeue-Book;
@@ -12,8 +12,9 @@ nav {
     &--links {
       @include flex-justify-content(space-between);
       text-decoration: none;
-      width: 70%;
+      width: 50%;
       color: red;
+      font-size: 0.7rem;
 
       @include large-screen {
         font-size: 0.8rem;
