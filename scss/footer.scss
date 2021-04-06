@@ -1,6 +1,6 @@
 footer {
   .footer-wrapper {
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: #ffffff;
     margin-top: 5em;
@@ -12,7 +12,7 @@ footer {
 
     .links {
       padding: 1em 0;
-      width: 30%;
+      width: 300px;
       display: flex;
       justify-content: space-between;
 
@@ -31,8 +31,8 @@ footer {
       &--icons {
         display: flex;
         align-items: center;
-        width: 20%;
         justify-content: space-between;
+        width: 250px;
 
         .icon {
           background-color: #ffffff;

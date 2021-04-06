@@ -1,5 +1,5 @@
 footer .footer-wrapper {
-  width: 90%;
+  width: 80%;
   margin: auto;
   background-color: #ffffff;
   margin-top: 5em;
@@ -10,7 +10,7 @@ footer .footer-wrapper {
   box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.09); }
   footer .footer-wrapper .links {
     padding: 1em 0;
-    width: 30%;
+    width: 300px;
     display: flex;
     justify-content: space-between; }
     footer .footer-wrapper .links a {
@@ -24,8 +24,8 @@ footer .footer-wrapper {
     footer .footer-wrapper .social-media--icons {
       display: flex;
       align-items: center;
-      width: 20%;
-      justify-content: space-between; }
+      justify-content: space-between;
+      width: 250px; }
       footer .footer-wrapper .social-media--icons .icon {
         background-color: #ffffff;
         padding: 7px;
