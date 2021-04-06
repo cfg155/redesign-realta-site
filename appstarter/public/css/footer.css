@@ -43,6 +43,8 @@ footer .footer-wrapper {
           width: 100%;
           height: 100%;
           color: transparent; }
+    footer .footer-wrapper .social-media--copyright {
+      text-align: right; }
 
 footer .color-bar {
   width: 100%;

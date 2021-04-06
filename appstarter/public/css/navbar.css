@@ -42,7 +42,7 @@ nav {
         display: flex;
         align-items: center; }
     nav .nav--logo img {
-      width: 100px; }
+      width: 125px; }
   nav .nav--switch {
     display: flex;
     justify-content: space-between;

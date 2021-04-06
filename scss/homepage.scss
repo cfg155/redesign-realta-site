@@ -13,8 +13,6 @@ html {
 
 .container {
   .product-section {
-    width: 90%;
-    margin: auto;
     padding-bottom: 15em;
     height: calc(100vh - 15vh);
     @include flex-item-center(space-between);
@@ -23,7 +21,8 @@ html {
       padding-bottom: 5em;
     }
     &__left {
-      width: 40%;
+      width: 50%;
+      padding-left: 10%;
 
       .text-bg {
         position: absolute;

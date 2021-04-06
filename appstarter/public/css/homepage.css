@@ -29,8 +29,6 @@ html {
   font-family: MaisonNeue-Book; }
 
 .container .product-section {
-  width: 90%;
-  margin: auto;
   padding-bottom: 15em;
   height: calc(100vh - 15vh);
   display: flex;
@@ -40,7 +38,8 @@ html {
     .container .product-section {
       padding-bottom: 5em; } }
   .container .product-section__left {
-    width: 40%; }
+    width: 50%;
+    padding-left: 10%; }
     .container .product-section__left .text-bg {
       position: absolute;
       left: 10px;
