@@ -12,68 +12,50 @@
 
 nav .nav--links .contact-us {
   text-decoration: none;
-  padding: 1em 3.5em;
+  padding: 1em 2em;
   background-color: #5d2e8f;
   color: white;
-  border-radius: 50px; }
+  border-radius: 50px;
+  width: auto;
+  white-space: nowrap; }
 
 nav {
   width: 80%;
   margin: auto;
   height: 20vh;
-  font-family: MaisonNeue-Book; }
+  font-family: MaisonNeue-Book;
+  font-size: 0.7rem;
+  padding-top: 1em; }
   nav .nav {
     display: flex;
     align-items: center;
     justify-content: space-between; }
     nav .nav--links {
       display: flex;
-      justify-content: space-between;
       text-decoration: none;
-      width: 50%;
-      color: red;
-      font-size: 0.7rem; }
-      @media (max-width: 992px) {
-        nav .nav--links {
-          font-size: 0.8rem; } }
-      @media (max-width: 768px) {
-        nav .nav--links {
-          font-size: 0.6rem; } }
-      @media (max-width: 576px) {
-        nav .nav--links {
-          font-size: 0.6rem; } }
+      color: red; }
+      nav .nav--links a:not(:last-child) {
+        padding-right: 1.5em; }
       nav .nav--links a {
         text-decoration: none;
         color: #000000;
         display: flex;
         align-items: center; }
-    @media (max-width: 576px) {
-      nav .nav--logo {
-        width: 25%; } }
-    @media (max-width: 768px) {
-      nav .nav--logo {
-        width: 25%; } }
+    nav .nav--logo img {
+      width: 100px; }
   nav .nav--switch {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #f3f3f3;
-    width: 8em;
     height: 30px;
     position: relative;
     border-radius: 50px;
     margin-left: auto;
     box-sizing: border-box;
-    padding: 0 20px; }
-    @media (max-width: 992px) {
-      nav .nav--switch {
-        font-size: 0.8rem; } }
-    @media (max-width: 768px) {
-      nav .nav--switch {
-        font-size: 0.6rem; } }
-    @media (max-width: 576px) {
-      nav .nav--switch {
-        font-size: 0.6rem; } }
+    padding: 0 10px;
+    width: 10em;
+    margin-top: 0.7em; }
     nav .nav--switch .ina-lang {
       width: 50%;
       height: 100%;
@@ -84,8 +66,7 @@ nav {
       align-items: center;
       justify-content: center;
       color: white;
-      border-top-left-radius: 50px;
-      border-bottom-left-radius: 50px; }
+      border-radius: 50px; }
     nav .nav--switch .en-lang {
       color: #000;
       position: absolute;
