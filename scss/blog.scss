@@ -1,0 +1,19 @@
+@import "variables", "mixins";
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+
+  .content {
+    min-height: 100vh;
+
+    &__container__top {
+      background-color: #fff;
+      border-radius: 15px;
+      .left {
+        img {
+          border-radius: 15px !important;
+        }
+      }
+    }
+  }
+}

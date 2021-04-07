@@ -1,0 +1,9 @@
+.container-fluid {
+  background-color: #f3f3f3; }
+  .container-fluid .content {
+    min-height: 100vh; }
+    .container-fluid .content__container__top {
+      background-color: #fff;
+      border-radius: 15px; }
+      .container-fluid .content__container__top .left img {
+        border-radius: 15px !important; }
