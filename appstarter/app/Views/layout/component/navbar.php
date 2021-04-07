@@ -27,7 +27,7 @@
                         </li>
                         <li class="me-3"><a href="#" class="text-decoration-none text-dark">COMPANY</a></li>
                         <li class="me-3"><a href="#" class="text-decoration-none text-dark">SUPPORT</a></li>
-                        <li class="me-3"><a href="#" class="text-decoration-none text-dark">RESOURCES</a></li>
+                        <li class="me-3"><a href="<?php echo base_url('/blog') ?>" class="text-decoration-none text-dark">RESOURCES</a></li>
                         <li class=""><a href="#" class="contact-us py-2 px-3 text-decoration-none text-light rounded-pill">CONTACT US</a></li>
                     </ul>
                 </div>
