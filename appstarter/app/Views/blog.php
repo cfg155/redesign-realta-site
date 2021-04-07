@@ -177,28 +177,28 @@
                             <h4>Populer Post</h4>
                             <div class="post-item d-flex align-items-center my-3">
                                 <img src="assets/Rectangle 85.png">
-                                <span class="px-2 text-nowrap">Lorem, ipsum.</span>
+                                <span class="px-2">Lorem, ipsum.</span>
                             </div>
                             <div class="post-item d-flex align-items-center my-3">
                                 <img src="assets/Rectangle 85.png">
-                                <span class="px-2 text-nowrap">Lorem, ipsum.</span>
+                                <span class="px-2">Lorem, ipsum.</span>
                             </div>
                             <div class="post-item d-flex align-items-center my-3">
                                 <img src="assets/Rectangle 85.png">
-                                <span class="px-2 text-nowrap">Lorem, ipsum.</span>
+                                <span class="px-2">Lorem, ipsum.</span>
                             </div>
                         </div>
                         <!-- Category -->
                         <div class="side-panel p-3 mb-5">
                             <h4>Category</h4>
                             <div class="category-item d-flex align-items-center my-3">
-                                <span class="px-2 text-nowrap">Lorem, ipsum.</span>
+                                <span class="px-2">Lorem, ipsum.</span>
                             </div>
                             <div class="category-item d-flex align-items-center my-3">
-                                <span class="px-2 text-nowrap">Lorem, ipsum.</span>
+                                <span class="px-2">Lorem, ipsum.</span>
                             </div>
                             <div class="category-item d-flex align-items-center my-3">
-                                <span class="px-2 text-nowrap">Lorem, ipsum.</span>
+                                <span class="px-2">Lorem, ipsum.</span>
                             </div>
                         </div>
                     </div>
