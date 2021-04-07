@@ -7,13 +7,26 @@
     min-height: 100vh;
 
     &__container__top {
-      background-color: #fff;
-      border-radius: 15px;
-      .left {
-        img {
-          border-radius: 15px !important;
-        }
+      .bg {
+        background-image: url("../assets/Real Violet Air Sterilizer - PT Realta Chakradarma.png");
+        background-size: 100% 100%;
+        min-width: 100px;
+        min-height: 300px;
+        border-top-left-radius: 15px !important;
+        border-bottom-left-radius: 15px !important;
       }
+
+      .body-text {
+        background-color: #ffffff;
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+      }
+    }
+
+    .side-panel {
+      background-color: #ffffff;
+      width: 100% !important;
+      border-radius: 15px;
     }
   }
 }
