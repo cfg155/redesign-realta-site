@@ -28,11 +28,17 @@ nav {
       li:hover > .dropdown {
         display: flex !important;
         justify-content: space-between !important;
+        top: 20px !important;
       }
 
       li .dropdown {
         background-color: #ffffff;
         display: none !important;
+      }
+
+      li .dropdown li:hover > a {
+        background-color: $cos-primary-color !important;
+        color: #ffffff !important;
       }
     }
 

@@ -7497,10 +7497,14 @@ nav {
     background-color: #5d2e8f; }
   nav .nav--links li:hover > .dropdown {
     display: flex !important;
-    justify-content: space-between !important; }
+    justify-content: space-between !important;
+    top: 20px !important; }
   nav .nav--links li .dropdown {
     background-color: #ffffff;
     display: none !important; }
+  nav .nav--links li .dropdown li:hover > a {
+    background-color: #5d2e8f !important;
+    color: #ffffff !important; }
   nav .nav--switch {
     width: 100px;
     background-color: #f3f3f3; }
