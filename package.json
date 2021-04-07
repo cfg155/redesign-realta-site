@@ -7,8 +7,9 @@
     "scss": "node-sass --watch ./scss/ -o ./appstarter/public/css/",
     "build-homepage": "browserify ./js/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
     "watch-homepage": "watchify ./js/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
-    "build-solution" : "browserify ./js/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
-    "watch-solution": "watchify ./js/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v"
+    "build-solution": "browserify ./js/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
+    "watch-solution": "watchify ./js/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v",
+    "build-bs5": "browserify -r  bootstrap > ./appstarter/public/js/bs.js --plugin tinyify"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/cfg155/redesign-realta-site#readme",
   "dependencies": {
+    "@popperjs/core": "^2.9.1",
+    "bootstrap": "^5.0.0-beta3",
     "svelte": "^3.37.0",
     "swiper": "^6.5.3"
   },
