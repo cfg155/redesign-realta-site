@@ -34,8 +34,8 @@
             </div>
 
             <label for="switch" class="nav--switch d-flex justify-content-between ms-auto my-2">
-                <div class="ina-lang active w-100 py-1 d-flex align-items-center justify-content-center">INA</div>
-                <div class="en-lang py-1 w-100 d-flex align-items-center justify-content-center">ENG</div>
+                <button class="ina-lang active w-100 d-flex align-items-center justify-content-center btn">INA</button>
+                <button class="ina-lang w-100 d-flex align-items-center justify-content-center btn">EN</button>
             </label>
         </div>
     </div>
