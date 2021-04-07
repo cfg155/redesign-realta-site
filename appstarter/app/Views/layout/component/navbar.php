@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/navbar.css">
 <nav>
     <!-- This is Navbar area -->
-    <div class="nav py-3 w-75 m-auto">
+    <div class="nav py-3 m-auto">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
                 <img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo">
