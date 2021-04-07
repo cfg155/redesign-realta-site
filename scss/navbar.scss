@@ -1,76 +1,44 @@
-@import "variables", "styling";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "variables", "mixins";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 nav {
-  width: 80%;
-  margin: auto;
-  height: $navbar-height;
-  font-family: MaisonNeue-Book;
-  font-size: 0.7rem;
-  padding-top: 1em;
+  font-size: 0.8em;
 
-  .nav {
-    @include flex-item-center(space-between);
-
-    &--links {
-      display: flex;
-      text-decoration: none;
-      color: red;
-
-      a:not(:last-child) {
-        padding-right: 1.5em;
-      }
-
-      a {
-        text-decoration: none;
-        color: #000000;
-        display: flex;
-        align-items: center;
-      }
-
-      .contact-us {
-        @extend %btn;
-      }
-    }
-
-    &--logo {
-      img {
-        width: 125px;
-      }
-    }
+  @include screen-md {
+    font-size: 0.6em;
   }
 
-  .nav--switch {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f3f3f3;
-    height: 30px;
-    position: relative;
-    border-radius: 50px;
-    margin-left: auto;
-    box-sizing: border-box;
-    padding: 0 10px;
-    width: 10em;
-    margin-top: 0.7em;
-
-    .ina-lang {
-      width: 50%;
-      height: 100%;
-      background-color: $primary-color;
-      position: absolute;
-      left: 0;
-      @include flex-item-center(center);
-      color: white;
-      border-radius: 50px;
+  .nav {
+    &--logo {
+      max-width: 15%;
     }
 
-    .en-lang {
-      color: #000;
-      position: absolute;
-      right: 0;
-      width: 50%;
-      height: 100%;
-      @include flex-item-center(center);
+    &--links {
+      .contact-us {
+        background-color: $cos-primary-color;
+      }
+    }
+
+    &--switch {
+      width: 100px;
+      background-color: $cos-secondary-color;
+
+      * {
+        background-color: $cos-secondary-color;
+      }
+
+      .active {
+        background-color: $cos-primary-color !important;
+        color: #ffffff;
+        border-radius: $border-radius-lg;
+      }
     }
   }
 }
