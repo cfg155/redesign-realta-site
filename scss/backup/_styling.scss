@@ -1,0 +1,49 @@
+@mixin flex-item-center($justify-content) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify-content;
+}
+
+@mixin homepagePromoAnimation($item) {
+  animation: $item 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@mixin flex-justify-content($justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+}
+
+%btn {
+  text-decoration: none;
+  padding: 1em 2em;
+  background-color: $primary-color;
+  color: white;
+  border-radius: 50px;
+  width: auto;
+  white-space: nowrap;
+}
+
+// Ref based on BS Layout
+
+// x>992px
+@mixin large-screen {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+// x>768px
+@mixin medium-screen {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+//x>576px
+@mixin small-screen {
+  @media (max-width: 576px) {
+    @content;
+  }
+}

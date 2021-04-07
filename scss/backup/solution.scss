@@ -1,0 +1,59 @@
+@import "variables", "styling";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: $secondary-color;
+  font-family: MaisonNeue-Book;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  .title {
+    padding: 2em 0;
+  }
+
+  .category {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+
+    &__card:nth-child(even) {
+      margin-top: 5em;
+    }
+
+    &__card {
+      &--header {
+        width: 90%;
+      }
+
+      &--title {
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+
+        .logo {
+          width: 50px;
+          height: 50px;
+          background-color: red;
+          margin-right: 1em;
+        }
+      }
+
+      &--tag {
+        padding: 1em 0;
+        font-size: 0.8rem;
+        text-align: left;
+        color: #999999;
+      }
+    }
+  }
+}
