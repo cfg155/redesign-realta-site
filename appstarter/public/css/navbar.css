@@ -7495,6 +7495,12 @@ nav {
     max-width: 15%; }
   nav .nav--links .contact-us {
     background-color: #5d2e8f; }
+  nav .nav--links li:hover > .dropdown {
+    display: flex !important;
+    justify-content: space-between !important; }
+  nav .nav--links li .dropdown {
+    background-color: #ffffff;
+    display: none !important; }
   nav .nav--switch {
     width: 100px;
     background-color: #f3f3f3; }

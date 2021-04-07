@@ -24,6 +24,16 @@ nav {
       .contact-us {
         background-color: $cos-primary-color;
       }
+
+      li:hover > .dropdown {
+        display: flex !important;
+        justify-content: space-between !important;
+      }
+
+      li .dropdown {
+        background-color: #ffffff;
+        display: none !important;
+      }
     }
 
     &--switch {

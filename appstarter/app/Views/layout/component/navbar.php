@@ -1,5 +1,3 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/navbar.css">
 <nav>
     <!-- This is Navbar area -->
@@ -8,11 +6,30 @@
             <div class="d-flex align-items-center justify-content-between">
                 <img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo">
                 <div class="nav--links">
-                    <a href="<?php echo base_url('/solution') ?>" class="current text-decoration-none me-3 text-dark">SOLUTIONS</a>
-                    <a href="#" class="text-decoration-none me-3 text-dark">COMPANY</a>
-                    <a href="#" class="text-decoration-none me-3 text-dark">SUPPORT</a>
-                    <a href="#" class="text-decoration-none me-3 text-dark">RESOURCES</a>
-                    <a href="#" class="contact-us py-2 px-3 text-decoration-none text-light rounded-pill">CONTACT US</a>
+                    <ul class="list-inline d-flex">
+                        <li class="me-3 position-relative"><a href="<?php echo base_url('/solution') ?>" class="current text-decoration-none text-dark">SOLUTIONS</a>
+                            <div class="dropdown d-flex position-absolute start-0 justify-content-between border border-1 p-3">
+                                <ul class="list-inline me-5 text-nowrap">
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">HR Information System</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Property Management System</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Hospitality Management System</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Golf Course Management Syste,</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Procurement System</a></li>
+                                </ul>
+                                <ul class="list-inline me-5 text-nowrap">
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">HR Information System</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Property Management System</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Hospitality Management System</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Golf Course Management Syste,</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Procurement System</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="me-3"><a href="#" class="text-decoration-none text-dark">COMPANY</a></li>
+                        <li class="me-3"><a href="#" class="text-decoration-none text-dark">SUPPORT</a></li>
+                        <li class="me-3"><a href="#" class="text-decoration-none text-dark">RESOURCES</a></li>
+                        <li class=""><a href="#" class="contact-us py-2 px-3 text-decoration-none text-light rounded-pill">CONTACT US</a></li>
+                    </ul>
                 </div>
             </div>
 
@@ -21,8 +38,6 @@
                 <div class="en-lang py-1 w-100 d-flex align-items-center justify-content-center">ENG</div>
             </label>
         </div>
-
-
     </div>
 
 </nav>
