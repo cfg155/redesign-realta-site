@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="css/footer.css">
 
 <footer>
-    <div class="container-fluid h-100">
+    <div class="container-fluid w-100 pb-5">
         <div class="container">
-            <div class="footer__wrapper p-4">
+            <div class="footer__wrapper p-4 overflow-hidden">
                 <div class="links">
                     <a href="#" class="text-decoration-none text-dark me-4">Solutions</a>
                     <a href="#" class="text-decoration-none text-dark me-4">Company</a>
@@ -52,6 +52,7 @@
 
                 </div>
             </div>
+
 
         </div>
     </div>

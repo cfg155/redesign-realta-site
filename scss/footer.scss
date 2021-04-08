@@ -1,3 +1,5 @@
+@import "variables";
+
 footer {
   .footer__wrapper {
     min-height: 20vh !important;
@@ -10,5 +12,12 @@ footer {
         border-radius: 15px !important;
       }
     }
+  }
+
+  .color-bar {
+    width: 100vw !important;
+    height: 1vh !important;
+    background-image: url("../assets/color-bar.png") !important;
+    background-size: fit;
   }
 }

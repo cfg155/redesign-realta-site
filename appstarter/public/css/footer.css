@@ -5,3 +5,9 @@ footer .footer__wrapper {
   footer .footer__wrapper .social-media a {
     background-color: #ffffff !important;
     border-radius: 15px !important; }
+
+footer .color-bar {
+  width: 100vw !important;
+  height: 1vh !important;
+  background-image: url("../assets/color-bar.png") !important;
+  background-size: fit; }
