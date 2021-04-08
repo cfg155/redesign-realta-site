@@ -1,0 +1,14 @@
+footer {
+  .footer__wrapper {
+    min-height: 20vh !important;
+    background-color: #ffffff;
+    border-radius: 30px !important;
+
+    .social-media {
+      a {
+        background-color: #ffffff !important;
+        border-radius: 15px !important;
+      }
+    }
+  }
+}
