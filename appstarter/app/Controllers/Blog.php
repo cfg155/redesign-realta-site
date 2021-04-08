@@ -9,8 +9,8 @@ class Blog extends BaseController
         return view('blog');
     }
 
-    public function detail($id)
+    public function detail()
     {
-        return view('detail');
+        return view('detailBlog');
     }
 }

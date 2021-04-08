@@ -34,7 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/solution', 'Solution::index');
 $routes->get('/blog', 'Blog::index');
-$routes->get('/blog/(:segment)', 'Blog::detail/$1');
+$routes->get('/blog/detail/(:segment)', 'Blog::detail/$1');
 
 /*
  * --------------------------------------------------------------------
