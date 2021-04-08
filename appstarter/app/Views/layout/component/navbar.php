@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/navbar.css" class="navbar-style">
+
 <nav>
     <!-- This is Navbar area -->
     <div class="nav py-3 m-auto">
@@ -39,5 +40,14 @@
             </label>
         </div>
     </div>
-
 </nav>
+
+<script>
+    let currentLocation = window.location.href
+    if (currentLocation.includes(`${window.location.host}/blog/detail`)) {
+        let newPath = '../../'
+
+        let navbarLink = document.querySelector('.navbar-style').href = `${newPath}css/navbar.css`
+        let logoSRC = document.querySelector('.nav--logo').src = `${newPath}assets/LOGO-Realta-with-since-1983.png`
+    }
+</script>
