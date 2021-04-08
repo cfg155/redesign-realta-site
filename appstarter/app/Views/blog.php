@@ -207,7 +207,8 @@
         </div>
     </div>
 
-
+    <!-- Include Footer -->
+    <?= $this->include('layout/component/footer'); ?>
 </body>
 
 </html>
