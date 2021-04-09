@@ -7,7 +7,7 @@ footer .footer__wrapper {
     border-radius: 15px !important; }
 
 footer .color-bar {
-  width: 100vw !important;
+  width: 100% !important;
   height: 1vh !important;
   background-image: url("../assets/color-bar.png") !important;
   background-size: fit; }

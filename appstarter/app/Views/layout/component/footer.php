@@ -57,5 +57,5 @@
         </div>
     </div>
 
-    <div class="color-bar"></div>
+    <div class="color-bar overflow-hidden w-100"></div>
 </footer>
