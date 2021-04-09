@@ -6,6 +6,10 @@
   .content {
     min-height: 100vh;
 
+    .link {
+      opacity: 0 !important;
+    }
+
     &__container__highlight {
       .bg {
         background-image: url("../assets/Real Violet Air Sterilizer - PT Realta Chakradarma.png");

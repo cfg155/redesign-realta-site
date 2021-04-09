@@ -2,6 +2,8 @@
   background-color: #f3f3f3; }
   .container-fluid .content {
     min-height: 100vh; }
+    .container-fluid .content .link {
+      opacity: 0 !important; }
     .container-fluid .content__container__highlight .bg {
       background-image: url("../assets/Real Violet Air Sterilizer - PT Realta Chakradarma.png");
       background-size: 100% 100%;
