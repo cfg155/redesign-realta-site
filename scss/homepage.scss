@@ -1,5 +1,6 @@
 @import "mixins", "variables";
 @import "../node_modules/slick-carousel/slick/slick.scss";
+
 .container-fluid {
   background-color: $cos-secondary-color;
   .product {
@@ -70,6 +71,14 @@
 
     .btn--learn-more {
       background-color: $cos-primary-color;
+    }
+  }
+
+  .client {
+    &__item img {
+      width: 75%;
+      border-radius: $cos-border-size;
+      background-color: #ffffff;
     }
   }
 }

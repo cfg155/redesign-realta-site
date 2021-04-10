@@ -116,3 +116,7 @@
         max-width: 50px; }
   .container-fluid .product .btn--learn-more {
     background-color: #5d2e8f; }
+  .container-fluid .client__item img {
+    width: 75%;
+    border-radius: 15px;
+    background-color: #ffffff; }
