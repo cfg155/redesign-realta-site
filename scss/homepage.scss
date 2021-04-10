@@ -1,0 +1,19 @@
+@import "mixins", "variables";
+
+.container-fluid {
+  .product {
+    &--rating {
+      border-radius: $cos-border-size;
+      .rate__wrapper {
+        &--left {
+          font-size: 0.7em;
+        }
+
+        &--right {
+          font-size: 1.5em;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
