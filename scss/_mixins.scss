@@ -4,6 +4,12 @@
   }
 }
 
+@mixin screen-sm {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+
 @mixin costom-screen-size($size) {
   @media (max-width: $size) {
     @content;

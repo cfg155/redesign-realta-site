@@ -1,10 +1,58 @@
 @import "mixins", "variables";
 
 .container-fluid {
+  background-color: $cos-secondary-color;
   .product {
+    // height: 100vh;
+
+    &__wrapper {
+      z-index: 999;
+    }
+
+    .col-md-6:nth-child(2) {
+      height: 80vh;
+
+      @include screen-sm {
+        height: 50vh;
+      }
+
+      .bg {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 75%;
+      }
+
+      .phone-img {
+        z-index: 999;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        width: 40%;
+      }
+    }
+
+    &--logo {
+      width: 100px;
+    }
+
+    &--text-bg {
+      font-size: 8em;
+      color: #e0e0e0 !important;
+      position: absolute;
+      left: 0;
+      top: 0;
+      //   z-index: 1 !important;
+    }
+
     &--rating {
-      border-radius: $cos-border-size;
       .rate__wrapper {
+        background-color: #ffffff;
+        border-radius: $cos-border-size !important;
+        width: 200px;
+
         &--left {
           font-size: 0.7em;
         }
@@ -12,8 +60,16 @@
         &--right {
           font-size: 1.5em;
           line-height: 20px;
+
+          img {
+            max-width: 50px;
+          }
         }
       }
+    }
+
+    .btn--learn-more {
+      background-color: $cos-primary-color;
     }
   }
 }
