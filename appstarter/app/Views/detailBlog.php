@@ -19,6 +19,15 @@
             <div class="content">
                 <div class="content__container row">
                     <div class="col-md-8">
+                        <div class="info">
+                            <span class="info__published-by"><?= $blogData['published_by'] ?> - </span>
+                            <span class="info__date"><?= $blogData['date'] ?> |</span>
+                            <span class="info__read-time"><?= $blogData['read_time'] ?> mins</span>
+                        </div>
+                        <h1 class="title"></h1>
+                        <div class="body">
+                            <div class="body__text"><?= $blogData['content'] ?></div>
+                        </div>
 
                     </div>
                     <!-- Side Panel -->
