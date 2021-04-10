@@ -1,8 +1,6 @@
 <!-- Adding Navbar -->
 <link rel="stylesheet" href="css/navbar.css" class="navbar-style">
 
-<!-- Adding Jquery -->
-<script src="js/jquery.min.js"></script>
 <nav>
     <!-- This is Navbar area -->
     <div class="nav py-3 m-auto">
