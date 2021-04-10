@@ -235,6 +235,33 @@
                 <img src="assets/mobile-slider-bg.png" class="bg">
             </div>
         </div>
+
+        <div class="client d-flex">
+            <div class="client__item">
+                <img src="assets/sera-logo.png" alt="">
+                <img src="assets/wyeth-logo.png" alt="">
+            </div>
+            <div class="client__item">
+                <img src="assets/bca-logo.png" alt="">
+                <img src="assets/astra-logo.png" alt="">
+            </div>
+            <div class="client__item">
+                <img src="assets/btn-logo.png" alt="">
+                <img src="assets/kpc-logo.png" alt="">
+            </div>
+            <div class="client__item">
+                <img src="assets/indofood-logo.png" alt="">
+                <img src="assets/mazda-logo.png" alt="">
+            </div>
+            <div class="client__item">
+                <img src="assets/kalbe-logo.png" alt="">
+                <img src="assets/summarecon-logo.png" alt="">
+            </div>
+            <div class="client__item">
+                <img src="assets/yamaha-logo.png" alt="">
+                <img src="assets/sampoerna-logo.png" alt="">
+            </div>
+        </div>
     </div>
 
     <!-- Include Footer -->
