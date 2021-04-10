@@ -20,7 +20,10 @@ class Blog extends BaseController
     public function detail($id)
     {
         $blogData = $this->blogModel->find($id);
-        dd($blogData);
-        return view('detailBlog');
+        $data = [
+            'blogData' => $blogData
+        ];
+        // dd($data);
+        return view('detailBlog', $data);
     }
 }
