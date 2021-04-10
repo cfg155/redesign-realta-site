@@ -1,5 +1,5 @@
 @import "mixins", "variables";
-
+@import "../node_modules/slick-carousel/slick/slick.scss";
 .container-fluid {
   background-color: $cos-secondary-color;
   .product {
