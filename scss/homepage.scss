@@ -117,4 +117,37 @@
       }
     }
   }
+  .about {
+    &__wrapper {
+      background-color: #ffffff !important;
+      border-top-left-radius: $cos-border-size;
+      border-bottom-left-radius: $cos-border-size;
+      border-top-right-radius: $cos-border-size;
+      border-bottom-right-radius: $cos-border-size;
+      padding: 0 !important;
+
+      .col-lg-6:nth-child(2) {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        img {
+          border-top-right-radius: $cos-border-size;
+          border-bottom-right-radius: $cos-border-size;
+
+          @include screen-lg {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: $cos-border-size;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    .col-md-6:nth-child(1) {
+      .achievement {
+        font-size: 0.8em;
+        line-height: 15px;
+      }
+    }
+  }
 }
