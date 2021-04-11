@@ -338,9 +338,12 @@
             <h1 class="text-center">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h1>
             <div class="about__wrapper row flex-md-row p-3 w-100 m-auto no-gutters">
                 <div class="col-lg-6 p-3">
-                    <h4>ICT ONE Solutions</h4>
-                    <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam suscipit vitae ex porro assumenda quidem facilis, praesentium velit culpa exercitationem.</p>
-                    <a href="#" class="btn rounded-pill border border-dark">ABOUT US</a>
+                    <div class="about--text ps-3 mt-5">
+                        <h4>ICT ONE Solutions</h4>
+                        <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam suscipit vitae ex porro assumenda quidem facilis, praesentium velit culpa exercitationem.</p>
+                        <a href="#" class="btn rounded-pill border border-dark">ABOUT US</a>
+                    </div>
+
                 </div>
                 <div class="col-lg-6">
                     <img src="assets/entitas-privat.png" class="w-100">
