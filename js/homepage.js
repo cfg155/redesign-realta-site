@@ -248,3 +248,25 @@ function clientSection(){
 }
 
 clientSection()
+
+function moduleSection(){
+  $(document).ready(function(){
+    $('.module__wrapper').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      dots: true,
+      centerMode: true,
+      nextArrow: false,
+      prevArrow: false,
+      variableWidth: true,
+      variableHeight: true,
+      customPaging: function(slider,i){
+        let dotsName = ['test1','test2','test3','test4','test5']
+        return `<span class="dot">${dotsName[i]}</span>`
+      }
+    })
+
+  })
+}
+moduleSection()
