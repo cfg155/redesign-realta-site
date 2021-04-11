@@ -262,6 +262,91 @@
                 <img src="assets/sampoerna-logo.png" class="p-3">
             </div>
         </div>
+
+        <div class="module">
+            <!-- Empty -->
+        </div>
+
+        <div class="feature">
+            <h1 class="feature--title text-center">How Can We Help?</h1>
+            <div class="feature__wrapper row d-flex align-items-center">
+                <div class="col-md-6 m-auto position-relative">
+                    <div class="feature--card p-3 mb-3">
+                        <div class="header d-flex align-items-center pb-3">
+                            <img src="assets/cloud-system.png" class="me-2">
+                            <h4>Title 1</h4>
+                        </div>
+                        <div class="body text-justify">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit.
+                        </div>
+                    </div>
+
+                    <div class="feature--card p-3 mb-3">
+                        <div class="header d-flex align-items-center pb-3">
+                            <img src="assets/cloud-system.png" class="me-2">
+                            <h4>Title 2</h4>
+                        </div>
+                        <div class="body text-justify"></div>
+                    </div>
+
+                    <div class="feature--card p-3 mb-3">
+                        <div class="header d-flex align-items-center pb-3">
+                            <img src="assets/cloud-system.png" class="me-2">
+                            <h4>Title 3</h4>
+                        </div>
+                        <div class="body text-justify"></div>
+                    </div>
+
+                    <div class="feature--card p-3 mb-3">
+                        <div class="header d-flex align-items-center pb-3">
+                            <img src="assets/cloud-system.png" class="me-2">
+                            <h4>Title 4</h4>
+                        </div>
+                        <div class="body text-justify"></div>
+                    </div>
+
+                    <div class="feature--card p-3 mb-3">
+                        <div class="header d-flex align-items-center pb-3">
+                            <img src="assets/cloud-system.png" class="me-2">
+                            <h4>Title 5</h4>
+                        </div>
+                        <div class="body text-justify"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <img src="assets/mobile-variation-bg.png" class="bg">
+                    <img src="assets/Group 18.png" class="phone-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="promo row">
+            <div class="col-md-6">
+                <h1>Integrate Seamlessly</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.</p>
+                <video width="320" height="240" autoplay>
+                    <source src="#">
+                </video>
+            </div>
+            <div class="col-md-6">
+                <h1>Brand Icon</h1>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <h1 class="text-center">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h1>
+            <div class="about__wrapper row flex-md-row p-3 w-100 m-auto no-gutters">
+                <div class="col-lg-6 p-3">
+                    <h4>ICT ONE Solutions</h4>
+                    <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam suscipit vitae ex porro assumenda quidem facilis, praesentium velit culpa exercitationem.</p>
+                    <a href="#" class="btn rounded-pill border border-dark">ABOUT US</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/entitas-privat.png" class="w-100">
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Include Footer -->
