@@ -1,5 +1,6 @@
 @import "mixins", "variables";
-@import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/slick-carousel/slick/slick.scss",
+  "../node_modules/slick-carousel/slick/slick-theme.scss";
 
 .container-fluid {
   background-color: $cos-secondary-color;
@@ -80,6 +81,22 @@
     }
   }
 
+  .module {
+    height: 100vh;
+    &__wrapper {
+      .slick-dots {
+        bottom: -50px;
+        li {
+          margin: 0 25px;
+        }
+      }
+
+      &--item {
+        width: 250px !important;
+      }
+    }
+  }
+
   .feature {
     overflow: hidden;
 
@@ -143,7 +160,7 @@
   }
 
   .contact-us {
-    .col-md-6:nth-child(1) {
+    .col-lg-6:nth-child(1) {
       .achievement {
         font-size: 0.8em;
         line-height: 15px;
