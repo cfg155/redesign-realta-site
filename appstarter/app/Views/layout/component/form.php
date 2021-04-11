@@ -26,17 +26,11 @@
         <div class="row">
             <div class="col-md-6">
                 <label for="Mobile Phone" class="form-label my-3">Mobile Phone</label>
-            </div>
-
-            <div class="col-md-6">
-                <label for="Email" class="form-label my-3">Email</label>
-            </div>
-
-            <div class="col-md-6">
                 <input type="text" class="form-control">
             </div>
 
             <div class="col-md-6">
+                <label for="Email" class="form-label my-3">Email</label>
                 <input type="text" class="form-control">
             </div>
         </div>
