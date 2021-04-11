@@ -264,11 +264,108 @@
         </div>
 
         <div class="module">
-            <!-- Empty -->
+            <h2 class="text-center mb-5">You can customize a solution <br> based on your industry</h2>
+            <div class="module__wrapper">
+                <div class="module__wrapper--item mx-4">
+                    <div class="header p-3" style="background-color: darkblue;">
+                        <h4>Property</h4>
+                    </div>
+                    <div class="body p-3" style="background-color: blue;">
+                        <ul class="list-group mb-4">
+                            <li class="list-inline">Inventory control</li>
+                            <li class="list-inline">Cost Control</li>
+                            <li class="list-inline">Finance & Accounting</li>
+                            <li class="list-inline">Logistic</li>
+                            <li class="list-inline">Tenant Complaint</li>
+                            <li class="list-inline">Multi Currency</li>
+                            <li class="list-inline">Multi Payment Term</li>
+                            <li class="list-inline">Automatic Billing Process</li>
+                            <li class="list-inline">Renewal Reminder</li>
+                        </ul>
+                        <a href="#" class="footer">Learn More</a>
+                    </div>
+                </div>
+                <div class="module__wrapper--item mx-4">
+                    <div class="header p-3" style="background-color: darkblue;">
+                        <h4>Property</h4>
+                    </div>
+                    <div class="body p-3" style="background-color: blue;">
+                        <ul class="list-group mb-4">
+                            <li class="list-inline">Inventory control</li>
+                            <li class="list-inline">Cost Control</li>
+                            <li class="list-inline">Finance & Accounting</li>
+                            <li class="list-inline">Logistic</li>
+                            <li class="list-inline">Tenant Complaint</li>
+                            <li class="list-inline">Multi Currency</li>
+                            <li class="list-inline">Multi Payment Term</li>
+                            <li class="list-inline">Automatic Billing Process</li>
+                            <li class="list-inline">Renewal Reminder</li>
+                        </ul>
+                        <a href="#" class="footer">Learn More</a>
+                    </div>
+                </div>
+                <div class="module__wrapper--item mx-4">
+                    <div class="header p-3" style="background-color: darkblue;">
+                        <h4>Property</h4>
+                    </div>
+                    <div class="body p-3" style="background-color: blue;">
+                        <ul class="list-group mb-4">
+                            <li class="list-inline">Inventory control</li>
+                            <li class="list-inline">Cost Control</li>
+                            <li class="list-inline">Finance & Accounting</li>
+                            <li class="list-inline">Logistic</li>
+                            <li class="list-inline">Tenant Complaint</li>
+                            <li class="list-inline">Multi Currency</li>
+                            <li class="list-inline">Multi Payment Term</li>
+                            <li class="list-inline">Automatic Billing Process</li>
+                            <li class="list-inline">Renewal Reminder</li>
+                        </ul>
+                        <a href="#" class="footer">Learn More</a>
+                    </div>
+                </div>
+                <div class="module__wrapper--item mx-4">
+                    <div class="header p-3" style="background-color: darkblue;">
+                        <h4>Property</h4>
+                    </div>
+                    <div class="body p-3" style="background-color: blue;">
+                        <ul class="list-group mb-4">
+                            <li class="list-inline">Inventory control</li>
+                            <li class="list-inline">Cost Control</li>
+                            <li class="list-inline">Finance & Accounting</li>
+                            <li class="list-inline">Logistic</li>
+                            <li class="list-inline">Tenant Complaint</li>
+                            <li class="list-inline">Multi Currency</li>
+                            <li class="list-inline">Multi Payment Term</li>
+                            <li class="list-inline">Automatic Billing Process</li>
+                            <li class="list-inline">Renewal Reminder</li>
+                        </ul>
+                        <a href="#" class="footer">Learn More</a>
+                    </div>
+                </div>
+                <div class="module__wrapper--item mx-4">
+                    <div class="header p-3" style="background-color: darkblue;">
+                        <h4>Property</h4>
+                    </div>
+                    <div class="body p-3" style="background-color: blue;">
+                        <ul class="list-group mb-4">
+                            <li class="list-inline">Inventory control</li>
+                            <li class="list-inline">Cost Control</li>
+                            <li class="list-inline">Finance & Accounting</li>
+                            <li class="list-inline">Logistic</li>
+                            <li class="list-inline">Tenant Complaint</li>
+                            <li class="list-inline">Multi Currency</li>
+                            <li class="list-inline">Multi Payment Term</li>
+                            <li class="list-inline">Automatic Billing Process</li>
+                            <li class="list-inline">Renewal Reminder</li>
+                        </ul>
+                        <a href="#" class="footer">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="feature">
-            <h1 class="feature--title text-center">How Can We Help?</h1>
+            <h2 class="feature--title text-center">How Can We Help?</h2>
             <div class="feature__wrapper row d-flex align-items-center">
                 <div class="col-md-6 m-auto position-relative">
                     <div class="feature--card p-3 mb-3">
@@ -322,7 +419,7 @@
 
         <div class="promo row">
             <div class="col-md-6">
-                <h1>Integrate Seamlessly</h1>
+                <h2>Integrate Seamlessly</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.</p>
                 <video width="320" height="240" autoplay>
                     <source src="#">
@@ -335,7 +432,7 @@
         </div>
 
         <div class="about container">
-            <h1 class="text-center">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h1>
+            <h2 class="text-center">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h2>
             <div class="about__wrapper row flex-md-row m-auto h-100  no-gutters">
                 <div class="col-lg-6 p-3 my-auto">
                     <h4>ICT ONE Solutions</h4>
@@ -351,7 +448,7 @@
         <div class="contact-us container">
             <div class="contact-us row">
                 <div class="col-lg-6 p-5">
-                    <h1>What Are You Waiting for ? Just Make It Happen!</h1>
+                    <h2>What Are You Waiting for ? Just Make It Happen!</h2>
                     <p class="w-75">We'll have a Business Development Representative contact you within 24 business hours</p>
                     <div class="achievement d-flex ">
                         <div class="achievement--item d-flex justify-content-center mb-3 me-3">
@@ -371,7 +468,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="contact-us__form">
                         <?= $this->include('layout/component/form'); ?>
                     </div>
