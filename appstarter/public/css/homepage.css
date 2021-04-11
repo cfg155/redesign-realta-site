@@ -251,6 +251,12 @@
     width: 75%;
     border-radius: 15px;
     background-color: #ffffff; }
+    @media (max-width: 768px) {
+      .container-fluid .client__item img {
+        width: 70%; } }
+    @media (max-width: 576px) {
+      .container-fluid .client__item img {
+        width: 70%; } }
   .container-fluid .module {
     height: 100vh; }
     .container-fluid .module__wrapper .slick-dots {

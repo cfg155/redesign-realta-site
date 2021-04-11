@@ -78,6 +78,14 @@
       width: 75%;
       border-radius: $cos-border-size;
       background-color: #ffffff;
+
+      @include screen-md {
+        width: 70%;
+      }
+
+      @include screen-sm {
+        width: 70%;
+      }
     }
   }
 
