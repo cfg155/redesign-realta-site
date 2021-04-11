@@ -329,21 +329,53 @@
                 </video>
             </div>
             <div class="col-md-6">
-                <h1>Brand Icon</h1>
+                <!-- Empty -->
             </div>
 
         </div>
 
-        <div class="about">
+        <div class="about container">
             <h1 class="text-center">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h1>
-            <div class="about__wrapper row flex-md-row p-3 w-100 m-auto no-gutters">
-                <div class="col-lg-6 p-3">
+            <div class="about__wrapper row flex-md-row m-auto h-100  no-gutters">
+                <div class="col-lg-6 p-3 my-auto">
                     <h4>ICT ONE Solutions</h4>
                     <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam suscipit vitae ex porro assumenda quidem facilis, praesentium velit culpa exercitationem.</p>
                     <a href="#" class="btn rounded-pill border border-dark">ABOUT US</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/entitas-privat.png" class="w-100">
+                    <img src="assets/entitas-privat.png" class="w-100 h-100">
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-us container">
+            <div class="contact-us row">
+                <div class="col-md-6">
+                    <h1>What Are You Waiting for ? Just Make It Happen!</h1>
+                    <p class="w-50">We'll have a Business Development Representative contact you within 24 business hours</p>
+                    <div class="achievement d-flex ">
+                        <div class="achievement--item d-flex justify-content-center mb-3 me-3">
+                            <img src="assets/awards-item-left.png" alt="">
+                            <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                            <img src="assets/awards-item-right.png" alt="">
+                        </div>
+                        <div class="achievement--item d-flex justify-content-center mb-3 mx-3">
+                            <img src="assets/awards-item-left.png" alt="">
+                            <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                            <img src="assets/awards-item-right.png" alt="">
+                        </div>
+                        <div class="achievement--item d-flex justify-content-center mb-3 mx-3">
+                            <img src="assets/awards-item-left.png" alt="">
+                            <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                            <img src="assets/awards-item-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-us__form">
+                        <?= $this->include('layout/component/form'); ?>
+                    </div>
+
                 </div>
             </div>
         </div>
