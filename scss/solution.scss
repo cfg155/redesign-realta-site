@@ -1,0 +1,11 @@
+@import "mixins", "variables";
+
+.category {
+  &__card:nth-child(even) {
+    margin-top: 70px;
+
+    @include screen-md {
+      margin-top: 0;
+    }
+  }
+}

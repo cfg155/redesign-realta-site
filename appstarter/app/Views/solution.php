@@ -16,7 +16,9 @@
     <div class="container">
         <h1 class="title">Solutions<br>Realta Chakradarma</h1>
 
-        <div class="category"></div>
+        <div class="category">
+            <div class="category__wrapper row w-75 m-auto"></div>
+        </div>
 
     </div>
 
