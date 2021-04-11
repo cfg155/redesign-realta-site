@@ -1,89 +1,93 @@
-<link rel="stylesheet" href="css/form.css">
-<div class="form">
+<div class="form p-5" style="background-color: #ffffff; border-radius: 15px !important;">
     <form action="" method="POST">
-        <table>
-            <!-- Select A Service -->
-            <tr>
-                <td colspan="2" class="label"><label for="service">Select A Service</label></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <select name="" id="">
-                        <option value="Test">Test</option>
-                    </select>
-                </td>
-                <td></td>
-            </tr>
+        <!-- Select A Service -->
+        <div class="row">
+            <div class="col-md-12">
+                <label for="service" class="form-label my-3">Select A Service</label>
+            </div>
+            <div class="cold-md-12">
+                <select name="" id="" class="form-control">
+                    <option value="Test">Test</option>
+                </select>
+            </div>
+        </div>
 
-            <!-- Company -->
-            <tr>
-                <td colspan="2" class="label"><label for="company">Company</label></td>
-                <td></td>
-            </tr>
+        <!-- Company -->
+        <div class="row">
+            <div class="col-md-12">
+                <label for="company" class="form-label my-3">Company</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control">
+            </div>
+        </div>
 
-            <tr>
-                <td colspan="2"><input type="text"></td>
-                <td></td>
-            </tr>
+        <!-- Mobile Phone & Email -->
+        <div class="row">
+            <div class="col-md-6">
+                <label for="Mobile Phone" class="form-label my-3">Mobile Phone</label>
+            </div>
 
-            <!-- Mobile Phone & Email -->
-            <tr>
-                <td><label for="mobile phone" class="label">Mobile Phone</label></td>
-                <td><label for="email">Email</label></td>
-            </tr>
+            <div class="col-md-6">
+                <label for="Email" class="form-label my-3">Email</label>
+            </div>
 
-            <tr>
-                <td><input type="text" style="width: 90%;"></td>
-                <td><input type="text" style="width: 100%;"></td>
-            </tr>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
 
-            <!-- Total Employee -->
-            <tr>
-                <td colspan="2" class="label"><label for="total employee">Total Employee</label></td>
-                <td></td>
-            </tr>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
 
-            <tr>
-                <td colspan="2" class="label"><input type="number"></td>
-                <td></td>
-            </tr>
+        <!-- Total Employee -->
+        <div class="row">
+            <div class="col-md-12">
+                <label for="Total Employee" class="form-label my-3">Total Employee</label>
+            </div>
 
-            <!-- Fullname -->
-            <tr>
-                <td colspan="2" class="label"><label for="fullname">Full Name</label></td>
-                <td></td>
-            </tr>
+            <div class="col-md-12">
+                <select name="" id="" class="form-control">
+                    <option value="Test">Test</option>
+                </select>
+            </div>
+        </div>
 
-            <tr>
-                <td colspan="2" class="label"><input type="text"></td>
-                <td></td>
-            </tr>
+        <!-- Fullname -->
+        <div class="row">
+            <div class="col-md-12">
+                <label for="Fullname" class="form-label my-3">Fullname</label>
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control">
+            </div>
+        </div>
 
-            <!-- Message -->
-            <tr>
-                <td colspan="2" class="label"><label for="message">Message</label></td>
-                <td></td>
-            </tr>
+        <!-- Message -->
+        <div class="row">
+            <div class="col-md-12">
+                <label for="Message" class="form-label my-3">Message</label>
+            </div>
+            <div class="col-md-12">
+                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+        </div>
 
-            <tr>
-                <td colspan="2" class="label"><textarea name="" id="" cols="30" rows="10"></textarea></td>
-                <td></td>
-            </tr>
-        </table>
-        <div class="checkbox">
-            <div class="checkbox--square">
+        <!-- Checkbox -->
+        <div class="checkbox d-flex my-3">
+            <div class="checkbox--square me-2">
                 <input type="checkbox">
             </div>
             <div class="checkbox--text">
-                Before submitting please read our <br><a href="#">Term and Condition</a>,<a href="#">Privacy Policy</a>
+                Before submitting please read our <br><a href="#" class="text-dark">Term and Condition</a> , <a href="#" class="text-dark">Privacy Policy</a>
             </div>
         </div>
-        <table class="submit-table">
-            <tr>
-                <td colspan="2"><a href="#">Tell us your problem</a></td>
-                <td></td>
-            </tr>
-        </table>
+
+        <!-- Submit -->
+        <div class="row my-3 text-center w-100">
+            <a href="#" class="btn rounded-pill text-light col-md-12 py-2" style="background-color: #5d2e8f;">Tell us your problem</a>
+        </div>
+
     </form>
 </div>
