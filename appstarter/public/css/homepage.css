@@ -160,6 +160,6 @@
           .container-fluid .about__wrapper .col-lg-6:nth-child(2) img {
             border-top-right-radius: 0;
             border-bottom-left-radius: 15px; } }
-  .container-fluid .contact-us .col-md-6:nth-child(1) .achievement {
+  .container-fluid .contact-us .col-lg-6:nth-child(1) .achievement {
     font-size: 0.8em;
     line-height: 15px; }

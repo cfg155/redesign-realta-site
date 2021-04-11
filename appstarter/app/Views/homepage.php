@@ -350,9 +350,9 @@
 
         <div class="contact-us container">
             <div class="contact-us row">
-                <div class="col-md-6">
+                <div class="col-lg-6 p-5">
                     <h1>What Are You Waiting for ? Just Make It Happen!</h1>
-                    <p class="w-50">We'll have a Business Development Representative contact you within 24 business hours</p>
+                    <p class="w-75">We'll have a Business Development Representative contact you within 24 business hours</p>
                     <div class="achievement d-flex ">
                         <div class="achievement--item d-flex justify-content-center mb-3 me-3">
                             <img src="assets/awards-item-left.png" alt="">
@@ -371,7 +371,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="contact-us__form">
                         <?= $this->include('layout/component/form'); ?>
                     </div>
