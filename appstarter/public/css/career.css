@@ -1,0 +1,12 @@
+.container-fluid {
+  background-color: #f3f3f3; }
+  .container-fluid .career--item {
+    border-radius: 15px;
+    background-color: #ffffff; }
+    @media (max-width: 768px) {
+      .container-fluid .career--item {
+        width: 100% !important; } }
+    .container-fluid .career--item .header svg {
+      margin-right: 10px; }
+    .container-fluid .career--item .footer a {
+      background-color: #5d2e8f; }
