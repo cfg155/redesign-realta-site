@@ -17,8 +17,8 @@
     <div class="container-fluid">
         <div class="container w-75 m-auto">
             <h2>Career <br> Realta Chakradarma</h2>
-            <div class="row career--header">
-                <div class="col-md-4">
+            <div class="row career--header py-4">
+                <div class="col-lg-4 mb-3">
                     <div class="input-group">
                         <span class="input-group-text" id="basic-addon1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -28,7 +28,7 @@
                         <input type="text" class="form-control" placeholder="Search Job">
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 mb-3">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
