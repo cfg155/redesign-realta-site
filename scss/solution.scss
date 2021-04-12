@@ -1,11 +1,14 @@
 @import "mixins", "variables";
 
-.category {
-  &__card:nth-child(even) {
-    margin-top: 70px;
+.container-fluid {
+  background-color: $cos-secondary-color;
+  .category {
+    &__card:nth-child(even) {
+      margin-top: 70px;
 
-    @include screen-md {
-      margin-top: 0;
+      @include screen-md {
+        margin-top: 0;
+      }
     }
   }
 }

@@ -1,5 +1,7 @@
-.category__card:nth-child(even) {
-  margin-top: 70px; }
-  @media (max-width: 768px) {
-    .category__card:nth-child(even) {
-      margin-top: 0; } }
+.container-fluid {
+  background-color: #f3f3f3; }
+  .container-fluid .category__card:nth-child(even) {
+    margin-top: 70px; }
+    @media (max-width: 768px) {
+      .container-fluid .category__card:nth-child(even) {
+        margin-top: 0; } }

@@ -13,14 +13,17 @@
     <!-- Include Navbar -->
     <?= $this->include('layout/component/navbar'); ?>
 
-    <div class="container">
-        <h1 class="title">Solutions<br>Realta Chakradarma</h1>
+    <div class="container-fluid pb-5">
+        <div class="w-75 m-auto">
+            <h1 class="title pb-5">Solutions<br>Realta Chakradarma</h1>
 
-        <div class="category">
-            <div class="category__wrapper row w-75 m-auto"></div>
+            <div class="category">
+                <div class="category__wrapper row w-75 m-auto"></div>
+            </div>
+
         </div>
-
     </div>
+
 
     <!-- Include Footer -->
     <?= $this->include('layout/component/footer'); ?>
