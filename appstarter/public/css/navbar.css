@@ -7502,7 +7502,8 @@ nav {
     top: 20px !important; }
   nav .nav--links li .dropdown {
     background-color: #ffffff;
-    display: none !important; }
+    display: none !important;
+    width: 500px !important; }
   nav .nav--links li .dropdown li:hover > a {
     background-color: #5d2e8f !important;
     color: #ffffff !important; }

@@ -30,11 +30,13 @@ nav {
         display: flex !important;
         justify-content: space-between !important;
         top: 20px !important;
+        // right: 15px !important;
       }
 
       li .dropdown {
         background-color: #ffffff;
         display: none !important;
+        width: 500px !important;
       }
 
       li .dropdown li:hover > a {
