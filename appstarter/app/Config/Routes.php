@@ -35,6 +35,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/solution', 'Solution::index');
 $routes->get('/blog', 'Blog::index');
 $routes->get('/blog/detail/(:segment)', 'Blog::detail/$1');
+$routes->get('/career', 'Career::index');
 
 /*
  * --------------------------------------------------------------------
