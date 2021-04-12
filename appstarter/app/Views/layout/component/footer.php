@@ -49,5 +49,16 @@
         let newPath = '../../'
 
         let footerLink = document.querySelector('.footer-style').href = `${newPath}css/footer.css`
+
+        console.log(footerLink)
+
+        // console.log(window.location)
+        let footerIcons = document.querySelectorAll('.icon')
+
+        let image = ['Group 133.png', 'Group 134.png', 'Group 135.png', 'Group 136.png', 'Group 154.png']
+
+        footerIcons.forEach((items, index) => {
+            items.firstElementChild.src = `${newPath}assets/${image[index]}`
+        })
     }
 </script>
