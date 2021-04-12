@@ -6,7 +6,7 @@
     <div class="nav py-3 m-auto">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
-                <img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo">
+                <a href="<?php echo base_url('/') ?>"><img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo"></a>
                 <div class="nav--links">
                     <ul class="list-inline d-flex">
                         <li class="me-3 position-relative"><a href="<?php echo base_url('/solution') ?>" class="current text-decoration-none text-dark">SOLUTIONS</a>

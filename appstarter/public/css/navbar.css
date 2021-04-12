@@ -7495,7 +7495,7 @@ nav {
     nav {
       font-size: 0.6em; } }
   nav .nav--logo {
-    max-width: 15%; }
+    max-width: 130px; }
   nav .nav--links .contact-us {
     background-color: #5d2e8f; }
   nav .nav--links li:hover > .dropdown {
