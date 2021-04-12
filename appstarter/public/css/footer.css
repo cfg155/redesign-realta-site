@@ -1,13 +1,13 @@
-footer .footer__wrapper {
-  min-height: 20vh !important;
-  background-color: #ffffff;
-  border-radius: 30px !important; }
-  footer .footer__wrapper .social-media a {
-    background-color: #ffffff !important;
-    border-radius: 15px !important; }
-
-footer .color-bar {
-  width: 100% !important;
-  height: 1vh !important;
-  background-image: url("../assets/color-bar.png") !important;
-  background-size: fit; }
+footer {
+  font-size: 0.8em; }
+  footer .footer__wrapper {
+    min-height: 20vh !important;
+    background-color: #ffffff;
+    border-radius: 30px !important; }
+    footer .footer__wrapper .social-media .icon img {
+      width: 36px; }
+  footer .color-bar {
+    width: 100% !important;
+    height: 1vh !important;
+    background-image: url("../assets/color-bar.png") !important;
+    background-size: fit; }
