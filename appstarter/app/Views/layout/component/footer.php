@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/footer.css" class="footer-style">
 
 <footer>
     <div class="container-fluid w-100 pb-5">
@@ -59,3 +59,10 @@
 
     <div class="color-bar overflow-hidden w-100"></div>
 </footer>
+<script>
+    if (currentLocation.includes(`${window.location.host}/blog/detail`)) {
+        let newPath = '../../'
+
+        let footerLink = document.querySelector('.footer-style').href = `${newPath}css/footer.css`
+    }
+</script>
