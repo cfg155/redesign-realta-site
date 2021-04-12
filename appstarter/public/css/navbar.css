@@ -7488,7 +7488,9 @@ textarea.form-control-lg {
 
 nav {
   font-size: 0.8em;
-  background-color: #f3f3f3; }
+  background-color: #f3f3f3;
+  position: relative;
+  z-index: 9999; }
   @media (max-width: 768px) {
     nav {
       font-size: 0.6em; } }

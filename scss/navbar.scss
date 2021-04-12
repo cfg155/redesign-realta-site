@@ -11,6 +11,8 @@
 nav {
   font-size: 0.8em;
   background-color: $cos-secondary-color;
+  position: relative;
+  z-index: 9999;
 
   @include screen-md {
     font-size: 0.6em;
