@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/cfg155/redesign-realta-site#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@popperjs/core": "^2.9.1",
     "bootstrap": "^5.0.0-beta3",
     "jquery": "^3.6.0",

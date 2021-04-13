@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Fetch Homepage API -->
+    <!-- <script src="./js/homepageAPI.js"></script> -->
 </head>
 
 <body>
@@ -485,4 +486,3 @@
 </html>
 <script src=" ./js/homepage.js"></script>
 <!-- <script src="./js/testingAPI.js"></script> -->
-<script src="./js/homepageFetchAPI.js"></script>
