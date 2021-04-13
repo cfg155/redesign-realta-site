@@ -108,14 +108,19 @@
     height: 100vh;
     &__wrapper {
       .slick-dots {
-        bottom: -50px;
+        bottom: -100px;
         li {
-          margin: 0 25px;
+          white-space: nowrap;
+          width: auto;
+          margin: 0 20px;
         }
       }
 
       &--item {
         width: 250px !important;
+        .body {
+          height: 250px;
+        }
       }
     }
   }

@@ -268,11 +268,15 @@
   .container-fluid .module {
     height: 100vh; }
     .container-fluid .module__wrapper .slick-dots {
-      bottom: -50px; }
+      bottom: -100px; }
       .container-fluid .module__wrapper .slick-dots li {
-        margin: 0 25px; }
+        white-space: nowrap;
+        width: auto;
+        margin: 0 20px; }
     .container-fluid .module__wrapper--item {
       width: 250px !important; }
+      .container-fluid .module__wrapper--item .body {
+        height: 250px; }
   .container-fluid .feature {
     overflow: hidden; }
     .container-fluid .feature .col-md-6:nth-child(1) {
