@@ -78,6 +78,14 @@
     .btn--learn-more {
       background-color: $cos-primary-color;
     }
+
+    .colorbar {
+      &--item {
+        width: 50px;
+        height: 5px;
+        background-color: red;
+      }
+    }
   }
 
   .client {

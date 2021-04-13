@@ -224,7 +224,18 @@
                 <img src="" class="phone-img">
                 <img src="assets/mobile-slider-bg.png" class="bg">
             </div>
-            <div class="slidebar w-75 m-auto py-3">
+            <div class="slidebar d-flex py-3 w-75 m-auto">
+                <div class="colorbar me-2">
+                    <div class="colorbar__wrapper d-flex">
+                        <div class="colorbar--item"></div>
+                        <div class="colorbar--item"></div>
+                        <div class="colorbar--item"></div>
+                        <div class="colorbar--item"></div>
+                        <div class="colorbar--item"></div>
+                        <div class="colorbar--item"></div>
+                    </div>
+                    <span>Solutions 03/08</span>
+                </div>
                 <div class="slidebar--arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20.855" height="20.327" viewBox="0 0 20.855 20.327" class="arrow arrow-left" data-value="0">
                         <path id="Icon_awesome-arrow-left" data-name="Icon awesome-arrow-left" d="M11.985,21.613l-1.033,1.033a1.113,1.113,0,0,1-1.578,0L.325,13.6a1.113,1.113,0,0,1,0-1.578L9.373,2.975a1.113,1.113,0,0,1,1.578,0l1.033,1.033a1.118,1.118,0,0,1-.019,1.6L6.357,10.949H19.735a1.114,1.114,0,0,1,1.117,1.117v1.489a1.114,1.114,0,0,1-1.117,1.117H6.357l5.609,5.344A1.11,1.11,0,0,1,11.985,21.613Z" transform="translate(0.004 -2.647)" fill="#bdc3ca" />
@@ -234,6 +245,7 @@
                     </svg>
 
                 </div>
+
             </div>
         </div>
 
