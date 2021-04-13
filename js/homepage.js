@@ -2,13 +2,14 @@ import $ from 'jquery';
 import slick from 'slick-carousel'
 import "@babel/polyfill";
 
-async function productSection(URL){
-  let fetchResponse = await fetch(URL)
+async function fetchAPI(API_URL){
+  let fetchResponse = await fetch(API_URL)
   return await fetchResponse.json()
 }
 
+let API_URL = './json/homepage.json'
 // Product Section
-productSection('./json/homepage.json')
+fetchAPI(API_URL)
   .then(response => {
     let data = response[0].productSection
 
@@ -104,8 +105,39 @@ function clientSection(){
 
 clientSection()
 
-function moduleSection(){
-  $(document).ready(function(){
+// Module Section
+fetchAPI(API_URL)
+  .then(response => {
+    let data = response[2].moduleSection
+    console.log(data[0].listItem)
+
+    let moduleItem = ''
+    data.forEach((item,index) => {
+      let listItems = data[index].listItem
+
+      let li = ''
+      listItems.forEach(item => {
+        li += `<li class="list-inline text-light">${item}l</li>`
+      })
+
+      moduleItem += 
+      `
+      <div class="module__wrapper--item mx-4">
+      <div class="header p-3" style="background-color: ${item.headerBgColor};">
+          <h4 class="text-light">${item.title}</h4>
+      </div>
+      <div class="body p-3" style="background-color: ${item.bgColor}">
+          <ul class="list-group mb-4">
+              ${li}
+          </ul>
+          <a href="${item.learnMoreURL}" class="footer text-light text-decoration-none">Learn More</a>
+        </div>
+      </div>
+      `
+    })
+    document.querySelector('.module__wrapper').innerHTML += moduleItem
+  })
+  .then(response => {
     $('.module__wrapper').slick({
       infinite: true,
       slidesToShow: 4,
@@ -116,14 +148,13 @@ function moduleSection(){
       prevArrow: false,
       variableWidth: true,
       variableHeight: true,
+      waitForAnimate: false,
       customPaging: function(slider,i){
         let dotsName = ['test1','test2','test3','test4','test5']
         return `<span class="dot">${dotsName[i]}</span>`
       }
     })
-
   })
-}
-moduleSection()
+
 
 

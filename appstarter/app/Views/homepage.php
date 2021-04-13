@@ -245,7 +245,6 @@
                     </svg>
 
                 </div>
-
             </div>
         </div>
 
@@ -282,103 +281,7 @@
 
         <div class="module">
             <h2 class="text-center mb-5">You can customize a solution <br> based on your industry</h2>
-            <div class="module__wrapper">
-                <div class="module__wrapper--item mx-4">
-                    <div class="header p-3" style="background-color: darkblue;">
-                        <h4>Property</h4>
-                    </div>
-                    <div class="body p-3" style="background-color: blue;">
-                        <ul class="list-group mb-4">
-                            <li class="list-inline">Inventory control</li>
-                            <li class="list-inline">Cost Control</li>
-                            <li class="list-inline">Finance & Accounting</li>
-                            <li class="list-inline">Logistic</li>
-                            <li class="list-inline">Tenant Complaint</li>
-                            <li class="list-inline">Multi Currency</li>
-                            <li class="list-inline">Multi Payment Term</li>
-                            <li class="list-inline">Automatic Billing Process</li>
-                            <li class="list-inline">Renewal Reminder</li>
-                        </ul>
-                        <a href="#" class="footer">Learn More</a>
-                    </div>
-                </div>
-                <div class="module__wrapper--item mx-4">
-                    <div class="header p-3" style="background-color: darkblue;">
-                        <h4>Property</h4>
-                    </div>
-                    <div class="body p-3" style="background-color: blue;">
-                        <ul class="list-group mb-4">
-                            <li class="list-inline">Inventory control</li>
-                            <li class="list-inline">Cost Control</li>
-                            <li class="list-inline">Finance & Accounting</li>
-                            <li class="list-inline">Logistic</li>
-                            <li class="list-inline">Tenant Complaint</li>
-                            <li class="list-inline">Multi Currency</li>
-                            <li class="list-inline">Multi Payment Term</li>
-                            <li class="list-inline">Automatic Billing Process</li>
-                            <li class="list-inline">Renewal Reminder</li>
-                        </ul>
-                        <a href="#" class="footer">Learn More</a>
-                    </div>
-                </div>
-                <div class="module__wrapper--item mx-4">
-                    <div class="header p-3" style="background-color: darkblue;">
-                        <h4>Property</h4>
-                    </div>
-                    <div class="body p-3" style="background-color: blue;">
-                        <ul class="list-group mb-4">
-                            <li class="list-inline">Inventory control</li>
-                            <li class="list-inline">Cost Control</li>
-                            <li class="list-inline">Finance & Accounting</li>
-                            <li class="list-inline">Logistic</li>
-                            <li class="list-inline">Tenant Complaint</li>
-                            <li class="list-inline">Multi Currency</li>
-                            <li class="list-inline">Multi Payment Term</li>
-                            <li class="list-inline">Automatic Billing Process</li>
-                            <li class="list-inline">Renewal Reminder</li>
-                        </ul>
-                        <a href="#" class="footer">Learn More</a>
-                    </div>
-                </div>
-                <div class="module__wrapper--item mx-4">
-                    <div class="header p-3" style="background-color: darkblue;">
-                        <h4>Property</h4>
-                    </div>
-                    <div class="body p-3" style="background-color: blue;">
-                        <ul class="list-group mb-4">
-                            <li class="list-inline">Inventory control</li>
-                            <li class="list-inline">Cost Control</li>
-                            <li class="list-inline">Finance & Accounting</li>
-                            <li class="list-inline">Logistic</li>
-                            <li class="list-inline">Tenant Complaint</li>
-                            <li class="list-inline">Multi Currency</li>
-                            <li class="list-inline">Multi Payment Term</li>
-                            <li class="list-inline">Automatic Billing Process</li>
-                            <li class="list-inline">Renewal Reminder</li>
-                        </ul>
-                        <a href="#" class="footer">Learn More</a>
-                    </div>
-                </div>
-                <div class="module__wrapper--item mx-4">
-                    <div class="header p-3" style="background-color: darkblue;">
-                        <h4>Property</h4>
-                    </div>
-                    <div class="body p-3" style="background-color: blue;">
-                        <ul class="list-group mb-4">
-                            <li class="list-inline">Inventory control</li>
-                            <li class="list-inline">Cost Control</li>
-                            <li class="list-inline">Finance & Accounting</li>
-                            <li class="list-inline">Logistic</li>
-                            <li class="list-inline">Tenant Complaint</li>
-                            <li class="list-inline">Multi Currency</li>
-                            <li class="list-inline">Multi Payment Term</li>
-                            <li class="list-inline">Automatic Billing Process</li>
-                            <li class="list-inline">Renewal Reminder</li>
-                        </ul>
-                        <a href="#" class="footer">Learn More</a>
-                    </div>
-                </div>
-            </div>
+            <div class="module__wrapper"></div>
         </div>
 
         <div class="feature">
