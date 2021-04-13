@@ -5,6 +5,13 @@
 .container-fluid {
   background-color: $cos-secondary-color;
   .product {
+    overflow: hidden;
+    .slidebar {
+      .arrow {
+        cursor: pointer;
+      }
+    }
+
     &__wrapper {
       z-index: 999;
     }
