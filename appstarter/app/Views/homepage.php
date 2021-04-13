@@ -18,11 +18,11 @@
     <div class="container-fluid">
         <div class="product row position-relative py-5  ">
             <div class="col-md-6 pb-5 position-relative">
-                <div class="product--text-bg">PMS</div>
+                <div class="product--text-bg"></div>
                 <div class="product__wrapper position-relative ps-5 w-75 m-auto">
-                    <img src="assets/bimasakti-logo.png" class="product--logo ">
-                    <h1 class="product--title">PROPERTY MANAGEMENT SYSTEM</h1>
-                    <p class="product--desc py-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?</p>
+                    <img src="" class="product--logo ">
+                    <h1 class="product--title"></h1>
+                    <p class="product--desc py-4 text-justify"></p>
                     <div class="product--rating row mb-4">
                         <div class="rate__wrapper shadow  d-flex justify-content-center p-3 m-3 col-md-5 rounded-2 align-items-center">
                             <div class="rate__wrapper--left me-3">
@@ -217,19 +217,19 @@
 
                         </div>
                     </div>
-                    <a href="#" class="btn btn--learn-more rounded-pill text-light px-5 py-2">LEARN MORE</a>
+                    <a href="" class="btn btn--learn-more rounded-pill text-light px-5 py-2">LEARN MORE</a>
                 </div>
             </div>
             <div class="col-md-6 position-relative">
-                <img src="assets/Group 18.png" class="phone-img">
+                <img src="" class="phone-img">
                 <img src="assets/mobile-slider-bg.png" class="bg">
             </div>
             <div class="slidebar w-75 m-auto py-3">
                 <div class="slidebar--arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20.855" height="20.327" viewBox="0 0 20.855 20.327">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.855" height="20.327" viewBox="0 0 20.855 20.327" class="arrow arrow-left" data-value="0">
                         <path id="Icon_awesome-arrow-left" data-name="Icon awesome-arrow-left" d="M11.985,21.613l-1.033,1.033a1.113,1.113,0,0,1-1.578,0L.325,13.6a1.113,1.113,0,0,1,0-1.578L9.373,2.975a1.113,1.113,0,0,1,1.578,0l1.033,1.033a1.118,1.118,0,0,1-.019,1.6L6.357,10.949H19.735a1.114,1.114,0,0,1,1.117,1.117v1.489a1.114,1.114,0,0,1-1.117,1.117H6.357l5.609,5.344A1.11,1.11,0,0,1,11.985,21.613Z" transform="translate(0.004 -2.647)" fill="#bdc3ca" />
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20.855" height="20.327" viewBox="0 0 20.855 20.327">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20.855" height="20.327" viewBox="0 0 20.855 20.327" class="arrow arrow-right" data-value="1">
                         <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M8.867,4.009,9.9,2.975a1.113,1.113,0,0,1,1.578,0l9.049,9.044a1.113,1.113,0,0,1,0,1.578l-9.049,9.049a1.113,1.113,0,0,1-1.578,0L8.867,21.613a1.118,1.118,0,0,1,.019-1.6l5.609-5.344H1.117A1.114,1.114,0,0,1,0,13.555V12.066a1.114,1.114,0,0,1,1.117-1.117H14.495L8.886,5.605A1.11,1.11,0,0,1,8.867,4.009Z" transform="translate(0 -2.647)" fill="#bdc3ca" />
                     </svg>
 
