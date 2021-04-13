@@ -289,10 +289,17 @@
       width: 400px !important;
       z-index: 9999; }
     .container-fluid .feature--card {
-      background-color: #ffffff;
-      border-radius: 15px; }
-      .container-fluid .feature--card .header img {
-        width: 10%; }
+      cursor: pointer;
+      border-radius: 15px;
+      background-color: #ffffff; }
+      .container-fluid .feature--card .header {
+        padding: 15px; }
+        .container-fluid .feature--card .header img {
+          width: 10%; }
+      .container-fluid .feature--card .body {
+        background-color: #ffffff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; }
     .container-fluid .feature .col-md-6:nth-child(2) {
       min-height: 150vh; }
       .container-fluid .feature .col-md-6:nth-child(2) .bg {

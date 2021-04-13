@@ -141,13 +141,22 @@
       z-index: 9999;
     }
     &--card {
-      background-color: #ffffff;
+      cursor: pointer;
       border-radius: $cos-border-size;
+      background-color: #ffffff;
 
       .header {
+        padding: 15px;
+
         img {
           width: 10%;
         }
+      }
+
+      .body {
+        background-color: #ffffff;
+        border-bottom-left-radius: $cos-border-size;
+        border-bottom-right-radius: $cos-border-size;
       }
     }
 

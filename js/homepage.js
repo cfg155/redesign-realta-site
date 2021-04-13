@@ -1,4 +1,4 @@
-import $ from 'jquery';
+import $, { data } from 'jquery';
 import slick from 'slick-carousel'
 import "@babel/polyfill";
 
@@ -162,6 +162,46 @@ fetchAPI(API_URL)
       }
     })
   })
+
+  // Feature Section
+  fetchAPI(API_URL)
+    .then(response => {
+      let data = response[3].featureSection
+
+      let card = ''
+      data.forEach(item => {
+        card += 
+        `
+        <div class="feature--card mb-3">
+          <div class="header d-flex align-items-center">
+            <img src="${item.imgURL}" class="me-2">
+            <h4>${item.title}</h4>
+          </div>
+          <p class="body text-justify">${item.desc}</p>
+        </div>
+        `
+      })
+      document.querySelector('.feature__wrapper--cards').innerHTML = card
+
+      // init variables
+      let cardContainer = document.querySelectorAll('.feature--card')
+      let cardDesc = document.querySelectorAll('.feature--card .body')
+
+      console.log(cardDesc)
+
+      cardDesc.forEach((item,index) => {
+        if(index === 0){
+          item.style.minHeight = item.scrollHeight + 'px'
+          item.style.padding = '20px'
+        }else{
+          item.style.maxHeight = '0'
+          item.style.padding = '0'
+          item.style.overflow = 'hidden'
+        }
+
+      })
+    })
+
 
 
 

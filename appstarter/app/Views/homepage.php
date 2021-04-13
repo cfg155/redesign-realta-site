@@ -287,48 +287,8 @@
         <div class="feature">
             <h2 class="feature--title text-center">How Can We Help?</h2>
             <div class="feature__wrapper row d-flex align-items-center">
-                <div class="col-md-6 m-auto position-relative">
-                    <div class="feature--card p-3 mb-3">
-                        <div class="header d-flex align-items-center pb-3">
-                            <img src="assets/cloud-system.png" class="me-2">
-                            <h4>Title 1</h4>
-                        </div>
-                        <div class="body text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit.
-                        </div>
-                    </div>
+                <div class="col-md-6 m-auto position-relative feature__wrapper--cards">
 
-                    <div class="feature--card p-3 mb-3">
-                        <div class="header d-flex align-items-center pb-3">
-                            <img src="assets/cloud-system.png" class="me-2">
-                            <h4>Title 2</h4>
-                        </div>
-                        <div class="body text-justify"></div>
-                    </div>
-
-                    <div class="feature--card p-3 mb-3">
-                        <div class="header d-flex align-items-center pb-3">
-                            <img src="assets/cloud-system.png" class="me-2">
-                            <h4>Title 3</h4>
-                        </div>
-                        <div class="body text-justify"></div>
-                    </div>
-
-                    <div class="feature--card p-3 mb-3">
-                        <div class="header d-flex align-items-center pb-3">
-                            <img src="assets/cloud-system.png" class="me-2">
-                            <h4>Title 4</h4>
-                        </div>
-                        <div class="body text-justify"></div>
-                    </div>
-
-                    <div class="feature--card p-3 mb-3">
-                        <div class="header d-flex align-items-center pb-3">
-                            <img src="assets/cloud-system.png" class="me-2">
-                            <h4>Title 5</h4>
-                        </div>
-                        <div class="body text-justify"></div>
-                    </div>
                 </div>
                 <div class="col-md-6 position-relative">
                     <img src="assets/mobile-variation-bg.png" class="bg">
