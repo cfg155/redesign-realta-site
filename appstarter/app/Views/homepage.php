@@ -279,7 +279,7 @@
 
         </div>
 
-        <div class="module">
+        <div class="module py-5">
             <h2 class="text-center mb-5">You can customize a solution <br> based on your industry</h2>
             <div class="module__wrapper"></div>
         </div>

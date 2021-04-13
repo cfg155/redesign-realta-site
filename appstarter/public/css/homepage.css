@@ -275,8 +275,14 @@
         margin: 0 20px; }
     .container-fluid .module__wrapper--item {
       width: 250px !important; }
+      .container-fluid .module__wrapper--item .header {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; }
       .container-fluid .module__wrapper--item .body {
         height: 250px; }
+      .container-fluid .module__wrapper--item .footer {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px; }
   .container-fluid .feature {
     overflow: hidden; }
     .container-fluid .feature .col-md-6:nth-child(1) {

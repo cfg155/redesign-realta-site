@@ -118,8 +118,16 @@
 
       &--item {
         width: 250px !important;
+        .header {
+          border-top-left-radius: $cos-border-size;
+          border-top-right-radius: $cos-border-size;
+        }
         .body {
           height: 250px;
+        }
+        .footer {
+          border-bottom-left-radius: $cos-border-size;
+          border-bottom-right-radius: $cos-border-size;
         }
       }
     }

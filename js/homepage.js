@@ -155,6 +155,7 @@ fetchAPI(API_URL)
       variableWidth: true,
       variableHeight: true,
       waitForAnimate: false,
+      cssEase:'linear',
       customPaging: function(slider,i){
         // let dotsName = ['test1','test2','test3','test4','test5']
         return `<span class="dot">${response[i].title}</span>`
