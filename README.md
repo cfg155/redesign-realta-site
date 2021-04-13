@@ -8,5 +8,6 @@ Requirement & Download
 # Step Installation
 
 1. Jika belum memiliki folder project maka bisa dibuatkan dulu foldernya dan klik kanan dan klik "gitbash here", maka akan menampilkan tampilan layar hitam seperti command prompt lalu ketikan "git clone https://github.com/cfg155/redesign-realta-site.git".
-2. Jika sudah melakukan clone maka masuk ke folder dan lakukan klik kanan dan "githbash here" lalu ketik command "php spark serve"
-3. untuk mengakses halaman website buka broser dan ketikan url localhost:8080
+2. Jika sudah melakukan clone maka masuk ke folder dan klik kanan gitbash, ketikan command "npm install"
+3. Setelah proses "npm i" selesai maka masuk ke folder appstart dan kembalik klik kanan "gitbash here" untuk mengetik "php spark serve"
+4. Buka Browser ketikan url localhost:8080 pada url
