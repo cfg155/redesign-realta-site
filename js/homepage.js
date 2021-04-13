@@ -52,15 +52,10 @@ productSection('./json/homepage.json')
       setTimeout(() => {        
         if(this.getAttribute('data-value') == '1'){
           index++
-          if(index > data.length-1){
-            index = 0
-          }
-            
-          }else {
+          if(index > data.length-1) index = 0
+        }else {
             index--
-            if(index < 0){
-              index = data.length-1
-            }
+            if(index < 0) index = data.length-1
           }
 
         setVal(index)
@@ -75,8 +70,6 @@ productSection('./json/homepage.json')
         productChildren[1].style.transform = 'translateX(0)'
         productChildren[1].style.transition = 'transform 1s, opacity 1s'
       }, 1000);
-
-
     }
 
     // init click function
@@ -88,7 +81,7 @@ productSection('./json/homepage.json')
 
 function clientSection(){
   $(document).ready(function(){
-    $('.client').slick({
+    $('.client__wrapper').slick({
       slidesToShow: 4,
       autoplay: true,
       autoplaySpeed: 0,

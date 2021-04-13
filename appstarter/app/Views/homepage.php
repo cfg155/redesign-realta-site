@@ -16,7 +16,7 @@
     <?= $this->include('layout/component/navbar'); ?>
 
     <div class="container-fluid">
-        <div class="product row position-relative py-5  ">
+        <div class="product row position-relative pt-5  ">
             <div class="col-md-6 pb-5 position-relative">
                 <div class="product--text-bg"></div>
                 <div class="product__wrapper position-relative ps-5 w-75 m-auto">
@@ -237,31 +237,35 @@
             </div>
         </div>
 
-        <div class="client d-flex">
-            <div class="client__item">
-                <img src="assets/sera-logo.png" class="p-3 mb-3">
-                <img src="assets/wyeth-logo.png" class="p-3">
+        <div class="client pb-5">
+            <h2 class="text-center py-5">We build solutions <br>that these companies run</h2>
+            <div class="client__wrapper  d-flex">
+                <div class="client__item">
+                    <img src="assets/sera-logo.png" class="p-3 mb-3">
+                    <img src="assets/wyeth-logo.png" class="p-3">
+                </div>
+                <div class="client__item">
+                    <img src="assets/bca-logo.png" class="p-3 mb-3">
+                    <img src="assets/astra-logo.png" class="p-3">
+                </div>
+                <div class="client__item">
+                    <img src="assets/btn-logo.png" class="p-3 mb-3">
+                    <img src="assets/kpc-logo.png" class="p-3">
+                </div>
+                <div class="client__item">
+                    <img src="assets/indofood-logo.png" class="p-3 mb-3">
+                    <img src="assets/mazda-logo.png" class="p-3">
+                </div>
+                <div class="client__item">
+                    <img src="assets/kalbe-logo.png" class="p-3 mb-3">
+                    <img src="assets/summarecon-logo.png" class="p-3">
+                </div>
+                <div class="client__item">
+                    <img src="assets/yamaha-logo.png" class="p-3 mb-3">
+                    <img src="assets/sampoerna-logo.png" class="p-3">
+                </div>
             </div>
-            <div class="client__item">
-                <img src="assets/bca-logo.png" class="p-3 mb-3">
-                <img src="assets/astra-logo.png" class="p-3">
-            </div>
-            <div class="client__item">
-                <img src="assets/btn-logo.png" class="p-3 mb-3">
-                <img src="assets/kpc-logo.png" class="p-3">
-            </div>
-            <div class="client__item">
-                <img src="assets/indofood-logo.png" class="p-3 mb-3">
-                <img src="assets/mazda-logo.png" class="p-3">
-            </div>
-            <div class="client__item">
-                <img src="assets/kalbe-logo.png" class="p-3 mb-3">
-                <img src="assets/summarecon-logo.png" class="p-3">
-            </div>
-            <div class="client__item">
-                <img src="assets/yamaha-logo.png" class="p-3 mb-3">
-                <img src="assets/sampoerna-logo.png" class="p-3">
-            </div>
+
         </div>
 
         <div class="module">
