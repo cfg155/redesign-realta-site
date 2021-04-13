@@ -46,6 +46,60 @@
         ]
     },
     {
-        "client-section" : ""
+        "clientSection" : ""
+    },
+    {
+        "moduleSection" : [
+            {
+                "title" : "Property",
+                "listItem" : ["Inventory Control","Cost Control","Finance & Accounting","Logistic","Tenant Complaint","multi Currency","Multi Payment Term","Automatic Billing Process","Renewal Reminder"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#0E4EAC",
+                "headerBgColor" : "#09397F"
+            },
+            {
+                "title" : "People",
+                "listItem" : ["Mobile Attendance","Payroll","Medical & Loan","Personel","Recruitment","Job Comptency","Training","Performance Appraisal","Human Capital Analysis"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#EC008B",
+                "headerBgColor" : "#B30169"
+            },
+            {
+                "title" : "Manufacturing",
+                "listItem" : ["Industry ERP","Core Financials","Performance Management","Risk & Compliance","Reduce Costs","Supply Chain Managemeny"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#144788",
+                "headerBgColor" : "#0D2E57"
+            },
+            {
+                "title" : "IT Service & Asset",
+                "listItem" : ["Asset Manager","Service Manager","Supply Chain","Endpoint Management","Security","Monitoring Dashboard"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#DF3319",
+                "headerBgColor" : "#AE2712"
+            },
+            {
+                "title" : "Solutions Covid-19",
+                "listItem" : ["Asset Manager","Service Manager","Supply Chain","Endpoint Management","Security","Monitoring Dashboard"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#9EC9DB",
+                "headerBgColor" : "#7595A3"
+            },
+            {
+                "title" : "Hospitality",
+                "listItem" : ["3+ Stars Hotel","Front & Back Office","Logistic","Mobile Taking Order","Mobile Check-in","Golf Course Management","Restaurant & Bar","Banquet","Budget & Business Hotel"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#99358D",
+                "headerBgColor" : "#800B72"
+            },
+            {
+                "title" : "Golf Course",
+                "listItem" : ["Mobile Attendance","Payroll","Medical & Loan","Personel","Recruitment","Job Competency","Training","Performance Appraisal","Human Capital Analysis"],
+                "learnMoreURL" : "#",
+                "bgColor" : "#0E4EAC",
+                "headerBgColor" : "#09397F"
+            }
+
+        ]
     }
 ]
