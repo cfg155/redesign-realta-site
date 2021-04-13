@@ -299,7 +299,8 @@
       .container-fluid .feature--card .body {
         background-color: #ffffff;
         border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px; }
+        border-bottom-right-radius: 15px;
+        overflow: hidden; }
     .container-fluid .feature .col-md-6:nth-child(2) {
       min-height: 150vh; }
       .container-fluid .feature .col-md-6:nth-child(2) .bg {

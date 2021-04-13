@@ -185,20 +185,33 @@ fetchAPI(API_URL)
 
       // init variables
       let cardContainer = document.querySelectorAll('.feature--card')
-      let cardDesc = document.querySelectorAll('.feature--card .body')
 
-      console.log(cardDesc)
+      console.log(cardContainer)
 
-      cardDesc.forEach((item,index) => {
+      cardContainer.forEach((item,index) => {
         if(index === 0){
-          item.style.minHeight = item.scrollHeight + 'px'
-          item.style.padding = '20px'
-        }else{
-          item.style.maxHeight = '0'
-          item.style.padding = '0'
-          item.style.overflow = 'hidden'
+          item.setAttribute('data-isCollapsed','true')
+          item.lastElementChild.style.padding = '20px 20px'
+          item.lastElementChild.style.maxHeight = item.lastElementChild.scrollHeight + 'px'
+        }else {
+          item.lastElementChild.style.padding = '0 20px'
+          item.lastElementChild.style.maxHeight = '0'
         }
+      })
 
+      cardContainer.forEach((item,index) => {
+        item.addEventListener('click',()=>{
+          for(let i=0;i<cardContainer.length;i++){
+            cardContainer[i].lastElementChild.style.maxHeight = '0'
+            cardContainer[i].lastElementChild.style.padding = '0 20px'
+            cardContainer[i].lastElementChild.style.transition = 'max-height 1s, padding 1s'
+          }
+
+
+          item.lastElementChild.style.maxHeight = (item.lastElementChild.scrollHeight + 40) + 'px'
+          item.lastElementChild.style.padding = '20px 20px'
+          item.lastElementChild.style.transition = 'max-height 1s, padding 1s'
+        })
       })
     })
 
