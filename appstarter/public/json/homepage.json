@@ -18,7 +18,7 @@
             },            
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
+                    "textBg": "PMS2",
                     "logoURL" : "assets/bimasakti-logo.png",
                     "title" : "PROPERTY MANAGEMENT SYSTEM",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
@@ -31,7 +31,7 @@
             },
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
+                    "textBg": "PMS3",
                     "logoURL" : "assets/bimasakti-logo.png",
                     "title" : "PROPERTY MANAGEMENT SYSTEM",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
