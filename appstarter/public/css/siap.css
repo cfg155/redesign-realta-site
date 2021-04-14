@@ -227,17 +227,24 @@
   .container-fluid .testimonial--cards .testi-card {
     min-width: 200px; }
     .container-fluid .testimonial--cards .testi-card .header {
-      height: 350px;
       position: relative; }
       .container-fluid .testimonial--cards .testi-card .header img {
         max-width: 200px;
         height: 100%;
+        position: relative;
+        z-index: 9999; }
+      .container-fluid .testimonial--cards .testi-card .header .white-bg {
+        width: 100%;
+        height: 50%;
         position: absolute;
-        top: 80px; }
+        background-color: #ffffff;
+        bottom: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; }
     .container-fluid .testimonial--cards .testi-card .body {
       background-color: #ffffff;
-      padding-top: 100px !important;
-      border-radius: 15px; }
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; }
   .container-fluid .module .col-md-4:nth-child(1) .module--item img {
     width: 50px;
     margin: 20px 0; }
@@ -249,20 +256,28 @@
     width: 50px;
     margin: 20px 0; }
   .container-fluid .feature__wrapper--item {
-    position: relative; }
-    .container-fluid .feature__wrapper--item .logo {
-      width: 75px;
-      height: 75px;
-      background-color: orange;
-      border-radius: 15px;
-      position: absolute;
-      top: -30px;
-      left: 60px; }
+    width: 350px; }
+    .container-fluid .feature__wrapper--item .header {
+      position: relative; }
+      .container-fluid .feature__wrapper--item .header .logo {
+        width: 75px;
+        height: 75px;
+        background-color: orange;
+        position: relative;
+        z-index: 9999;
+        border-radius: 15px; }
+      .container-fluid .feature__wrapper--item .header .white-bg {
+        width: 100%;
+        height: 25px;
+        position: absolute;
+        background-color: #ffffff;
+        bottom: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px; }
     .container-fluid .feature__wrapper--item .body {
       background-color: #ffffff;
-      padding-top: 50px !important;
-      font-size: 0.8em;
-      border-radius: 15px; }
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; }
       .container-fluid .feature__wrapper--item .body .btn-learn {
         background-color: #5d2e8f; }
   .container-fluid .company img {

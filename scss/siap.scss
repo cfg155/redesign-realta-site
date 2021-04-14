@@ -45,20 +45,29 @@
     .testi-card {
       min-width: 200px;
       .header {
-        height: 350px;
         position: relative;
         img {
           max-width: 200px;
           height: 100%;
+          position: relative;
+          z-index: 9999;
+        }
+
+        .white-bg {
+          width: 100%;
+          height: 50%;
           position: absolute;
-          top: 80px;
+          background-color: #ffffff;
+          bottom: 0;
+          border-top-left-radius: $cos-border-size;
+          border-top-right-radius: $cos-border-size;
         }
       }
 
       .body {
         background-color: #ffffff;
-        padding-top: 100px !important;
-        border-radius: $cos-border-size;
+        border-bottom-left-radius: $cos-border-size;
+        border-bottom-right-radius: $cos-border-size;
       }
     }
   }
@@ -97,24 +106,34 @@
   .feature {
     &__wrapper {
       &--item {
-        // background-color: red;
-        position: relative;
+        width: 350px;
+        .header {
+          position: relative;
 
-        .logo {
-          width: 75px;
-          height: 75px;
-          background-color: orange;
-          border-radius: $cos-border-size;
-          position: absolute;
-          top: -30px;
-          left: 60px;
+          .logo {
+            width: 75px;
+            height: 75px;
+            background-color: orange;
+            position: relative;
+            z-index: 9999;
+            border-radius: $cos-border-size;
+          }
+
+          .white-bg {
+            width: 100%;
+            height: 25px;
+            position: absolute;
+            background-color: #ffffff;
+            bottom: 0;
+            border-top-left-radius: $cos-border-size;
+            border-top-right-radius: $cos-border-size;
+          }
         }
 
         .body {
           background-color: #ffffff;
-          padding-top: 50px !important;
-          font-size: 0.8em;
-          border-radius: $cos-border-size;
+          border-bottom-left-radius: $cos-border-size;
+          border-bottom-right-radius: $cos-border-size;
           .btn-learn {
             background-color: $cos-primary-color;
           }

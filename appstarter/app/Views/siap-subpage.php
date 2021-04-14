@@ -429,8 +429,9 @@
                     <div class="testi-card col-lg-4">
                         <div class="header d-flex justify-content-center">
                             <img src="assets/Group 262.png">
+                            <div class="white-bg"></div>
                         </div>
-                        <div class="body pb-3 px-3">
+                        <div class="body py-3 px-3">
                             <h4>OPERASIONAL YANG EFEKTIF</h4>
                             <p>Serahkan pekerjaan Anda ke SIstem, SIAP+p meningkatkan produktifitas karyawan menggunkan aplikasi seluler</p>
                         </div>
@@ -438,17 +439,19 @@
                     <div class="testi-card col-lg-4">
                         <div class="header d-flex justify-content-center">
                             <img src="assets/Group 262.png">
+                            <div class="white-bg"></div>
                         </div>
-                        <div class="body pb-3 px-3">
-                            <h4>Adaptif Terhadap Peraturan</h4>
-                            <p>SIAP+P memastikan sistem Anda mengikuti peraturan Pemerintah terbaru dengan pembaruan gratis</p>
+                        <div class="body py-3 px-3">
+                            <h4>OPERASIONAL YANG EFEKTIF</h4>
+                            <p>Serahkan pekerjaan Anda ke SIstem, SIAP+p meningkatkan produktifitas karyawan menggunkan aplikasi seluler</p>
                         </div>
                     </div>
                     <div class="testi-card col-lg-4">
                         <div class="header d-flex justify-content-center">
                             <img src="assets/Group 262.png">
+                            <div class="white-bg"></div>
                         </div>
-                        <div class="body pb-3 px-3">
+                        <div class="body py-3 px-3">
                             <h4>OPERASIONAL YANG EFEKTIF</h4>
                             <p>Serahkan pekerjaan Anda ke SIstem, SIAP+p meningkatkan produktifitas karyawan menggunkan aplikasi seluler</p>
                         </div>
@@ -502,28 +505,37 @@
             </div>
 
             <div class="feature">
-                <h2 class="text-center">Features</h2>
-                <div class="feature__wrapper row">
-                    <div class="feature__wrapper--item col-lg-4 m-4">
-                        <div class="logo"></div>
-                        <div class="body p-5">
-                            <h5 class="py-3">Attendance</h5>
+                <h2 class="text-center py-5">Features</h2>
+                <div class="feature__wrapper row d-flex justify-content-center">
+                    <div class="feature__wrapper--item col-lg-4 m-2">
+                        <div class="header">
+                            <div class="logo ms-4"></div>
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body p-4">
+                            <h5 class="">Attendance</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
                             <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
                         </div>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-4">
-                        <div class="logo"></div>
-                        <div class="body p-5">
-                            <h5 class="py-3">Attendance</h5>
+                    <div class="feature__wrapper--item col-lg-4 m-2">
+                        <div class="header">
+                            <div class="logo ms-4"></div>
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body p-4">
+                            <h5 class="">Attendance</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
                             <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
                         </div>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-4">
-                        <div class="logo"></div>
-                        <div class="body p-5">
-                            <h5 class="py-3">Attendance</h5>
+                    <div class="feature__wrapper--item col-lg-4 m-2">
+                        <div class="header">
+                            <div class="logo ms-4"></div>
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body p-4">
+                            <h5 class="">Attendance</h5>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
                             <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
                         </div>
