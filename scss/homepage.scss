@@ -180,6 +180,13 @@
       }
     }
   }
+
+  .promo {
+    &__desc {
+      width: 400px;
+    }
+  }
+
   .about {
     &__wrapper {
       background-color: #ffffff !important;

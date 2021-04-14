@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/homepage.css">
-    <!-- Fetch Homepage API -->
-    <!-- <script src="./js/homepageAPI.js"></script> -->
 </head>
 
 <body>
@@ -297,11 +295,13 @@
 
         <div class="promo row">
             <div class="col-md-6">
-                <h2>Integrate Seamlessly</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.</p>
-                <video width="320" height="240" autoplay>
-                    <source src="#">
-                </video>
+                <div class="promo__desc m-auto">
+                    <h2>Integrate Seamlessly</h2>
+                    <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.</p>
+                    <video width="320" height="240" autoplay>
+                        <source src="#">
+                    </video>
+                </div>
             </div>
             <div class="col-md-6">
                 <!-- Empty -->

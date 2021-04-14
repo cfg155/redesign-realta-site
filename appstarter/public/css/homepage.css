@@ -314,6 +314,8 @@
         top: 25%;
         left: 50%;
         transform: translate(-50%, -25%); }
+  .container-fluid .promo__desc {
+    width: 400px; }
   .container-fluid .about__wrapper {
     background-color: #ffffff !important;
     border-top-left-radius: 15px;
