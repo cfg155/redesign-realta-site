@@ -9,7 +9,9 @@
     "watch-homepage": "watchify ./js/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
     "build-solution": "browserify ./js/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
     "watch-solution": "watchify ./js/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v",
-    "build-bs5": "browserify -r  bootstrap > ./appstarter/public/js/bs.js --plugin tinyify"
+    "build-siap": "browserify ./js/siap.js > ./appstarter/public/js/siap.js -t babelify --plugin tinyify",
+    "watch-siap": "watchify ./js/siap.js -o ./appstarter/public/js/siap.js -t babelify -d -v"
+
   },
   "repository": {
     "type": "git",

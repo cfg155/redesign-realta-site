@@ -502,11 +502,178 @@
             </div>
 
             <div class="feature">
+                <h2 class="text-center">Features</h2>
+                <div class="feature__wrapper row">
+                    <div class="feature__wrapper--item col-lg-4 m-4">
+                        <div class="logo"></div>
+                        <div class="body p-5">
+                            <h5 class="py-3">Attendance</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="feature__wrapper--item col-lg-4 m-4">
+                        <div class="logo"></div>
+                        <div class="body p-5">
+                            <h5 class="py-3">Attendance</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
+                        </div>
+                    </div>
+                    <div class="feature__wrapper--item col-lg-4 m-4">
+                        <div class="logo"></div>
+                        <div class="body p-5">
+                            <h5 class="py-3">Attendance</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="company">
+                <div class="row">
+                    <div class="col-md-12 row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <h4>Yakult</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos culpa rem doloribus fugiat, sit vel minus labore commodi tempora?<br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores ea omnis iusto cumque ipsam consequatur placeat necessitatibus provident laborum!
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/makesumo-doKatAORoIs-unsplash.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <img src="assets/makesumo-doKatAORoIs-unsplash.png" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Yakult</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos culpa rem doloribus fugiat, sit vel minus labore commodi tempora?<br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores ea omnis iusto cumque ipsam consequatur placeat necessitatibus provident laborum!
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <h4>Yakult</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos culpa rem doloribus fugiat, sit vel minus labore commodi tempora?<br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores ea omnis iusto cumque ipsam consequatur placeat necessitatibus provident laborum!
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/makesumo-doKatAORoIs-unsplash.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="client">
+            <h2 class="title text-center py-5">What Our Client Say</h2>
+            <div class=" client__wrapper d-flex">
+                <div class="client-card">
+                    <div class="card-container">
+                        <div class="header d-flex justify-content-center">
+                            <img src="assets/WhatsApp Image 2020-12-03 at 3.25.35 PM.png" alt="">
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse est dolor accusantium quasi molestiae maiores, eligendi neque quae minima nulla optio, nesciunt, quam autem aliquid vero quod? Nam, tenetur et!</p>
+                            <span class="d-block w-100 text-center">NAME JOB TITLE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-card">
+                    <div class="card-container">
+                        <div class="header d-flex justify-content-center">
+                            <img src="assets/WhatsApp Image 2020-12-03 at 3.25.35 PM.png" alt="">
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse est dolor accusantium quasi molestiae maiores, eligendi neque quae minima nulla optio, nesciunt, quam autem aliquid vero quod? Nam, tenetur et!</p>
+                            <span class="d-block w-100 text-center">NAME JOB TITLE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-card">
+                    <div class="card-container">
+                        <div class="header d-flex justify-content-center">
+                            <img src="assets/WhatsApp Image 2020-12-03 at 3.25.35 PM.png" alt="">
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse est dolor accusantium quasi molestiae maiores, eligendi neque quae minima nulla optio, nesciunt, quam autem aliquid vero quod? Nam, tenetur et!</p>
+                            <span class="d-block w-100 text-center">NAME JOB TITLE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-card">
+                    <div class="card-container">
+                        <div class="header d-flex justify-content-center">
+                            <img src="assets/WhatsApp Image 2020-12-03 at 3.25.35 PM.png" alt="">
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse est dolor accusantium quasi molestiae maiores, eligendi neque quae minima nulla optio, nesciunt, quam autem aliquid vero quod? Nam, tenetur et!</p>
+                            <span class="d-block w-100 text-center">NAME JOB TITLE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-card">
+                    <div class="card-container">
+                        <div class="header d-flex justify-content-center">
+                            <img src="assets/WhatsApp Image 2020-12-03 at 3.25.35 PM.png" alt="">
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse est dolor accusantium quasi molestiae maiores, eligendi neque quae minima nulla optio, nesciunt, quam autem aliquid vero quod? Nam, tenetur et!</p>
+                            <span class="d-block w-100 text-center">NAME JOB TITLE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-card">
+                    <div class="card-container">
+                        <div class="header d-flex justify-content-center">
+                            <img src="assets/WhatsApp Image 2020-12-03 at 3.25.35 PM.png" alt="">
+                            <div class="white-bg"></div>
+                        </div>
+                        <div class="body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse est dolor accusantium quasi molestiae maiores, eligendi neque quae minima nulla optio, nesciunt, quam autem aliquid vero quod? Nam, tenetur et!</p>
+                            <span class="d-block w-100 text-center">NAME JOB TITLE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-75 m-auto">
+            <div class="contact py-5">
+                <h2 class="text-center py-5">Ready to Achieve Outstanding Performance?</h2>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12 row mb-4">
+                                <div class="col-md-6">Give us a Call</div>
+                                <div class="col-md-6"><span class="rounded-pill purple text-light px-4 py-2">+62 21- 386 1772</span></div>
+                            </div>
+                            <div class="col-md-12 row">
+                                <div class="col-md-6">Request Demo</div>
+                                <div class="col-md-6"><span class="rounded-pill purple text-light px-4 py-2">CONTACT US</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Video -->
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Include Footer -->
         <?= $this->include('layout/component/footer'); ?>
+    </div>
 </body>
 
 </html>
+
+<script src="js/siap.js"></script>

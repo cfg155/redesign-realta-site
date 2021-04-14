@@ -116,7 +116,6 @@
                             <div class="rate__wrapper--right text-center ">
                                 <span>35<br>year</span>
                             </div>
-
                         </div>
                         <div class="rate__wrapper shadow  d-flex justify-content-center p-3 m-3 col-md-5 rounded-2 align-items-center">
                             <div class="rate__wrapper--left me-3">
