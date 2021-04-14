@@ -8,4 +8,9 @@ class Solution extends BaseController
     {
         return view('solution');
     }
+
+    public function siap()
+    {
+        return view('siap-subpage');
+    }
 }

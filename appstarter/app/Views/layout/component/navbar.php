@@ -12,7 +12,7 @@
                         <li class="me-3 position-relative"><a href="<?php echo base_url('/solution') ?>" class="current text-decoration-none text-dark">SOLUTIONS</a>
                             <div class="dropdown d-flex position-absolute start-0 justify-content-between border border-1 p-3">
                                 <ul class="list-inline me-5 text-nowrap">
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">HR Information System</a></li>
+                                    <li><a href="<?php echo base_url('/siap') ?>" class="text-decoration-none text-dark d-block p-2">HR Information System</a></li>
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">Property Management System</a></li>
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">Hospitality Management System</a></li>
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">Golf Course Management Syste,</a></li>

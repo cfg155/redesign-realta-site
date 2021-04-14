@@ -1,0 +1,43 @@
+.container-fluid {
+  background-color: #f3f3f3; }
+  .container-fluid .siap-banner img {
+    width: 200px; }
+  .container-fluid .siap-banner--rating .rate__wrapper {
+    background-color: #ffffff;
+    border-radius: 15px !important;
+    width: 200px; }
+    .container-fluid .siap-banner--rating .rate__wrapper--left {
+      font-size: 0.7em; }
+    .container-fluid .siap-banner--rating .rate__wrapper--right {
+      font-size: 1.5em;
+      line-height: 20px; }
+      .container-fluid .siap-banner--rating .rate__wrapper--right img {
+        max-width: 50px; }
+  .container-fluid .siap-demo img {
+    width: 300px; }
+  .container-fluid .siap-demo .btn--demo {
+    background-color: #5d2e8f; }
+  .container-fluid .testimonial--cards .testi-card {
+    min-width: 200px; }
+    .container-fluid .testimonial--cards .testi-card .header {
+      height: 350px;
+      position: relative; }
+      .container-fluid .testimonial--cards .testi-card .header img {
+        max-width: 200px;
+        height: 100%;
+        position: absolute;
+        top: 80px; }
+    .container-fluid .testimonial--cards .testi-card .body {
+      background-color: #ffffff;
+      padding-top: 100px !important;
+      border-radius: 15px; }
+  .container-fluid .module .col-md-4:nth-child(1) .module--item img {
+    width: 50px;
+    margin: 20px 0; }
+  .container-fluid .module .col-md-4:nth-child(2) .module--item img {
+    width: 220px; }
+  .container-fluid .module .col-md-4:nth-child(2) .module--item a {
+    background-color: #5d2e8f; }
+  .container-fluid .module .col-md-4:nth-child(3) .module--item img {
+    width: 50px;
+    margin: 20px 0; }

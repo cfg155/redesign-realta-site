@@ -1,0 +1,93 @@
+@import "mixins", "variables";
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+  .siap-banner {
+    img {
+      width: 200px;
+    }
+    &--rating {
+      .rate__wrapper {
+        background-color: #ffffff;
+        border-radius: $cos-border-size !important;
+        width: 200px;
+
+        &--left {
+          font-size: 0.7em;
+        }
+
+        &--right {
+          font-size: 1.5em;
+          line-height: 20px;
+
+          img {
+            max-width: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  .siap-demo {
+    img {
+      width: 300px;
+    }
+
+    .btn--demo {
+      background-color: $cos-primary-color;
+    }
+  }
+
+  .testimonial--cards {
+    .testi-card {
+      min-width: 200px;
+      .header {
+        height: 350px;
+        position: relative;
+        img {
+          max-width: 200px;
+          height: 100%;
+          position: absolute;
+          top: 80px;
+        }
+      }
+
+      .body {
+        background-color: #ffffff;
+        padding-top: 100px !important;
+        border-radius: $cos-border-size;
+      }
+    }
+  }
+
+  .module {
+    .col-md-4:nth-child(1) {
+      .module--item {
+        img {
+          width: 50px;
+          margin: 20px 0;
+        }
+      }
+    }
+
+    .col-md-4:nth-child(2) {
+      .module--item {
+        img {
+          width: 220px;
+        }
+        a {
+          background-color: $cos-primary-color;
+        }
+      }
+    }
+
+    .col-md-4:nth-child(3) {
+      .module--item {
+        img {
+          width: 50px;
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}

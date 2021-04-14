@@ -33,9 +33,11 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/solution', 'Solution::index');
+$routes->get('/siap', 'Solution::siap');
 $routes->get('/blog', 'Blog::index');
 $routes->get('/blog/detail/(:segment)', 'Blog::detail/$1');
 $routes->get('/career', 'Career::index');
+
 
 /*
  * --------------------------------------------------------------------
