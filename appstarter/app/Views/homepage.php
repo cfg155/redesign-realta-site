@@ -224,7 +224,7 @@
                 <img src="" class="phone-img">
                 <img src="assets/mobile-slider-bg.png" class="bg">
             </div>
-            <div class="slidebar d-flex py-3 w-75 m-auto">
+            <div class="slidebar col-md-6 d-flex py-3 w-75 m-auto">
                 <div class="colorbar me-2">
                     <div class="colorbar__wrapper d-flex">
                         <div class="colorbar--item"></div>
@@ -287,9 +287,7 @@
         <div class="feature">
             <h2 class="feature--title text-center">How Can We Help?</h2>
             <div class="feature__wrapper row d-flex align-items-center">
-                <div class="col-md-6 m-auto position-relative feature__wrapper--cards">
-
-                </div>
+                <div class="col-md-6 m-auto position-relative feature__wrapper--cards"></div>
                 <div class="col-md-6 position-relative">
                     <img src="assets/mobile-variation-bg.png" class="bg">
                     <img src="assets/Group 18.png" class="phone-img">
