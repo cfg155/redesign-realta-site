@@ -7,7 +7,17 @@ function clientSection(){
       $('.client__wrapper').slick({
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 3
+        slidesToScroll: 1,
+        dots: false,
+        centerMode: true,
+        variableWidth:true,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+              arrows: false,
+              slidesToShow: 2
+          }
+      }]
       })
     })
   }

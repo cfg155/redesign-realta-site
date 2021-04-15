@@ -286,6 +286,7 @@
     display: flex;
     align-items: center; }
   .container-fluid .client-card {
+    margin: 0 10px;
     overflow: hidden; }
     .container-fluid .client-card .card-container {
       width: 300px;

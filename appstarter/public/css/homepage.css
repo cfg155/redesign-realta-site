@@ -286,7 +286,8 @@
         width: auto;
         margin: 0 20px; }
     .container-fluid .module__wrapper .slick-current {
-      transform: scale(1) !important; }
+      transform: scale(1) !important;
+      transition: transform 1s; }
     .container-fluid .module__wrapper .slick-slide {
       transform: scale(0.9); }
     .container-fluid .module__wrapper--item {
