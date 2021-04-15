@@ -219,6 +219,41 @@ fetchAPI(API_URL)
       })
     })
 
+    // About Us Section
+    fetchAPI(API_URL)
+      .then(response => {
+        let data = response[4].aboutSection
+
+        // Init variables
+        let aboutWrapper = document.querySelector('.about__wrapper')
+        let aboutRight = aboutWrapper.lastElementChild.firstElementChild
+        let count = 0
+        aboutRight.src = data.img[count]
+
+        console.log(aboutRight)
+
+        function imgTransition(){
+          setTimeout(() => {
+            count++
+            if(count > data.img.length-1){
+              count = 0
+            }   
+
+            aboutRight.style.opacity = 0
+            aboutRight.style.transition = 'opacity 1.5s'
+
+            setTimeout(() => {
+              aboutRight.src = data.img[count]
+              aboutRight.style.opacity = 1
+              aboutRight.style.transition = 'opacity 1.5s'
+
+              imgTransition()
+            }, 1500);
+          }, 7000);
+        }
+        imgTransition()
+      })
+
 
 
 

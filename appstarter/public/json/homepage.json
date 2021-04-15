@@ -130,5 +130,10 @@
                 "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
             }
         ]
+    },
+    {
+        "aboutSection": {
+            "img" : ["assets/entitas-privat.png","assets/entitas-privat.png","assets/entitas-privat.png","assets/entitas-privat.png"]
+        }
     }
 ]

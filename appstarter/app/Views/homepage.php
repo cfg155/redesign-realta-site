@@ -322,7 +322,7 @@
                     <a href="#" class="btn rounded-pill border border-dark">ABOUT US</a>
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/entitas-privat.png" class="w-100 h-100">
+                    <img src="" class="w-100 h-100">
                 </div>
             </div>
         </div>
