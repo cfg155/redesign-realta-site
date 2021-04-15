@@ -40,10 +40,14 @@ fetchAPI(API_URL)
 
     function arrowClick(){
       let productChildren = product.children
+
+      let productWrapperContext = document.querySelector('.product__wrapper__context')
+      console.log(productWrapperContext)
+
       // Transition to left
-      productChildren[0].style.opacity = '0'
-      productChildren[0].style.transform = 'translateX(-70px)'
-      productChildren[0].style.transition = 'transform 1s, opacity 1s'
+      productWrapperContext.style.opacity = '0'
+      productWrapperContext.style.transform = 'translateX(-70px)'
+      productWrapperContext.style.transition = 'transform 1s, opacity 1s'
 
       // Transition to Right
       productChildren[1].style.opacity = '0'
@@ -62,9 +66,9 @@ fetchAPI(API_URL)
         setVal(index)
 
         // Transition to left
-        productChildren[0].style.opacity = '1'
-        productChildren[0].style.transform = 'translateX(0)'
-        productChildren[0].style.transition = 'transform 1s, opacity 1s'
+        productWrapperContext.style.opacity = '1'
+        productWrapperContext.style.transform = 'translateX(0)'
+        productWrapperContext.style.transition = 'transform 1s, opacity 1s'
 
         // Transition to Right
         productChildren[1].style.opacity = '1'
