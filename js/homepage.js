@@ -151,7 +151,7 @@ fetchAPI(API_URL)
     $('.module__wrapper').slick({
       infinite: true,
       slidesToShow: 4,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       dots: true,
       centerMode: true,
       nextArrow: false,

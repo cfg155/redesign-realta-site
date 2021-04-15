@@ -281,13 +281,13 @@
 
         </div>
 
-        <div class="module py-5">
-            <h2 class="text-center mb-5">You can customize a solution <br> based on your industry</h2>
+        <div class="module">
+            <h2 class="text-center">You can customize a solution <br> based on your industry</h2>
             <div class="module__wrapper"></div>
         </div>
 
         <div class="feature">
-            <h2 class="feature--title text-center">How Can We Help?</h2>
+            <h2 class="feature--title text-center py-5">How Can We Help?</h2>
             <div class="feature__wrapper row d-flex align-items-center">
                 <div class="col-md-6 m-auto position-relative feature__wrapper--cards"></div>
                 <div class="col-md-6 position-relative">
@@ -314,7 +314,7 @@
         </div>
 
         <div class="about container">
-            <h2 class="text-center">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h2>
+            <h2 class="text-center py-5">Realta delivers "Peace of Mind" <br>to all our clients through ICT ONE Solutions</h2>
             <div class="about__wrapper row flex-md-row m-auto h-100  no-gutters">
                 <div class="col-lg-6 p-3 my-auto">
                     <h4>ICT ONE Solutions</h4>

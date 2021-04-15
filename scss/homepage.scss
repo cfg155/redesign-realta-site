@@ -4,8 +4,12 @@
 
 .container-fluid {
   background-color: $cos-secondary-color;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  overflow: hidden;
   .product {
-    overflow: hidden;
     .slidebar {
       .arrow {
         cursor: pointer;
@@ -51,7 +55,6 @@
       position: absolute;
       left: 0;
       top: 0;
-      //   z-index: 1 !important;
     }
 
     &--rating {
@@ -105,7 +108,19 @@
   }
 
   .module {
-    height: 100vh;
+    height: 120vh;
+    background-color: #ffffff;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .text-center {
+      padding: 100px 0;
+    }
+
     &__wrapper {
       .slick-dots {
         bottom: -100px;
@@ -188,6 +203,7 @@
   }
 
   .about {
+    padding: 20px 0 100px 0;
     &__wrapper {
       background-color: #ffffff !important;
       border-top-left-radius: $cos-border-size;
