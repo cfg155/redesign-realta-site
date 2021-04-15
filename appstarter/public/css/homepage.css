@@ -285,6 +285,10 @@
         white-space: nowrap;
         width: auto;
         margin: 0 20px; }
+    .container-fluid .module__wrapper .slick-current {
+      transform: scale(1) !important; }
+    .container-fluid .module__wrapper .slick-slide {
+      transform: scale(0.9); }
     .container-fluid .module__wrapper--item {
       width: 250px !important; }
       .container-fluid .module__wrapper--item .header {

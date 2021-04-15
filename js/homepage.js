@@ -159,6 +159,7 @@ fetchAPI(API_URL)
       variableWidth: true,
       variableHeight: true,
       waitForAnimate: false,
+      swipeToSlide: true,
       cssEase:'linear',
       customPaging: function(slider,i){
         // let dotsName = ['test1','test2','test3','test4','test5']

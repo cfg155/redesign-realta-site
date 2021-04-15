@@ -131,6 +131,15 @@
         }
       }
 
+      .slick-current {
+        transform: scale(1) !important;
+        transition: transform 1s;
+      }
+
+      .slick-slide {
+        transform: scale(0.9);
+      }
+
       &--item {
         width: 250px !important;
         .header {
