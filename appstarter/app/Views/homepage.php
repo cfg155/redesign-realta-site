@@ -327,7 +327,7 @@
             </div>
         </div>
 
-        <div class="contact-us container">
+        <div class="contact-us container pb-5">
             <div class="contact-us row">
                 <div class="col-lg-6 p-5">
                     <h2>What Are You Waiting for ? Just Make It Happen!</h2>
@@ -354,7 +354,6 @@
                     <div class="contact-us__form">
                         <?= $this->include('layout/component/form'); ?>
                     </div>
-
                 </div>
             </div>
         </div>
