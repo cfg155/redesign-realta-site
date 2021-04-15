@@ -588,11 +588,11 @@
                             <img src="assets/makesumo-doKatAORoIs-unsplash.png" alt="">
                         </div>
                     </div>
-                    <div class="col-md-12 row d-flex align-items-center">
+                    <div class="col-md-12 row d-flex flex-sm-column-reverse flex-md-row align-items-center">
                         <div class="col-md-6">
                             <img src="assets/makesumo-doKatAORoIs-unsplash.png" alt="">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 ">
                             <h4>Yakult</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos culpa rem doloribus fugiat, sit vel minus labore commodi tempora?<br> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolores ea omnis iusto cumque ipsam consequatur placeat necessitatibus provident laborum!
                             </p>
