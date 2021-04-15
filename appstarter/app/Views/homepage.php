@@ -297,7 +297,7 @@
             </div>
         </div>
 
-        <div class="promo row">
+        <div class="promo row d-flex align-items-center">
             <div class="col-md-6">
                 <div class="promo__desc m-auto">
                     <h2>Integrate Seamlessly</h2>
