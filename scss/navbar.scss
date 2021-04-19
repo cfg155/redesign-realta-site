@@ -20,6 +20,8 @@ nav {
 
   .nav {
     .container {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
       @include screen-md {
         max-width: 100vw !important;
       }
@@ -29,7 +31,59 @@ nav {
       max-width: 130px;
     }
 
+    .burger-icon__container {
+      display: none;
+
+      @include screen-sm {
+        display: block;
+      }
+
+      position: absolute;
+      top: 25px;
+      right: 10px;
+      cursor: pointer;
+      .bar {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        border-radius: 15px;
+      }
+    }
+
+    &--mobile-menu {
+      z-index: 9999;
+      width: 100%;
+      background-color: $cos-primary-color;
+      height: 100vh;
+      font-size: 1.1rem;
+      transform: translateX(-2000px);
+      opacity: 0;
+      transition: transform 0.8s, opacity 1s;
+
+      .close {
+        height: 10vh;
+
+        svg {
+          width: 25px;
+          height: 25px;
+          top: 50%;
+          right: 20px;
+          transform: translateY(-50%);
+          cursor: pointer;
+          fill: white;
+        }
+      }
+    }
+
+    &--mobile-menu a:hover {
+      background-color: #522780;
+    }
+
     &--links {
+      @include screen-sm {
+        display: none;
+      }
+
       .list-inline {
         margin-bottom: 0 !important;
       }

@@ -7494,11 +7494,52 @@ nav {
   @media (max-width: 768px) {
     nav {
       font-size: 0.6em; } }
-  @media (max-width: 768px) {
-    nav .nav .container {
-      max-width: 100vw !important; } }
+  nav .nav .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+    @media (max-width: 768px) {
+      nav .nav .container {
+        max-width: 100vw !important; } }
   nav .nav--logo {
     max-width: 130px; }
+  nav .nav .burger-icon__container {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    cursor: pointer; }
+    @media (max-width: 576px) {
+      nav .nav .burger-icon__container {
+        display: block; } }
+    nav .nav .burger-icon__container .bar {
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      border-radius: 15px; }
+  nav .nav--mobile-menu {
+    z-index: 9999;
+    width: 100%;
+    background-color: #5d2e8f;
+    height: 100vh;
+    font-size: 1.1rem;
+    transform: translateX(-2000px);
+    opacity: 0;
+    transition: transform 0.8s, opacity 1s; }
+    nav .nav--mobile-menu .close {
+      height: 10vh; }
+      nav .nav--mobile-menu .close svg {
+        width: 25px;
+        height: 25px;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        fill: white; }
+  nav .nav--mobile-menu a:hover {
+    background-color: #522780; }
+  @media (max-width: 576px) {
+    nav .nav--links {
+      display: none; } }
   nav .nav--links .list-inline {
     margin-bottom: 0 !important; }
   nav .nav--links .contact-us {

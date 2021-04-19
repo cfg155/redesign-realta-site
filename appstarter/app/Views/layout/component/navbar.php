@@ -3,9 +3,9 @@
 
 <nav>
     <!-- This is Navbar area -->
-    <div class="nav py-3 m-auto">
-        <div class="container w-100">
-            <div class="d-flex align-items-center justify-content-between">
+    <div class="nav  m-auto">
+        <div class="container w-100 position-relative">
+            <div class="d-flex py-3 align-items-center justify-content-between">
                 <a href="<?php echo base_url('/') ?>"><img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo"></a>
                 <div class="nav--links">
                     <ul class="list-inline d-flex">
@@ -39,6 +39,28 @@
                 <button class="ina-lang active w-100 h-25 d-flex align-items-center justify-content-center btn btn-sm">INA</button>
                 <button class="ina-lang w-100 h-25 d-flex align-items-center justify-content-center btn btn-sm">EN</button>
             </label>
+
+            <div class="burger-icon__container">
+                <div class="bar my-1"></div>
+                <div class="bar my-1"></div>
+                <div class="bar my-1"></div>
+            </div>
+
+            <div class="nav--mobile-menu position-fixed top-0">
+                <div class="close position-relative">
+                    <svg height="365.696pt" viewBox="0 0 365.696 365.696" xmlns="http://www.w3.org/2000/svg" class="position-absolute">
+                        <path d="m243.1875 182.859375 113.132812-113.132813c12.5-12.5 12.5-32.765624 0-45.246093l-15.082031-15.082031c-12.503906-12.503907-32.769531-12.503907-45.25 0l-113.128906 113.128906-113.132813-113.152344c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503907-12.5 32.769531 0 45.25l113.152344 113.152344-113.128906 113.128906c-12.503907 12.503907-12.503907 32.769531 0 45.25l15.082031 15.082031c12.5 12.5 32.765625 12.5 45.246093 0l113.132813-113.132812 113.128906 113.132812c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082031c12.5-12.503906 12.5-32.769531 0-45.25zm0 0" />
+                    </svg>
+                </div>
+                <div class="d-flex flex-column text-center">
+                    <a href="#" class="py-3 text-light text-decoration-none">Solutions</a>
+                    <a href="#" class="py-3 text-light text-decoration-none">Company</a>
+                    <a href="#" class="py-3 text-light text-decoration-none">Support</a>
+                    <a href="#" class="py-3 text-light text-decoration-none">Resourecs</a>
+                    <a href="#" class="py-3 text-light text-decoration-none">Contact Us</a>
+                </div>
+
+            </div>
         </div>
     </div>
 </nav>
@@ -51,4 +73,18 @@
         let navbarLink = document.querySelector('.navbar-style').href = `${newPath}css/navbar.css`
         let logoSRC = document.querySelector('.nav--logo').src = `${newPath}assets/LOGO-Realta-with-since-1983.png`
     }
+
+    // mobile menu animation
+    let burger = document.querySelector('.burger-icon__container')
+    let navMobileMenu = document.querySelector('.nav--mobile-menu')
+    burger.addEventListener('click', () => {
+        navMobileMenu.style.transform = 'translateX(0)'
+        navMobileMenu.style.opacity = '1'
+    })
+
+    let close = document.querySelector('.close')
+    close.addEventListener('click', () => {
+        navMobileMenu.style.transform = 'translateX(-2000px)'
+        navMobileMenu.style.opacity = '0'
+    })
 </script>
