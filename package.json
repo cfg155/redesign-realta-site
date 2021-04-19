@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "scss": "node-sass --watch ./scss/ -o ./appstarter/public/css/",
-    "build-homepage": "browserify ./js/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
-    "watch-homepage": "watchify ./js/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
-    "build-solution": "browserify ./js/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
-    "watch-solution": "watchify ./js/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v",
-    "build-siap": "browserify ./js/siap.js > ./appstarter/public/js/siap.js -t babelify --plugin tinyify",
-    "watch-siap": "watchify ./js/siap.js -o ./appstarter/public/js/siap.js -t babelify -d -v"
+    "build-homepage": "browserify ./jsORI/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
+    "watch-homepage": "watchify ./jsORI/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
+    "build-solution": "browserify ./jsORI/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
+    "watch-solution": "watchify ./jsORI/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v",
+    "build-siap": "browserify ./jsORI/siap.js > ./appstarter/public/js/siap.js -t babelify --plugin tinyify",
+    "watch-siap": "watchify ./jsORI/siap.js -o ./appstarter/public/js/siap.js -t babelify -d -v"
 
   },
   "repository": {
