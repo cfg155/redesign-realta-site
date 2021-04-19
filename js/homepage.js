@@ -57,7 +57,6 @@ fetchAPI(API_URL)
         }
       }
 
-
       // set value for text
       textBg.innerHTML = data[index].leftPanel.textBg
       logo.src = data[index].leftPanel.logoURL
