@@ -259,7 +259,11 @@
       width: 50px;
       margin: 20px 0; }
   .container-fluid .feature {
+    width: 75%;
     margin-bottom: 50px; }
+    @media (max-width: 768px) {
+      .container-fluid .feature {
+        width: 100%; } }
     .container-fluid .feature__wrapper--item {
       width: 300px; }
       .container-fluid .feature__wrapper--item .header {

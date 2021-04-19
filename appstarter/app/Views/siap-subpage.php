@@ -133,79 +133,80 @@
             </div>
         </div>
 
-        <div class="w-75 m-auto">
-            <div class="feature py-5">
-                <h2 class="text-center py-5">Features</h2>
-                <div class="feature__wrapper row d-flex justify-content-center">
-                    <div class="feature__wrapper--item col-lg-4 m-2">
-                        <div class="header">
-                            <div class="logo ms-4"></div>
-                            <div class="white-bg"></div>
-                        </div>
-                        <div class="body p-4">
-                            <h5 class="">Attendance</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
-                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
-                        </div>
+
+        <div class="feature m-auto py-5">
+            <h2 class="text-center py-5">Features</h2>
+            <div class="feature__wrapper row d-flex justify-content-center">
+                <div class="feature__wrapper--item col-lg-4 m-2">
+                    <div class="header">
+                        <div class="logo ms-4"></div>
+                        <div class="white-bg"></div>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-2">
-                        <div class="header">
-                            <div class="logo ms-4"></div>
-                            <div class="white-bg"></div>
-                        </div>
-                        <div class="body p-4">
-                            <h5 class="">Medical</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
-                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
-                        </div>
+                    <div class="body p-4">
+                        <h5 class="">Attendance</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                        <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-2">
-                        <div class="header">
-                            <div class="logo ms-4"></div>
-                            <div class="white-bg"></div>
-                        </div>
-                        <div class="body p-4">
-                            <h5 class="">Loan</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
-                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
-                        </div>
+                </div>
+                <div class="feature__wrapper--item col-lg-4 m-2">
+                    <div class="header">
+                        <div class="logo ms-4"></div>
+                        <div class="white-bg"></div>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-2">
-                        <div class="header">
-                            <div class="logo ms-4"></div>
-                            <div class="white-bg"></div>
-                        </div>
-                        <div class="body p-4">
-                            <h5 class="">Personel</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
-                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
-                        </div>
+                    <div class="body p-4">
+                        <h5 class="">Medical</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                        <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-2">
-                        <div class="header">
-                            <div class="logo ms-4"></div>
-                            <div class="white-bg"></div>
-                        </div>
-                        <div class="body p-4">
-                            <h5 class="">Recruitment</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
-                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
-                        </div>
+                </div>
+                <div class="feature__wrapper--item col-lg-4 m-2">
+                    <div class="header">
+                        <div class="logo ms-4"></div>
+                        <div class="white-bg"></div>
                     </div>
-                    <div class="feature__wrapper--item col-lg-4 m-2">
-                        <div class="header">
-                            <div class="logo ms-4"></div>
-                            <div class="white-bg"></div>
-                        </div>
-                        <div class="body p-4">
-                            <h5 class="">Recruitment</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
-                            <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
-                        </div>
+                    <div class="body p-4">
+                        <h5 class="">Loan</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                        <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="feature__wrapper--item col-lg-4 m-2">
+                    <div class="header">
+                        <div class="logo ms-4"></div>
+                        <div class="white-bg"></div>
+                    </div>
+                    <div class="body p-4">
+                        <h5 class="">Personel</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                        <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="feature__wrapper--item col-lg-4 m-2">
+                    <div class="header">
+                        <div class="logo ms-4"></div>
+                        <div class="white-bg"></div>
+                    </div>
+                    <div class="body p-4">
+                        <h5 class="">Recruitment</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                        <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="feature__wrapper--item col-lg-4 m-2">
+                    <div class="header">
+                        <div class="logo ms-4"></div>
+                        <div class="white-bg"></div>
+                    </div>
+                    <div class="body p-4">
+                        <h5 class="">Recruitment</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit quasi, sequi optio impedit facilis, ullam eius delectus labore voluptatum ut saepe quam culpa deleniti laboriosam exercitationem. Eveniet numquam quia reprehenderit.</p>
+                        <a href="#" class="btn btn-learn rounded-pill text-light">LEARN MORE</a>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="w-75 m-auto">
             <div class="company">
                 <div class="row">
                     <div class="col-md-12 row d-flex align-items-center py-5">
@@ -241,9 +242,12 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+
+
+
+
+
 
         <div class="client">
             <h2 class="title text-center py-5">What Our Client Say</h2>

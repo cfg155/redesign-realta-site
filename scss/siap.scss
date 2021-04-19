@@ -104,6 +104,10 @@
   }
 
   .feature {
+    width: 75%;
+    @include screen-md {
+      width: 100%;
+    }
     margin-bottom: 50px;
     &__wrapper {
       &--item {
