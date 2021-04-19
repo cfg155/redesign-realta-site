@@ -27,13 +27,46 @@ fetchAPI(API_URL)
 
     let index = 0
 
+    document.querySelector('.totalSlideNumber').innerHTML = data.length
+
+    // generate colorbar
+    let slideColorHEX = ['#FED034','#F8931F','#109AB4','#212459','#E21270','#53215E']
+
+    let colorbarContainer = ''
+    for(let i=0;i<data.length;i++){
+      colorbarContainer += `<div class="colorbar--item"></div>`
+    }
+    document.querySelector('.colorbar__wrapper').innerHTML = colorbarContainer
+
+    let colorbarItem = document.querySelectorAll('.colorbar--item')
+    console.log(colorbarItem)
+
+    colorbarItem[0].style.backgroundColor = slideColorHEX[0]
+
     function setVal(index){
+      // Reset Color
+      colorbarItem.forEach(item => {
+        item.style.backgroundColor = '#b7b7b7'
+      })
+
+      // implement new color for colorbar
+      for(let i=0;i<=index;i++){
+        colorbarItem[i].style.backgroundColor = slideColorHEX[i]
+        if(i>slideColorHEX.length-1){
+          colorbarItem[i].style.backgroundColor = slideColorHEX[i-(slideColorHEX.length)]
+        }
+      }
+
+
+      // set value for text
       textBg.innerHTML = data[index].leftPanel.textBg
       logo.src = data[index].leftPanel.logoURL
       title.innerHTML = data[index].leftPanel.title
       desc.innerHTML = data[index].leftPanel.paragraph
       btnLearnMore.href = data[index].leftPanel.btnLearMoreURL
       phoneImg.src = data[index].rightPanel.imgURL
+
+      document.querySelector('.currentSlideNumber').innerHTML = index+1
     }
 
     setVal(index)

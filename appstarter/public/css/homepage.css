@@ -257,7 +257,7 @@
   .container-fluid .product .colorbar--item {
     width: 50px;
     height: 5px;
-    background-color: red; }
+    background-color: #b7b7b7; }
   .container-fluid .client__item img {
     width: 75%;
     border-radius: 15px;

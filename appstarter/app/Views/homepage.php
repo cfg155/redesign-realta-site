@@ -221,14 +221,7 @@
                     <div class="slidebar  py-3 ">
                         <div class="slidebar__wrapper d-flex align-items-center">
                             <div class="colorbar me-2">
-                                <div class="colorbar__wrapper d-flex">
-                                    <div class="colorbar--item"></div>
-                                    <div class="colorbar--item"></div>
-                                    <div class="colorbar--item"></div>
-                                    <div class="colorbar--item"></div>
-                                    <div class="colorbar--item"></div>
-                                    <div class="colorbar--item"></div>
-                                </div>
+                                <div class="colorbar__wrapper d-flex"></div>
                             </div>
                             <div class="slidebar--arrow d-flex">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20.855" height="20.327" viewBox="0 0 20.855 20.327" class="arrow arrow-left mx-1" data-value="0">
@@ -240,7 +233,7 @@
 
                             </div>
                         </div>
-                        <span>Solutions 03/08</span>
+                        <span>Solutions <span class="currentSlideNumber"></span>/ <span class="totalSlideNumber"></span> </span>
                     </div>
                 </div>
             </div>
