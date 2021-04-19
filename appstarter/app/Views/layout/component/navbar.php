@@ -4,7 +4,7 @@
 <nav>
     <!-- This is Navbar area -->
     <div class="nav py-3 m-auto">
-        <div class="container">
+        <div class="container w-100">
             <div class="d-flex align-items-center justify-content-between">
                 <a href="<?php echo base_url('/') ?>"><img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo"></a>
                 <div class="nav--links">

@@ -19,11 +19,21 @@ nav {
   }
 
   .nav {
+    .container {
+      @include screen-md {
+        max-width: 100vw !important;
+      }
+    }
+
     &--logo {
       max-width: 130px;
     }
 
     &--links {
+      .list-inline {
+        margin-bottom: 0 !important;
+      }
+
       .contact-us {
         background-color: $cos-primary-color;
       }

@@ -7494,8 +7494,13 @@ nav {
   @media (max-width: 768px) {
     nav {
       font-size: 0.6em; } }
+  @media (max-width: 768px) {
+    nav .nav .container {
+      max-width: 100vw !important; } }
   nav .nav--logo {
     max-width: 130px; }
+  nav .nav--links .list-inline {
+    margin-bottom: 0 !important; }
   nav .nav--links .contact-us {
     background-color: #5d2e8f; }
   nav .nav--links li:hover > .dropdown {
