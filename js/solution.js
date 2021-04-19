@@ -17,7 +17,7 @@ function generateCategory(){
             <h2>${item.title}</h2>
         </div>
         <div class="category__card--tag my-2">${item.tag}</div>
-        <div class="category__card--body w-100 text-justify">${item.body}</div>
+        <div class="category__card--body w-100 text-justify my-3">${item.body}</div>
         </div>
         `
     })
