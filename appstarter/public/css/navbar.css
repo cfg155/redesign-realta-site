@@ -7496,8 +7496,6 @@ nav {
       font-size: 0.6em; } }
   nav .nav__container {
     width: 100vw;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
     margin-left: 0 !important;
     margin-right: 0 !important; }
     nav .nav__container__links {
@@ -7508,6 +7506,12 @@ nav {
           width: 100%; } }
   nav .nav--logo {
     max-width: 130px; }
+    @media (max-width: 768px) {
+      nav .nav--logo {
+        margin-left: 10px; } }
+  @media (max-width: 768px) {
+    nav .nav--links {
+      margin-right: 15px; } }
   nav .nav .burger-icon__container {
     display: none;
     position: absolute;
@@ -7563,7 +7567,11 @@ nav {
     color: #ffffff !important; }
   nav .nav--switch {
     width: 100px;
-    background-color: #f3f3f3; }
+    background-color: #f3f3f3;
+    margin-right: 70px; }
+    @media (max-width: 768px) {
+      nav .nav--switch {
+        margin-right: 0; } }
     nav .nav--switch * {
       background-color: #f3f3f3; }
     nav .nav--switch .active {
