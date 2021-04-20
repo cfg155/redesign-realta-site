@@ -53,10 +53,10 @@
                     </svg>
                 </div>
                 <div class="d-flex flex-column text-center">
-                    <a href="#" class="py-3 text-light text-decoration-none">Solutions</a>
+                    <a href="<?php echo base_url('/solution') ?>" class="py-3 text-light text-decoration-none">Solutions</a>
                     <a href="#" class="py-3 text-light text-decoration-none">Company</a>
-                    <a href="#" class="py-3 text-light text-decoration-none">Support</a>
-                    <a href="#" class="py-3 text-light text-decoration-none">Resourecs</a>
+                    <a href="<?php echo base_url('/career') ?>" class="py-3 text-light text-decoration-none">Support</a>
+                    <a href="<?php echo base_url('/blog') ?>" class="py-3 text-light text-decoration-none">Resources</a>
                     <a href="#" class="py-3 text-light text-decoration-none">Contact Us</a>
                 </div>
 
