@@ -7494,14 +7494,18 @@ nav {
   @media (max-width: 768px) {
     nav {
       font-size: 0.6em; } }
-  nav .nav .container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  nav .nav__container {
+    width: 100vw;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     margin-left: 0 !important;
     margin-right: 0 !important; }
-    @media (max-width: 768px) {
-      nav .nav .container {
-        max-width: 90vw !important; } }
+    nav .nav__container__links {
+      width: 90%;
+      margin: auto; }
+      @media (max-width: 768px) {
+        nav .nav__container__links {
+          width: 100%; } }
   nav .nav--logo {
     max-width: 130px; }
   nav .nav .burger-icon__container {

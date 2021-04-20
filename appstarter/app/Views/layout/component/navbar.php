@@ -4,8 +4,8 @@
 <nav>
     <!-- This is Navbar area -->
     <div class="nav">
-        <div class="container w-100 position-relative">
-            <div class="d-flex py-3 align-items-center justify-content-between">
+        <div class="nav__container position-relative">
+            <div class="nav__container__links d-flex py-3 align-items-center justify-content-between">
                 <a href="<?php echo base_url('/') ?>"><img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo"></a>
                 <div class="nav--links">
                     <ul class="list-inline d-flex">
