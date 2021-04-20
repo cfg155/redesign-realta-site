@@ -326,7 +326,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-75 m-auto">
+        <!-- <div class="w-75 m-auto">
             <div class="contact py-5">
                 <h2 class="text-center py-5">Ready to Achieve Outstanding Performance?</h2>
                 <div class="row d-flex align-items-center">
@@ -343,7 +343,37 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <!-- Video -->
+                        Video
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="contact-us container pb-5 py-5">
+            <div class="contact-us row">
+                <div class="col-lg-6 ">
+                    <h2>What Are You Waiting for ? Just Make It Happen!</h2>
+                    <p class="w-75">We'll have a Business Development Representative contact you within 24 business hours</p>
+                    <div class="achievement d-flex ">
+                        <div class="achievement--item d-flex justify-content-center mb-3 me-3">
+                            <img src="assets/awards-item-left.png" alt="">
+                            <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                            <img src="assets/awards-item-right.png" alt="">
+                        </div>
+                        <div class="achievement--item d-flex justify-content-center mb-3 mx-3">
+                            <img src="assets/awards-item-left.png" alt="">
+                            <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                            <img src="assets/awards-item-right.png" alt="">
+                        </div>
+                        <div class="achievement--item d-flex justify-content-center mb-3 mx-3">
+                            <img src="assets/awards-item-left.png" alt="">
+                            <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                            <img src="assets/awards-item-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="contact-us__form">
+                        <?= $this->include('layout/component/form'); ?>
                     </div>
                 </div>
             </div>
