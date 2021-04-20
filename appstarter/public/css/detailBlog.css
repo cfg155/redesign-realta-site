@@ -1,2 +1,8 @@
 .container-fluid {
   background-color: #f3f3f3; }
+  .container-fluid .content {
+    width: 75%;
+    margin: auto; }
+    @media (max-width: 768px) {
+      .container-fluid .content {
+        width: 100%; } }
