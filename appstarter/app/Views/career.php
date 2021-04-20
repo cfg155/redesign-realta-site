@@ -15,7 +15,7 @@
     <?= $this->include('layout/component/navbar'); ?>
 
     <div class="container-fluid">
-        <div class="container w-75 m-auto">
+        <div class="career__container">
             <h2>Career <br> Realta Chakradarma</h2>
             <div class="row career--header py-4">
                 <div class="col-lg-4 mb-3">

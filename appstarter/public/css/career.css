@@ -1,5 +1,17 @@
 .container-fluid {
-  background-color: #f3f3f3; }
+  background-color: #f3f3f3;
+  width: 75%;
+  margin: auto;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  .container-fluid .career__container {
+    width: 75%;
+    margin: auto; }
+    @media (max-width: 768px) {
+      .container-fluid .career__container {
+        width: 95%; } }
   .container-fluid .career--item {
     border-radius: 15px;
     background-color: #ffffff; }
