@@ -18,16 +18,16 @@
             <h1 class="content__title">Blog</h1>
             <div class="content__container row py-5">
                 <!-- Main Content -->
-                <div class="col-lg-8 col-md-12" style="padding-left: 0 !important; padding-right: 0 !important;">
+                <div class="col-lg-8 col-md-12" style="padding-left: 0 !important; padding-right: 0 !important; ">
                     <div class="content__container__highlight d-flex align-items-center mb-5 position-relative">
                         <a href="<?php echo base_url('/blog/detail/1') ?>" class="link d-block w-100 h-100 position-absolute">Link</a>
                         <div class="row">
                             <div class="col-lg-6 col-md-12 bg"></div>
 
-                            <div class="col-lg-6 col-md-12 py-2 body-text">
+                            <div class="col-lg-6 col-md-12 py-2 body-text ">
                                 <div class="title">Lorem Ipsum</div>
                                 <div class="body py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur impedit doloremque tempora tenetur unde odio labore asperiores error eveniet velit, dolore alias vero eum accusantium ducimus obcaecati deserunt nihil quaerat?</div>
-                                <div class="footer d-flex justify-content-between">
+                                <div class="footer d-flex justify-content-between ">
                                     <div class="date d-flex align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18.75" height="20" viewBox="0 0 18.75 20" class="me-2">
                                             <defs>

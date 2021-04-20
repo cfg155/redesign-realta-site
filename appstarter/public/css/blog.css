@@ -15,27 +15,34 @@
       margin-right: 0 !important; }
     .container-fluid .content .link {
       opacity: 0 !important; }
-    .container-fluid .content__container__highlight .bg {
-      background-image: url("../assets/Real Violet Air Sterilizer - PT Realta Chakradarma.png");
-      background-size: 100% 100%;
-      min-width: 100px;
-      min-height: 300px;
-      border-top-left-radius: 15px !important;
-      border-bottom-left-radius: 15px !important; }
-      @media (max-width: 992px) {
-        .container-fluid .content__container__highlight .bg {
-          border-top-left-radius: 15px !important;
-          border-top-right-radius: 15px !important;
-          border-bottom-left-radius: 0 !important; } }
-    .container-fluid .content__container__highlight .body-text {
-      background-color: #ffffff;
-      border-top-right-radius: 15px !important;
-      border-bottom-right-radius: 15px !important; }
-      @media (max-width: 992px) {
-        .container-fluid .content__container__highlight .body-text {
-          border-bottom-left-radius: 15px !important;
-          border-bottom-right-radius: 15px !important;
-          border-top-right-radius: 0 !important; } }
+    .container-fluid .content__container__highlight {
+      max-width: 800px;
+      margin: auto;
+      margin-right: 40px; }
+      @media (max-width: 768px) {
+        .container-fluid .content__container__highlight {
+          margin-right: 0 !important; } }
+      .container-fluid .content__container__highlight .bg {
+        background-image: url("../assets/Real Violet Air Sterilizer - PT Realta Chakradarma.png");
+        background-size: 100% 100%;
+        min-width: 100px;
+        min-height: 300px;
+        border-top-left-radius: 15px !important;
+        border-bottom-left-radius: 15px !important; }
+        @media (max-width: 992px) {
+          .container-fluid .content__container__highlight .bg {
+            border-top-left-radius: 15px !important;
+            border-top-right-radius: 15px !important;
+            border-bottom-left-radius: 0 !important; } }
+      .container-fluid .content__container__highlight .body-text {
+        background-color: #ffffff;
+        border-top-right-radius: 15px !important;
+        border-bottom-right-radius: 15px !important; }
+        @media (max-width: 992px) {
+          .container-fluid .content__container__highlight .body-text {
+            border-bottom-left-radius: 15px !important;
+            border-bottom-right-radius: 15px !important;
+            border-top-right-radius: 0 !important; } }
     .container-fluid .content__container__body .c-card {
       width: 75%;
       margin: auto; }
