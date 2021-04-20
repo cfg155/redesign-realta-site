@@ -7496,7 +7496,9 @@ nav {
       font-size: 0.6em; } }
   nav .nav .container {
     padding-left: 0 !important;
-    padding-right: 0 !important; }
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
     @media (max-width: 768px) {
       nav .nav .container {
         max-width: 90vw !important; } }
