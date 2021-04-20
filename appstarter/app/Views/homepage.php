@@ -17,7 +17,7 @@
         <div class="product row position-relative pt-5  ">
             <div class="col-md-6 pb-5 position-relative">
                 <div class="product--text-bg"></div>
-                <div class="product__wrapper position-relative ps-5 w-75 m-auto">
+                <div class="product__wrapper position-relative">
                     <div class="product__wrapper__context">
                         <img src="" class="product--logo ">
                         <h1 class="product--title"></h1>
@@ -322,7 +322,7 @@
 
         <div class="contact-us container pb-5">
             <div class="contact-us row">
-                <div class="col-lg-6 p-5">
+                <div class="col-lg-6 ">
                     <h2>What Are You Waiting for ? Just Make It Happen!</h2>
                     <p class="w-75">We'll have a Business Development Representative contact you within 24 business hours</p>
                     <div class="achievement d-flex ">
