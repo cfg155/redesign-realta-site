@@ -14,7 +14,7 @@
     <?= $this->include('layout/component/navbar'); ?>
 
     <div class="container-fluid pb-5">
-        <div class="w-75 m-auto">
+        <div class="content">
             <h1 class="title pb-5">Solutions<br>Realta Chakradarma</h1>
 
             <div class="category">
