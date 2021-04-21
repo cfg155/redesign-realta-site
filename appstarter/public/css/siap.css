@@ -204,6 +204,13 @@
       color: black;
       opacity: 0.75; }
 
+.super {
+  background-color: #f3f3f3; }
+
+.super__container {
+  max-width: 1970px;
+  margin: auto; }
+
 .container-fluid {
   background-color: #f3f3f3;
   overflow: hidden;
