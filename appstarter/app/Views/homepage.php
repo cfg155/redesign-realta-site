@@ -102,17 +102,31 @@
                 </div>
 
                 <div class="promo row d-flex align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="promo__desc m-auto">
                             <h2>Integrate Seamlessly</h2>
                             <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.</p>
-                            <video width="320" height="240" autoplay>
-                                <source src="#">
-                            </video>
+                            <iframe class="promo-youtube" src="https://www.youtube.com/embed/mUk6PlLaWk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <!-- Empty -->
+                    <div class="col-lg-6">
+                        <div class="promo--right">
+                            <div class="custom-row d-flex">
+                                <div class="box"></div>
+                                <div class="box"></div>
+                                <div class="box"></div>
+                            </div>
+                            <div class="custom-row d-flex">
+                                <div class="box"></div>
+                                <div class="box"></div>
+                                <div class="box"></div>
+                            </div>
+                            <div class="custom-row d-flex">
+                                <div class="box"></div>
+                                <div class="box"></div>
+                                <div class="box"></div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
