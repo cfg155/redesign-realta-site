@@ -1,3 +1,10 @@
+.super {
+  background-color: #f3f3f3; }
+
+.super__container {
+  max-width: 1970px;
+  margin: auto; }
+
 .container-fluid {
   background-color: #f3f3f3;
   padding-left: 0 !important;
@@ -16,8 +23,6 @@
     .container-fluid .content .link {
       opacity: 0 !important; }
     .container-fluid .content__container__highlight {
-      max-width: 800px;
-      margin: auto;
       margin-right: 40px; }
       @media (max-width: 768px) {
         .container-fluid .content__container__highlight {
