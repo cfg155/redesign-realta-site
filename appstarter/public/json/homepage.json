@@ -4,9 +4,9 @@
         [
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "textBg": "",
+                    "logoURL" : "assets/RHASODY-LOGO-PNG.png",
+                    "title" : "Rhapsody",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -18,9 +18,9 @@
             },       
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "textBg": "",
+                    "logoURL" : "assets/siapp.png",
+                    "title" : "SIAP+P",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -32,9 +32,9 @@
             },   
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
+                    "textBg": "",
                     "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "title" : "Bimasakti",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -46,9 +46,9 @@
             },   
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "textBg": "",
+                    "logoURL" : "assets/ivanti-logo.png",
+                    "title" : "ITSM & ITAM",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -60,9 +60,9 @@
             },   
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "textBg": "",
+                    "logoURL" : "assets/bsi-logo 400px.png",
+                    "title" : "ERP & EAM",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -74,9 +74,9 @@
             },        
             {
                 "leftPanel" : {
-                    "textBg": "PMS",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "textBg": "",
+                    "logoURL" : "assets/l.png",
+                    "title" : "CRM",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -88,9 +88,9 @@
             },   
             {
                 "leftPanel" : {
-                    "textBg": "PMS2",
+                    "textBg": "",
                     "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "title" : "RealPCR",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -101,9 +101,9 @@
             },
             {
                 "leftPanel" : {
-                    "textBg": "PMS3",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "PROPERTY MANAGEMENT SYSTEM",
+                    "textBg": "",
+                    "logoURL" : "assets/.png",
+                    "title" : "RealVioleds",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -111,7 +111,19 @@
                     "imgURL": "assets/Group 18.png",
                     "youtubeLink": ""
                 }
-                
+            },
+            {
+                "leftPanel" : {
+                    "textBg": "",
+                    "logoURL" : "assets/.png",
+                    "title" : "RealRose",
+                    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                    "btnLearMoreURL" : "#"
+                },
+                "rightPanel" : {
+                    "imgURL": "assets/Group 18.png",
+                    "youtubeLink": ""
+                }
             }
         ]
     },
