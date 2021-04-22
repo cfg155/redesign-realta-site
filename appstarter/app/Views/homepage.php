@@ -46,7 +46,7 @@
 
                                     </div>
                                 </div>
-                                <span>Solutions <span class="currentSlideNumber"></span>/ <span class="totalSlideNumber"></span> </span>
+                                <span>Solutions <span class="currentSlideNumber"></span>/<span class="totalSlideNumber"></span> </span>
                             </div>
                         </div>
                     </div>
