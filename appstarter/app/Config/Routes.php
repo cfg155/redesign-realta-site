@@ -34,6 +34,18 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/solution', 'Solution::index');
 $routes->get('/siap', 'Solution::siap');
+$routes->get('/crm', 'Solution::crm');
+$routes->get('/eam', 'Solution::eam');
+$routes->get('/erp', 'Solution::erp');
+$routes->get('/golf', 'Solution::golf');
+$routes->get('/hotel', 'Solution::hotel');
+$routes->get('/itam', 'Solution::itam');
+$routes->get('/itsm', 'Solution::itsm');
+$routes->get('/property', 'Solution::property');
+$routes->get('/realpcr', 'Solution::realpcr');
+$routes->get('/realrose', 'Solution::realrose');
+$routes->get('/realvioleds', 'Solution::realvioleds');
+
 $routes->get('/blog', 'Blog::index');
 $routes->get('/blog/detail/(:segment)', 'Blog::detail/$1');
 $routes->get('/career', 'Career::index');

@@ -13,17 +13,17 @@
                             <div class="dropdown d-flex position-absolute start-0 justify-content-between border border-1 p-3">
                                 <ul class="list-inline me-5 text-nowrap">
                                     <li><a href="<?php echo base_url('/siap') ?>" class="text-decoration-none text-dark d-block p-2">HR System</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Hotel System</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Property System</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">IT Service Management</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">ERP (Enterprise Resource Planning)</a></li>
+                                    <li><a href="<?php echo base_url('/hotel') ?>" class="text-decoration-none text-dark d-block p-2">Hotel System</a></li>
+                                    <li><a href="<?php echo base_url('/property') ?>" class="text-decoration-none text-dark d-block p-2">Property System</a></li>
+                                    <li><a href="<?php echo base_url('/itsm') ?>" class="text-decoration-none text-dark d-block p-2">IT Service Management</a></li>
+                                    <li><a href="<?php echo base_url('/erp') ?>" class="text-decoration-none text-dark d-block p-2">ERP (Enterprise Resource Planning)</a></li>
                                 </ul>
                                 <ul class="list-inline me-5 text-nowrap">
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">EAM (Enterprise Asset Management)</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">CRM (Customer Relationship Management)</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">RealPCR Test & System</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">RealVioleds (UV Leds Solution)</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">RealROSE (Ordering & Delivery System)</a></li>
+                                    <li><a href="<?php echo base_url('eam') ?>" class="text-decoration-none text-dark d-block p-2">EAM (Enterprise Asset Management)</a></li>
+                                    <li><a href="<?php echo base_url('/crm') ?>" class="text-decoration-none text-dark d-block p-2">CRM (Customer Relationship Management)</a></li>
+                                    <li><a href="<?php echo base_url('/realpcr') ?>" class="text-decoration-none text-dark d-block p-2">RealPCR Test & System</a></li>
+                                    <li><a href="<?php echo base_url('/realvioleds') ?>" class="text-decoration-none text-dark d-block p-2">RealVioleds (UV Leds Solution)</a></li>
+                                    <li><a href="<?php echo base_url('/realrose') ?>" class="text-decoration-none text-dark d-block p-2">RealROSE (Ordering & Delivery System)</a></li>
                                 </ul>
                             </div>
                         </li>
