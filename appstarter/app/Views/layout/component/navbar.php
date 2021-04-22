@@ -22,7 +22,7 @@
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">HR Information System</a></li>
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">Property Management System</a></li>
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">Hospitality Management System</a></li>
-                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Golf Course Management Syste,</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark d-block p-2">Golf Course Management System</a></li>
                                     <li><a href="#" class="text-decoration-none text-dark d-block p-2">Procurement System</a></li>
                                 </ul>
                             </div>
