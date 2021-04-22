@@ -1,12 +1,12 @@
 .super {
-  background-color: #f3f3f3; }
+  background-color: #fafafa; }
 
 .super__container {
   max-width: 1970px;
   margin: auto; }
 
 .container-fluid {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   width: 75%;
   margin: auto;
   margin-right: 0 !important;

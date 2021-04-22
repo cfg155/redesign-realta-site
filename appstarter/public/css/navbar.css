@@ -7488,7 +7488,7 @@ textarea.form-control-lg {
 
 nav {
   font-size: 0.8em;
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   position: relative;
   z-index: 9999; }
   @media (max-width: 768px) {
@@ -7567,13 +7567,13 @@ nav {
     color: #ffffff !important; }
   nav .nav--switch {
     width: 100px;
-    background-color: #f3f3f3;
+    background-color: #fafafa;
     margin-right: 70px; }
     @media (max-width: 768px) {
       nav .nav--switch {
         margin-right: 0; } }
     nav .nav--switch * {
-      background-color: #f3f3f3; }
+      background-color: #fafafa; }
     nav .nav--switch .active {
       background-color: #5d2e8f !important;
       color: #ffffff;

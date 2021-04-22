@@ -205,14 +205,14 @@
       opacity: 0.75; }
 
 .super {
-  background-color: #f3f3f3; }
+  background-color: #fafafa; }
 
 .super__container {
   max-width: 1970px;
   margin: auto; }
 
 .container-fluid {
-  background-color: #f3f3f3;
+  background-color: #fafafa;
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding-left: 0 !important;
@@ -293,10 +293,7 @@
       padding: 100px 0; }
     .container-fluid .module__wrapper .slick-dots {
       position: initial;
-      height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
+      padding: 20px 0; }
       .container-fluid .module__wrapper .slick-dots li {
         white-space: nowrap;
         width: auto;
