@@ -272,18 +272,15 @@
       @media (max-width: 768px) {
         .container-fluid .product .colorbar--item {
           width: 25px; } }
-  .container-fluid .client {
-    margin: 100px 0; }
-    .container-fluid .client__item img {
-      width: 75%;
-      border-radius: 15px;
-      background-color: #ffffff; }
-      @media (max-width: 768px) {
-        .container-fluid .client__item img {
-          width: 70%; } }
-      @media (max-width: 576px) {
-        .container-fluid .client__item img {
-          width: 70%; } }
+  .container-fluid .client .slick-slide {
+    margin: 0 20px; }
+  .container-fluid .client__item img {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff; }
+    @media (max-width: 576px) {
+      .container-fluid .client__item img {
+        width: 220px; } }
   .container-fluid .module {
     background-color: #ffffff;
     border-top-left-radius: 120px;

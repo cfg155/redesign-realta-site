@@ -82,6 +82,30 @@
                             <img src="assets/yamaha-logo.png" class="p-3 mb-3">
                             <img src="assets/sampoerna-logo.png" class="p-3">
                         </div>
+                        <div class="client__item">
+                            <img src="assets/sera-logo.png" class="p-3 mb-3">
+                            <img src="assets/wyeth-logo.png" class="p-3">
+                        </div>
+                        <div class="client__item">
+                            <img src="assets/bca-logo.png" class="p-3 mb-3">
+                            <img src="assets/astra-logo.png" class="p-3">
+                        </div>
+                        <div class="client__item">
+                            <img src="assets/btn-logo.png" class="p-3 mb-3">
+                            <img src="assets/kpc-logo.png" class="p-3">
+                        </div>
+                        <div class="client__item">
+                            <img src="assets/indofood-logo.png" class="p-3 mb-3">
+                            <img src="assets/mazda-logo.png" class="p-3">
+                        </div>
+                        <div class="client__item">
+                            <img src="assets/kalbe-logo.png" class="p-3 mb-3">
+                            <img src="assets/summarecon-logo.png" class="p-3">
+                        </div>
+                        <div class="client__item">
+                            <img src="assets/yamaha-logo.png" class="p-3 mb-3">
+                            <img src="assets/sampoerna-logo.png" class="p-3">
+                        </div>
                     </div>
 
                 </div>
