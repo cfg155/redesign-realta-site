@@ -14,6 +14,9 @@
     @media (max-width: 768px) {
       .container-fluid .content {
         width: 95%; } }
+    @media (max-width: 576px) {
+      .container-fluid .content .category__wrapper {
+        width: 100% !important; } }
     .container-fluid .content .category__card .logo {
       min-width: 50px;
       max-width: 50px;
