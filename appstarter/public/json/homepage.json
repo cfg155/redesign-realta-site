@@ -6,7 +6,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/RHASODY-LOGO-PNG.png",
-                    "title" : "Rhapsody",
+                    "title" : "Hospitality Management System",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -20,7 +20,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/siapp.png",
-                    "title" : "SIAP+P",
+                    "title" : "Human Resources Information System",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -34,7 +34,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "Bimasakti",
+                    "title" : "Property Management System",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -47,8 +47,22 @@
             {
                 "leftPanel" : {
                     "textBg": "",
+                    "logoURL" : "assets/golf-large (1).png",
+                    "title" : "Golf Course Management System",
+                    "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                    "btnLearMoreURL" : "#"
+                },
+                "rightPanel" : {
+                    "imgURL": "assets/Group 18.png",
+                    "youtubeLink": ""
+                }
+                
+            }, 
+            {
+                "leftPanel" : {
+                    "textBg": "",
                     "logoURL" : "assets/ivanti-logo.png",
-                    "title" : "ITSM & ITAM",
+                    "title" : "IT Service Management & IT Asset management",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -62,7 +76,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/bsi-logo 400px.png",
-                    "title" : "ERP & EAM",
+                    "title" : "Enterprise Resource Planning & Enterprise Asset Management",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -76,7 +90,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/l.png",
-                    "title" : "CRM",
+                    "title" : "Customer Relationship Management",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -89,8 +103,8 @@
             {
                 "leftPanel" : {
                     "textBg": "",
-                    "logoURL" : "assets/bimasakti-logo.png",
-                    "title" : "RealPCR",
+                    "logoURL" : "assets/.png",
+                    "title" : "PCR Test & System",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -103,7 +117,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/.png",
-                    "title" : "RealVioleds",
+                    "title" : "UV LEds Solution",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
@@ -116,7 +130,7 @@
                 "leftPanel" : {
                     "textBg": "",
                     "logoURL" : "assets/.png",
-                    "title" : "RealRose",
+                    "title" : "Ordering & Delivery System",
                     "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
                     "btnLearMoreURL" : "#"
                 },
