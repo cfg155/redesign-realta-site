@@ -201,28 +201,28 @@
     {
         "featureSection" : [
             {
-                "imgURL" : "assets/cloud-system.png",
-                "title" : "Title 1",
+                "imgURL" : "assets/mobile-friendly.png",
+                "title" : "Mobile Friendly",
                 "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
             },
             {
                 "imgURL" : "assets/cloud-system.png",
-                "title" : "Title 2",
+                "title" : "Cloud System",
+                "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+            },
+            {
+                "imgURL" : "assets/integration-support.png",
+                "title" : "Integration Support",
+                "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+            },
+            {
+                "imgURL" : "assets/dashboard-monitoring.png",
+                "title" : "Customize Module",
                 "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
             },
             {
                 "imgURL" : "assets/cloud-system.png",
-                "title" : "Title 3",
-                "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
-            },
-            {
-                "imgURL" : "assets/cloud-system.png",
-                "title" : "Title 4",
-                "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
-            },
-            {
-                "imgURL" : "assets/cloud-system.png",
-                "title" : "Title 5",
+                "title" : "Dashboard Monitoring",
                 "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
             }
         ]
