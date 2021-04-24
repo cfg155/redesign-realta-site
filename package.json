@@ -1,63 +1,55 @@
 {
-  "name": "redesign-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "scss-server": "node-sass --watch ./scss/ -o ./appstarter/public/css/",
-    "scss-static": "node-sass --watch ./scss/ -o ./live-project/css/",
-
-    "build-homepage-server": "browserify ./jsORI/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
-    "build-homepage-static": "browserify ./jsORI/homepage.js > ./live-project/js/homepage.js -t babelify --plugin tinyify",
-
-    "watch-homepage-server": "watchify ./jsORI/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
-    "watch-homepage-static": "watchify ./jsORI/homepage.js -o ./live-project/js/homepage.js -t babelify -d -v",
-
-    "build-solution-server": "browserify ./jsORI/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
-    "build-solution-static": "browserify ./jsORI/solution.js > ./live-project/js/solution.js -t babelify --plugin tinyify",
-
-    "watch-solution-server": "watchify ./jsORI/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v",
-    "watch-solution-static": "watchify ./jsORI/solution.js -o ./live-project/js/solution.js -t babelify -d -v",
-
-    "build-siap-server": "browserify ./jsORI/siap.js > ./appstarter/public/js/siap.js -t babelify --plugin tinyify",
-    "build-siap-static": "browserify ./jsORI/siap.js > ./live-project/js/siap.js -t babelify --plugin tinyify",
-
-    "watch-siap-server": "watchify ./jsORI/siap.js -o ./appstarter/public/js/siap.js -t babelify -d -v",
-    "watch-siap-static": "watchify ./jsORI/siap.js -o ./live-project/js/siap.js -t babelify -d -v",
-
-    "scss-all": "run-p scss-server scss-static",
-    "watch-homepage-all": "run-p watch-homepage-server watch-homepage-static",
-    "build-homepage-all": "run-s build-homepage-server build-homepage-static",
-    "watch-solution-all": "run-p watch-solution-server watch-solution-static",
-    "build-solution-all": "run-s build-solution-server build-solution-static",
-    "watch-siap-all": "run-p watch-siap-server watch-siap-static",
-    "build-siap-all": "run-s build-siap-server build-siap-static"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cfg155/redesign-realta-site.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cfg155/redesign-realta-site/issues"
-  },
-  "homepage": "https://github.com/cfg155/redesign-realta-site#readme",
-  "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "@popperjs/core": "^2.9.1",
-    "bootstrap": "^5.0.0-beta3",
-    "jquery": "^3.6.0",
-    "npm-run-all": "^4.1.5",
-    "slick-carousel": "^1.8.1",
-    "svelte": "^3.37.0",
-    "swiper": "^6.5.3"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12",
-    "babelify": "^10.0.0",
-    "tinyify": "^3.0.0"
-  },
-  "type": "module"
+    "name": "redesign-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "scss-server": "node-sass --watch ./scss/ -o ./appstarter/public/css/",
+        "scss-static": "node-sass --watch ./scss/ -o ./live-project/css/",
+        "build-homepage-server": "browserify ./jsORI/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
+        "build-homepage-static": "browserify ./jsORI/homepage.js > ./live-project/js/homepage.js -t babelify --plugin tinyify",
+        "watch-homepage-server": "watchify ./jsORI/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
+        "watch-homepage-static": "watchify ./jsORI/homepage.js -o ./live-project/js/homepage.js -t babelify -d -v",
+        "build-solution-server": "browserify ./jsORI/solution.js > ./appstarter/public/js/solution.js -t babelify --plugin tinyify",
+        "build-solution-static": "browserify ./jsORI/solution.js > ./live-project/js/solution.js -t babelify --plugin tinyify",
+        "watch-solution-server": "watchify ./jsORI/solution.js -o ./appstarter/public/js/solution.js -t babelify -d -v",
+        "watch-solution-static": "watchify ./jsORI/solution.js -o ./live-project/js/solution.js -t babelify -d -v",
+        "build-siap-server": "browserify ./jsORI/siap.js > ./appstarter/public/js/siap.js -t babelify --plugin tinyify",
+        "build-siap-static": "browserify ./jsORI/siap.js > ./live-project/js/siap.js -t babelify --plugin tinyify",
+        "watch-siap-server": "watchify ./jsORI/siap.js -o ./appstarter/public/js/siap.js -t babelify -d -v",
+        "watch-siap-static": "watchify ./jsORI/siap.js -o ./live-project/js/siap.js -t babelify -d -v",
+        "scss-all": "run-p scss-server scss-static",
+        "watch-homepage-all": "run-p watch-homepage-server watch-homepage-static",
+        "build-homepage-all": "run-s build-homepage-server build-homepage-static",
+        "watch-solution-all": "run-p watch-solution-server watch-solution-static",
+        "build-solution-all": "run-s build-solution-server build-solution-static",
+        "watch-siap-all": "run-p watch-siap-server watch-siap-static",
+        "build-siap-all": "run-s build-siap-server build-siap-static"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cfg155/redesign-realta-site.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cfg155/redesign-realta-site/issues"
+    },
+    "homepage": "https://github.com/cfg155/redesign-realta-site#readme",
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "@popperjs/core": "^2.9.1",
+        "bootstrap": "^5.0.0-beta3",
+        "jquery": "^3.6.0",
+        "npm-run-all": "^4.1.5",
+        "slick-carousel": "^1.8.1",
+        "svelte": "^3.37.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.14",
+        "@babel/preset-env": "^7.13.12",
+        "babelify": "^10.0.0",
+        "tinyify": "^3.0.0"
+    },
+    "type": "module"
 }
