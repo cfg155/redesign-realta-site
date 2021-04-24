@@ -391,23 +391,103 @@
         border-radius: 15px;
         box-shadow: 0px 0px 10px 2px #bdbdbd; }
       .container-fluid .promo--right .custom-row:nth-child(1) .box:nth-child(1) {
-        transform: translate(-100px, -100px); }
+        transform: translate(-100px, -100px);
+        animation: box1 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box1 {
+  from {
+    transform: translate(-100px, -100px); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(1) .box:nth-child(2) {
-        transform: translate(0, -100px); }
+        transform: translate(0, -100px);
+        animation: box2 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box2 {
+  from {
+    transform: translate(0, -100px); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(1) .box:nth-child(3) {
-        transform: translate(100px, -100px); }
+        transform: translate(100px, -100px);
+        animation: box3 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box3 {
+  from {
+    transform: translate(100px, -100px); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(2) .box:nth-child(1) {
-        transform: translate(-100px, 0); }
+        transform: translate(-100px, 0);
+        animation: box4 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box4 {
+  from {
+    transform: translate(-100px, 0); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(2) .box:nth-child(2) {
         transform: translate(0, 0); }
       .container-fluid .promo--right .custom-row:nth-child(2) .box:nth-child(3) {
-        transform: translate(100px, 0); }
+        transform: translate(100px, 0);
+        animation: box5 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box5 {
+  from {
+    transform: translate(100px, 0); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(3) .box:nth-child(1) {
-        transform: translate(-100px, 100px); }
+        transform: translate(-100px, 100px);
+        animation: box6 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box6 {
+  from {
+    transform: translate(-100px, 100px); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(3) .box:nth-child(2) {
-        transform: translate(0, 100px); }
+        transform: translate(0, 100px);
+        animation: box7 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box7 {
+  from {
+    transform: translate(0, 100px); }
+  to {
+    transform: translate(0, 0); } }
       .container-fluid .promo--right .custom-row:nth-child(3) .box:nth-child(3) {
-        transform: translate(100px, 100px); }
+        transform: translate(100px, 100px);
+        animation: box8 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear; }
+
+@keyframes box8 {
+  from {
+    transform: translate(100px, 100px); }
+  to {
+    transform: translate(0, 0); } }
   .container-fluid .about {
     padding: 20px 0 100px 0;
     margin: auto; }
