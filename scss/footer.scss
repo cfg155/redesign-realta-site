@@ -1,0 +1,28 @@
+@import "variables", "mixins";
+
+footer {
+  font-size: 0.8em;
+  .footer__wrapper {
+    width: 75%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 30px !important;
+
+    @include screen-md {
+      width: 95%;
+    }
+
+    .social-media {
+      .icon img {
+        width: 36px;
+      }
+    }
+  }
+
+  .color-bar {
+    width: 100% !important;
+    height: 1vh !important;
+    background-image: url("../assets/color-bar.png") !important;
+    background-size: fit;
+  }
+}

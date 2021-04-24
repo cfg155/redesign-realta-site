@@ -1,0 +1,23 @@
+@import "variables", "mixins";
+
+.super {
+  background-color: $cos-secondary-color;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+}
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+
+  .content {
+    width: 75%;
+    margin: auto;
+
+    @include screen-md {
+      width: 100%;
+    }
+  }
+}

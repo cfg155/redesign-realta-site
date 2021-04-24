@@ -1,0 +1,51 @@
+@import "variables", "mixins";
+
+.super {
+  background-color: $cos-secondary-color;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+}
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+  width: 75%;
+  margin: auto;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  .career__container {
+    width: 75%;
+    margin: auto;
+
+    @include screen-md {
+      width: 95%;
+    }
+  }
+
+  .career {
+    &--item {
+      border-radius: $cos-border-size;
+      background-color: #ffffff;
+
+      @include screen-md {
+        width: 100% !important;
+      }
+
+      .header {
+        svg {
+          margin-right: 10px;
+        }
+      }
+
+      .footer {
+        a {
+          background-color: $cos-primary-color;
+        }
+      }
+    }
+  }
+}
