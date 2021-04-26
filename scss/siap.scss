@@ -214,14 +214,12 @@
     }
   }
 
-  .contact {
-    margin-bottom: 50px;
-    .contact-text {
-      white-space: nowrap;
-    }
-
-    .purple {
-      background-color: $cos-primary-color;
+  .contact-us {
+    .col-lg-6:nth-child(1) {
+      .achievement {
+        font-size: 0.8em;
+        line-height: 15px;
+      }
     }
   }
 }

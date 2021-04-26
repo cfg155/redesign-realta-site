@@ -331,9 +331,6 @@
         padding: 20px 10px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px; }
-  .container-fluid .contact {
-    margin-bottom: 50px; }
-    .container-fluid .contact .contact-text {
-      white-space: nowrap; }
-    .container-fluid .contact .purple {
-      background-color: #5d2e8f; }
+  .container-fluid .contact-us .col-lg-6:nth-child(1) .achievement {
+    font-size: 0.8em;
+    line-height: 15px; }
