@@ -77,14 +77,20 @@
     // mobile menu animation
     let burger = document.querySelector('.burger-icon__container')
     let navMobileMenu = document.querySelector('.nav--mobile-menu')
+
+    navMobileMenu.style.transform = `translateX(-${window.innerWidth}px)`
+    navMobileMenu.style.opacity = '0'
+
+
     burger.addEventListener('click', () => {
         navMobileMenu.style.transform = 'translateX(0)'
         navMobileMenu.style.opacity = '1'
+
     })
 
     let close = document.querySelector('.close')
     close.addEventListener('click', () => {
-        navMobileMenu.style.transform = 'translateX(-2000px)'
+        navMobileMenu.style.transform = `translateX(-${window.innerWidth}px)`
         navMobileMenu.style.opacity = '0'
     })
 </script>

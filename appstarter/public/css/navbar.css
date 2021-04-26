@@ -7527,14 +7527,18 @@ nav {
       background-color: black;
       border-radius: 15px; }
   nav .nav--mobile-menu {
+    display: none !important;
     z-index: 9999;
     width: 100%;
     background-color: #5d2e8f;
     height: 100vh;
     font-size: 1.1rem;
-    transform: translateX(-2000px);
+    transform: translateX(-600px);
     opacity: 0;
     transition: transform 0.8s, opacity 1s; }
+    @media (max-width: 576px) {
+      nav .nav--mobile-menu {
+        display: block !important; } }
     nav .nav--mobile-menu .close {
       height: 10vh; }
       nav .nav--mobile-menu .close svg {

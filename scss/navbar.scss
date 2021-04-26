@@ -69,14 +69,19 @@ nav {
     }
 
     &--mobile-menu {
+      display: none !important;
       z-index: 9999;
       width: 100%;
       background-color: $cos-primary-color;
       height: 100vh;
       font-size: 1.1rem;
-      transform: translateX(-2000px);
+      transform: translateX(-600px);
       opacity: 0;
       transition: transform 0.8s, opacity 1s;
+
+      @include screen-sm {
+        display: block !important;
+      }
 
       .close {
         height: 10vh;
