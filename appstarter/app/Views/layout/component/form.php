@@ -6,8 +6,7 @@
                 <label for="service" class="form-label my-3">Select A Service</label>
             </div>
             <div class="cold-md-12">
-                <select name="" id="" class="form-control">
-                    <option value="Test">Test</option>
+                <select name="" id="" class="form-control select-container">
                 </select>
             </div>
         </div>
@@ -43,7 +42,11 @@
 
             <div class="col-md-12">
                 <select name="" id="" class="form-control">
-                    <option value="Test">Test</option>
+                    <option value="1-50">1-50</option>
+                    <option value="51-100">51-100</option>
+                    <option value="101-300">101-300</option>
+                    <option value="301-500">301-500</option>
+                    <option value=">500">>500</option>
                 </select>
             </div>
         </div>
@@ -85,3 +88,21 @@
 
     </form>
 </div>
+
+<script>
+    fetch('json/homepage.json')
+        .then(response => response.json())
+        .then(response => {
+            let getService = []
+            let optionEl = ''
+            let productSection = response[0].productSection
+            productSection.forEach((item, index) => {
+                getService[index] = item.leftPanel.title
+                optionEl +=
+                    `
+                    <option value="${item.leftPanel.title}">${item.leftPanel.title}</option>
+                    `
+            })
+            document.querySelector('.select-container').innerHTML = optionEl
+        })
+</script>

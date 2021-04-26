@@ -116,6 +116,18 @@
         @include screen-sm {
           width: 220px;
         }
+
+        @include custom-screen-size(472px) {
+          width: 180px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 160px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 140px;
+        }
       }
     }
   }
