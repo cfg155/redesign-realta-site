@@ -196,15 +196,7 @@
                             <!-- Category -->
                             <div class="side-panel p-3 mb-5">
                                 <h4>Category</h4>
-                                <div class="category-item d-flex align-items-center my-3">
-                                    <span class="px-2">Lorem, ipsum.</span>
-                                </div>
-                                <div class="category-item d-flex align-items-center my-3">
-                                    <span class="px-2">Lorem, ipsum.</span>
-                                </div>
-                                <div class="category-item d-flex align-items-center my-3">
-                                    <span class="px-2">Lorem, ipsum.</span>
-                                </div>
+                                <div class="category-item d-flex flex-column  my-3"></div>
                             </div>
                         </div>
                     </div>
@@ -219,3 +211,19 @@
 </body>
 
 </html>
+<script>
+    fetch('json/homepage.json')
+        .then(response => response.json())
+        .then(response => {
+            let optionEl = ''
+            let productSection = response[0].productSection
+            productSection.forEach((item, index) => {
+                console.log(item)
+                optionEl +=
+                    `
+                    <a href="#" class="p-2 text-decoration-none text-dark">${item.leftPanel.title}</a>
+                    `
+            })
+            document.querySelector('.category-item').innerHTML = optionEl
+        })
+</script>
