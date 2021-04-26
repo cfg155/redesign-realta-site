@@ -281,6 +281,15 @@
     @media (max-width: 576px) {
       .container-fluid .client__item img {
         width: 220px; } }
+    @media (max-width: 472px) {
+      .container-fluid .client__item img {
+        width: 180px; } }
+    @media (max-width: 380px) {
+      .container-fluid .client__item img {
+        width: 160px; } }
+    @media (max-width: 380px) {
+      .container-fluid .client__item img {
+        width: 140px; } }
   .container-fluid .module {
     background-color: #ffffff;
     border-top-left-radius: 120px;
