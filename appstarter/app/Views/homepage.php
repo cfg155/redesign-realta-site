@@ -175,17 +175,17 @@
                             <h2>What Are You Waiting for ? Just Make It Happen!</h2>
                             <p class="w-75">We'll have a Business Development Representative contact you within 24 business hours</p>
                             <div class="achievement d-flex ">
-                                <div class="achievement--item d-flex justify-content-center align-items-center mb-3 me-3">
+                                <div class="achievement--item d-flex justify-content-center align-items-center mb-3">
                                     <img src="assets/awards-item-left.png" alt="">
                                     <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
                                     <img src="assets/awards-item-right.png" alt="">
                                 </div>
-                                <div class="achievement--item d-flex justify-content-center align-items-center mb-3 mx-3">
+                                <div class="achievement--item d-flex justify-content-center align-items-center mb-3">
                                     <img src="assets/awards-item-left.png" alt="">
                                     <span class="text-center">TOP IT<br> Solution <br> 2019</span>
                                     <img src="assets/awards-item-right.png" alt="">
                                 </div>
-                                <div class="achievement--item d-flex justify-content-center align-items-center mb-3 mx-3">
+                                <div class="achievement--item d-flex justify-content-center align-items-center mb-3">
                                     <img src="assets/awards-item-left.png" alt="">
                                     <span class="text-center">TOP IT<br> Solution <br> 2020</span>
                                     <img src="assets/awards-item-right.png" alt="">

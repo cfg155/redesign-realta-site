@@ -91,7 +91,7 @@
         width: 200px;
         cursor: pointer;
 
-        @include custom-screen-size(320px) {
+        @include custom-screen-size(376px) {
           width: 150px;
         }
       }
@@ -494,6 +494,14 @@
       .achievement {
         font-size: 0.8em;
         line-height: 15px;
+
+        &--item {
+          margin-right: 10px;
+
+          @include custom-screen-size(376px) {
+            margin-right: 0;
+          }
+        }
       }
     }
   }

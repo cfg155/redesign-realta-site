@@ -269,7 +269,7 @@
       .container-fluid .product--rating img {
         width: 200px;
         cursor: pointer; }
-        @media (max-width: 320px) {
+        @media (max-width: 376px) {
           .container-fluid .product--rating img {
             width: 150px; } }
     .container-fluid .product .btn--learn-more {
@@ -532,3 +532,8 @@
   .container-fluid .contact-us .col-lg-6:nth-child(1) .achievement {
     font-size: 0.8em;
     line-height: 15px; }
+    .container-fluid .contact-us .col-lg-6:nth-child(1) .achievement--item {
+      margin-right: 10px; }
+      @media (max-width: 376px) {
+        .container-fluid .contact-us .col-lg-6:nth-child(1) .achievement--item {
+          margin-right: 0; } }
