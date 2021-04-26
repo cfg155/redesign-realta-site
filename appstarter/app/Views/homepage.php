@@ -182,12 +182,12 @@
                                 </div>
                                 <div class="achievement--item d-flex justify-content-center mb-3 mx-3">
                                     <img src="assets/awards-item-left.png" alt="">
-                                    <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                                    <span class="text-center">TOP IT<br> Solution <br> 2019</span>
                                     <img src="assets/awards-item-right.png" alt="">
                                 </div>
                                 <div class="achievement--item d-flex justify-content-center mb-3 mx-3">
                                     <img src="assets/awards-item-left.png" alt="">
-                                    <span class="text-center">FAST <br> Moving <br> Company <br> 2019</span>
+                                    <span class="text-center">TOP IT<br> Solution <br> 2020</span>
                                     <img src="assets/awards-item-right.png" alt="">
                                 </div>
                             </div>
