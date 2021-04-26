@@ -74,16 +74,16 @@
         width: 75%;
         margin: auto;
 
-        @include screen-md {
-          width: 100%;
-        }
+        // @include screen-md {
+        //   width: 100%;
+        // }
 
-        .body-text {
-          font-size: 0.8em !important;
-          @include screen-md {
-            font-size: 1em !important;
-          }
-        }
+        // .body-text {
+        //   font-size: 0.8em !important;
+        //   @include screen-md {
+        //     font-size: 1em !important;
+        //   }
+        // }
 
         .footer {
           font-size: 0.7em !important;
