@@ -11,13 +11,4 @@
 
 .container-fluid {
   background-color: $cos-secondary-color;
-
-  .content {
-    width: 75%;
-    margin: auto;
-
-    @include screen-md {
-      width: 100%;
-    }
-  }
 }

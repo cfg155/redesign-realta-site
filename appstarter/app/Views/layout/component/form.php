@@ -1,5 +1,6 @@
 <div class="form p-5" style="background-color: #ffffff; border-radius: 15px !important;">
-    <form action="" method="POST">
+    <form action="/form" method="POST">
+        <?= csrf_field(); ?>
         <!-- Select A Service -->
         <div class="row">
             <div class="col-md-12">
@@ -83,7 +84,7 @@
 
         <!-- Submit -->
         <div class="row my-3 text-center w-100">
-            <a href="#" class="btn rounded-pill text-light col-md-12 py-2" style="background-color: #5d2e8f;">Tell us your problem</a>
+            <button class="g-recaptcha btn rounded-pill text-light" data-sitekey=" 6LeBJrsaAAAAACYPjvJSKwSZFaIB6e3Q0Wyn-apw" data-callback='onSubmit' data-action='submit' style="background-color: #5d2e8f;">Tell us your problem</button>
         </div>
 
     </form>
@@ -105,4 +106,10 @@
             })
             document.querySelector('.select-container').innerHTML = optionEl
         })
+</script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
 </script>

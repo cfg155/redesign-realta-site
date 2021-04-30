@@ -3,18 +3,25 @@
 footer {
   font-size: 0.8em;
   .footer__wrapper {
+    box-shadow: $box-shadow;
+
     width: 75%;
     margin: auto;
     background-color: #ffffff;
     border-radius: 30px !important;
 
-    @include screen-md {
+    @include screen-lg {
       width: 95%;
     }
 
-    .social-media {
-      .icon img {
-        width: 36px;
+    &--bottom {
+      @include screen-sm {
+        flex-direction: column;
+      }
+      .social-media {
+        .icon img {
+          width: 36px;
+        }
       }
     }
   }

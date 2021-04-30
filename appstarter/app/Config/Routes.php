@@ -50,6 +50,7 @@ $routes->get('/blog', 'Blog::index');
 $routes->get('/blog/detail/(:segment)', 'Blog::detail/$1');
 $routes->get('/career', 'Career::index');
 
+$routes->get('/form', 'Form::index');
 
 /*
  * --------------------------------------------------------------------

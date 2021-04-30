@@ -17,87 +17,32 @@
   margin-right: 0 !important;
 
   .content {
-    min-height: 100vh;
-    width: 75%;
-    margin: auto;
-
-    &__title {
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-      margin-left: 0 !important;
-      margin-right: 0 !important;
+    @include screen-lg {
+      width: 95% !important;
     }
 
-    .link {
-      opacity: 0 !important;
+    .stretched-link {
+      opacity: 0;
     }
 
-    &__container__highlight {
-      // max-width: 800px;
-      // margin: auto;
-      margin-right: 40px;
-
-      @include screen-md {
-        margin-right: 0 !important;
-      }
-
-      .bg {
-        background-image: url("../assets/Real Violet Air Sterilizer - PT Realta Chakradarma.png");
-        background-size: 100% 100%;
-        min-width: 100px;
-        min-height: 300px;
-        border-top-left-radius: 15px !important;
-        border-bottom-left-radius: 15px !important;
-
-        @include custom-screen-size(992px) {
-          border-top-left-radius: 15px !important;
-          border-top-right-radius: 15px !important;
-          border-bottom-left-radius: 0 !important;
-        }
-      }
-
-      .body-text {
-        background-color: #ffffff;
-        border-top-right-radius: 15px !important;
-        border-bottom-right-radius: 15px !important;
-
-        @include custom-screen-size(992px) {
-          border-bottom-left-radius: 15px !important;
-          border-bottom-right-radius: 15px !important;
-          border-top-right-radius: 0 !important;
-        }
-      }
-    }
-
-    &__container__body {
-      .c-card {
-        width: 75%;
-        margin: auto;
-
-        // @include screen-md {
-        //   width: 100%;
-        // }
-
-        // .body-text {
-        //   font-size: 0.8em !important;
-        //   @include screen-md {
-        //     font-size: 1em !important;
-        //   }
-        // }
-
-        .footer {
-          font-size: 0.7em !important;
-          @include screen-md {
-            font-size: 1em !important;
+    &__blog__side {
+      .popular {
+        border-radius: $cos-border-size;
+        background-color: #fff;
+        &__wrapper {
+          &--item {
+            img {
+              width: 100px;
+              height: 75px;
+            }
           }
         }
       }
-    }
 
-    .side-panel {
-      background-color: #ffffff;
-      width: 100% !important;
-      border-radius: 15px;
+      .category {
+        background-color: #fff;
+        border-radius: $cos-border-size;
+      }
     }
   }
 }

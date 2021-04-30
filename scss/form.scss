@@ -1,0 +1,44 @@
+@import "mixins", "variables";
+
+.contact-us {
+  padding: 20px 0;
+
+  @include screen-sm {
+    width: 95%;
+    margin: auto;
+  }
+  .col-lg-6:nth-child(1) {
+    .achievement {
+      font-size: 0.8em;
+      line-height: 15px;
+
+      &--item {
+        margin-right: 10px;
+
+        @include custom-screen-size(376px) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .col-lg-5 {
+    box-shadow: $box-shadow;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-radius: $cos-border-size;
+    .select-i {
+      background-image: url("../assets/Icon awesome-arrow-down.png");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      padding-right: 30px;
+    }
+
+    select,
+    textarea,
+    input {
+      background-color: #f2f2f5;
+      resize: none;
+    }
+  }
+}

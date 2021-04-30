@@ -7481,6 +7481,18 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+@font-face {
+  font-family: "MaisonNeue-Bold";
+  src: url("font/MaisonNeue-Bold.ttf"); }
+
+@font-face {
+  font-family: "MaisonNeue-Book";
+  src: url("font/MaisonNeue-Book.ttf"); }
+
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("font/MaisonNeue-Light.ttf"); }
+
 * {
   padding: 0;
   margin: 0;

@@ -1,14 +1,30 @@
+@font-face {
+  font-family: "MaisonNeue-Bold";
+  src: url("font/MaisonNeue-Bold.ttf"); }
+
+@font-face {
+  font-family: "MaisonNeue-Book";
+  src: url("font/MaisonNeue-Book.ttf"); }
+
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("font/MaisonNeue-Light.ttf"); }
+
 footer {
   font-size: 0.8em; }
   footer .footer__wrapper {
+    box-shadow: 0px 5px 10px 0px #d6d6d6;
     width: 75%;
     margin: auto;
     background-color: #ffffff;
     border-radius: 30px !important; }
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       footer .footer__wrapper {
         width: 95%; } }
-    footer .footer__wrapper .social-media .icon img {
+    @media (max-width: 576px) {
+      footer .footer__wrapper--bottom {
+        flex-direction: column; } }
+    footer .footer__wrapper--bottom .social-media .icon img {
       width: 36px; }
   footer .color-bar {
     width: 100% !important;

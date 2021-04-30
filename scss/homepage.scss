@@ -19,61 +19,76 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
   overflow: hidden;
+
   .product {
-    margin-bottom: 50px;
-    .slidebar {
-      .arrow {
-        cursor: pointer;
-      }
-    }
+    margin-bottom: 40px;
+    display: flex;
 
-    &__wrapper {
-      z-index: 999;
-      width: 75%;
-      margin: auto;
-      padding-left: 5%;
-
-      @include screen-md {
-        width: 100%;
-        padding-left: 15px;
-      }
-    }
-
-    .right-product {
-      background-image: url("../assets/mobile-slider-bg.png");
-      background-position: center;
-      background-size: 600px;
-      background-repeat: no-repeat;
+    .left-product {
+      width: 100%;
+      padding-left: 10%;
+      z-index: 20;
+      padding-right: 20px;
 
       @include screen-lg {
-        height: 70vh;
-        background-size: 500px;
+        width: 50%;
+        padding-left: 20px !important;
       }
 
-      @include custom-screen-size(320px) {
-        background-size: 400px;
+      @include screen-sm {
+        padding-left: 10px !important;
       }
 
-      .phone-img {
-        z-index: 999;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        left: 50%;
-        width: 300px;
-
-        @include custom-screen-size(320px) {
-          width: 200px;
+      .product__wrapper {
+        &__context {
+          .product--item {
+            opacity: 0;
+            transform: translateX(-70px);
+          }
         }
       }
     }
 
     &--logo {
       width: 150px;
+      height: 100px;
+      opacity: 0;
+      margin: 15px 0;
+
+      @include screen-sm {
+        width: 75%;
+        height: 75%;
+      }
+
+      @include custom-screen-size(320px) {
+        min-width: 100px;
+        min-height: 80px;
+        width: 100px;
+        height: 80px;
+      }
+    }
+
+    &--title {
+      white-space: nowrap;
+      font-weight: normal;
+
+      @include screen-sm {
+        font-size: 1rem;
+        line-height: 25px;
+
+        .big-title {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
     }
 
     &--desc {
       margin-bottom: 0 !important;
+      @include screen-sm {
+        font-size: 0.8em;
+        margin-bottom: 50px;
+      }
     }
 
     &--text-bg {
@@ -85,40 +100,118 @@
     }
 
     &--rating {
-      display: flex;
+      @include screen-md {
+        flex-direction: column;
+      }
+
+      @include screen-sm {
+        flex-direction: row;
+      }
 
       img {
         width: 200px;
-        cursor: pointer;
 
-        @include custom-screen-size(376px) {
+        @include screen-lg {
+          width: 175px;
+        }
+
+        @include screen-sm {
           width: 150px;
         }
       }
     }
 
     .btn--learn-more {
+      white-space: nowrap;
       background-color: $cos-primary-color;
     }
 
-    .colorbar {
-      &--item {
-        width: 50px;
-        height: 5px;
-        background-color: #b7b7b7;
+    .slidebar {
+      .arrow {
+        cursor: pointer;
+      }
+      .colorbar {
+        &--item {
+          width: 30px;
+          height: 5px;
+          background-color: #b7b7b7;
+
+          @include custom-screen-size(450px) {
+            width: 25px;
+          }
+
+          @include custom-screen-size(375px) {
+            width: 20px;
+          }
+        }
+      }
+    }
+
+    .right-product {
+      width: 100%;
+      background-image: url("../assets/mobile-slider-bg.png");
+      background-repeat: no-repeat;
+      background-size: 500px;
+      background-position: center;
+
+      @include screen-lg {
+        background-size: 400px;
+      }
+
+      @include screen-md {
+        background-position-x: 75px;
+      }
+
+      @include screen-sm {
+        background-size: 500px;
+        background-position-x: 50px;
+        background-position-y: 50px;
+      }
+
+      @include custom-screen-size(400px) {
+        background-position-x: 25px;
+        background-position-y: 50px;
+      }
+
+      @include custom-screen-size(375px) {
+        background-position-x: 0;
+      }
+
+      .phone-img {
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
         @include screen-md {
-          width: 25px;
+          width: 250px;
         }
 
-        @include custom-screen-size(320px) {
-          width: 17px;
+        @include screen-sm {
+          width: 200px;
+          top: 25%;
+          left: inherit;
+          right: 0;
+          transform: translate(0, -25%);
+        }
+
+        @include custom-screen-size(375px) {
+          width: 165px;
+          top: 30%;
+          left: inherit;
+          right: 0;
+          transform: translate(0, -30%);
         }
       }
     }
   }
 
   .client {
+    .slick-list {
+      padding: 20px 0;
+    }
+
     .slick-slide {
       margin: 0 20px;
     }
@@ -128,6 +221,7 @@
         width: 100%;
         border-radius: 10px;
         background-color: #ffffff;
+        box-shadow: $box-shadow;
 
         @include screen-sm {
           width: 220px;
@@ -157,6 +251,11 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: 100px;
+
+    @include screen-sm {
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
+    }
 
     .text-center {
       padding: 100px 0;
@@ -195,6 +294,7 @@
         .footer {
           border-bottom-left-radius: $cos-border-size;
           border-bottom-right-radius: $cos-border-size;
+          box-shadow: $box-shadow;
         }
       }
     }
@@ -202,13 +302,17 @@
 
   .feature {
     overflow: hidden;
-    margin: 100px 0;
+    margin: 50px 0;
 
     &__wrapper {
       .left-feature {
         width: 400px;
         z-index: 10;
         margin: auto;
+
+        .feature--card {
+          box-shadow: $box-shadow;
+        }
 
         @include screen-lg {
           width: 95%;
@@ -229,9 +333,20 @@
         }
 
         @include screen-lg {
-          height: 70vh;
-          background-size: 500px;
+          height: 65vh;
+          background-size: 400px;
           background-position: center;
+        }
+
+        @include screen-md {
+          height: 60vh;
+          background-size: 350px;
+        }
+
+        @include screen-sm {
+          height: 40vh;
+          margin: 40px 0;
+          background-size: 250px;
         }
 
         .phone-img {
@@ -247,14 +362,31 @@
             top: 50%;
             transform: translate(-50%, -50%);
           }
+
+          @include screen-md {
+            width: 200px;
+          }
+
+          @include screen-sm {
+            width: 150px;
+          }
         }
       }
     }
 
     &--card {
+      width: 600px;
       cursor: pointer;
       border-radius: $cos-border-size;
       background-color: #ffffff;
+
+      @include custom-screen-size(1200px) {
+        width: 500px;
+      }
+
+      @include screen-lg {
+        width: 100%;
+      }
 
       .header {
         padding: 15px;
@@ -274,7 +406,7 @@
   }
 
   .promo {
-    margin: 100px 0;
+    margin: 50px 0;
 
     &__desc {
       @include screen-lg {
@@ -285,6 +417,19 @@
     .promo-youtube {
       width: 100%;
       height: 250px;
+      box-shadow: $box-shadow;
+
+      @include screen-lg {
+        height: 400px;
+      }
+
+      @include screen-sm {
+        height: 300px;
+      }
+
+      @include custom-screen-size(375px) {
+        height: 250px;
+      }
     }
 
     &__desc {
@@ -463,9 +608,15 @@
 
   .about {
     padding: 20px 0 100px 0;
-
     margin: auto;
+
+    h2 {
+      width: 95%;
+      margin: auto;
+    }
+
     &__wrapper {
+      box-shadow: $box-shadow;
       background-color: #ffffff !important;
       border-top-left-radius: $cos-border-size;
       border-bottom-left-radius: $cos-border-size;
@@ -483,23 +634,6 @@
           @include screen-lg {
             border-top-right-radius: 0;
             border-bottom-left-radius: $cos-border-size;
-          }
-        }
-      }
-    }
-  }
-
-  .contact-us {
-    .col-lg-6:nth-child(1) {
-      .achievement {
-        font-size: 0.8em;
-        line-height: 15px;
-
-        &--item {
-          margin-right: 10px;
-
-          @include custom-screen-size(376px) {
-            margin-right: 0;
           }
         }
       }
