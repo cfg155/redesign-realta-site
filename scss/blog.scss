@@ -25,11 +25,22 @@
       opacity: 0;
     }
 
+    &__blog__main {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+
+      @include custom-screen-size(1200px) {
+        width: 95%;
+        margin: auto;
+      }
+    }
+
     &__blog__side {
+      padding: 30px 10px;
       .popular {
-        border-radius: $cos-border-size;
-        background-color: #fff;
         &__wrapper {
+          border-radius: $cos-border-size;
+          background-color: #fff;
           &--item {
             img {
               width: 100px;
@@ -40,8 +51,10 @@
       }
 
       .category {
-        background-color: #fff;
-        border-radius: $cos-border-size;
+        &__wrapper {
+          background-color: #fff;
+          border-radius: $cos-border-size;
+        }
       }
     }
   }

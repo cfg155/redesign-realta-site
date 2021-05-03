@@ -12,6 +12,8 @@
 
 .container-fluid {
   background-color: $cos-secondary-color;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 
   .content {
     width: 75%;
@@ -33,6 +35,8 @@
       }
 
       &__card {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         .logo {
           min-width: 50px;
           max-width: 50px;

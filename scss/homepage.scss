@@ -312,6 +312,13 @@
 
         .feature--card {
           box-shadow: $box-shadow;
+
+          .header {
+            h4 {
+              margin-bottom: 0 !important;
+              font-size: 1rem;
+            }
+          }
         }
 
         @include screen-lg {

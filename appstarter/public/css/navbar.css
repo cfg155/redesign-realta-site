@@ -7496,10 +7496,13 @@ textarea.form-control-lg {
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "MaisonNeue-Light", Arial, Helvetica, sans-serif; }
+
+.book-text {
+  font-family: "MaisonNeue-Book" !important; }
 
 nav {
-  font-size: 0.8em;
   background-color: #fafafa;
   position: relative;
   z-index: 9999; }
@@ -7521,9 +7524,11 @@ nav {
     @media (max-width: 768px) {
       nav .nav--logo {
         margin-left: 10px; } }
-  @media (max-width: 768px) {
-    nav .nav--links {
-      margin-right: 15px; } }
+  nav .nav--links {
+    font-size: 0.8rem; }
+    @media (max-width: 768px) {
+      nav .nav--links {
+        margin-right: 15px; } }
   nav .nav .burger-icon__container {
     display: none;
     position: absolute;

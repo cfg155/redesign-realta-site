@@ -1,15 +1,19 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "variables", "mixins";
+@import "variables", "mixins", "font";
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "MaisonNeue-Light", Arial, Helvetica, sans-serif;
+}
+
+.book-text {
+  font-family: "MaisonNeue-Book" !important;
 }
 
 nav {
-  font-size: 0.8em;
   background-color: $cos-secondary-color;
   position: relative;
   z-index: 9999;
@@ -44,6 +48,7 @@ nav {
     }
 
     &--links {
+      font-size: 0.8rem;
       @include screen-md {
         margin-right: 15px;
       }
