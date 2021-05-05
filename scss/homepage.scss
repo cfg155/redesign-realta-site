@@ -414,10 +414,18 @@
 
   .promo {
     margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
 
     &__desc {
+      padding-left: 10%;
+      width: 50%;
       @include screen-lg {
         width: 95% !important;
+      }
+
+      @include screen-md {
+        width: 95%;
       }
     }
 
@@ -439,177 +447,18 @@
       }
     }
 
-    &__desc {
-      width: 400px;
-
-      @include screen-md {
-        width: 95%;
-      }
-    }
-
     &--right {
-      display: grid;
-      place-items: center;
+      width: 800px;
+      position: relative;
 
       @include screen-lg {
         display: none;
       }
 
-      .custom-row {
-        .box {
-          width: 75px;
-          height: 75px;
-          background-color: #ffffff !important;
-          border-radius: $cos-border-size;
-          box-shadow: 0px 0px 10px 2px rgba(189, 189, 189, 1);
-        }
+      .box {
+        background-color: red;
+        position: absolute;
       }
-
-      // .custom-row:nth-child(1) {
-      //   .box:nth-child(1) {
-      //     transform: translate(-100px, -100px);
-      //     animation: box1 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box1 {
-      //     from {
-      //       transform: translate(-100px, -100px);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-
-      //   .box:nth-child(2) {
-      //     transform: translate(0, -100px);
-      //     animation: box2 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box2 {
-      //     from {
-      //       transform: translate(0, -100px);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-
-      //   .box:nth-child(3) {
-      //     transform: translate(100px, -100px);
-      //     animation: box3 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box3 {
-      //     from {
-      //       transform: translate(100px, -100px);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-      // }
-
-      // .custom-row:nth-child(2) {
-      //   .box:nth-child(1) {
-      //     transform: translate(-100px, 0);
-      //     animation: box4 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box4 {
-      //     from {
-      //       transform: translate(-100px, 0);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-
-      //   .box:nth-child(2) {
-      //     transform: translate(0, 0);
-      //   }
-
-      //   .box:nth-child(3) {
-      //     transform: translate(100px, 0);
-      //     animation: box5 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box5 {
-      //     from {
-      //       transform: translate(100px, 0);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-      // }
-
-      // .custom-row:nth-child(3) {
-      //   .box:nth-child(1) {
-      //     transform: translate(-100px, 100px);
-      //     animation: box6 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box6 {
-      //     from {
-      //       transform: translate(-100px, 100px);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-
-      //   .box:nth-child(2) {
-      //     transform: translate(0, 100px);
-      //     animation: box7 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box7 {
-      //     from {
-      //       transform: translate(0, 100px);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-
-      //   .box:nth-child(3) {
-      //     transform: translate(100px, 100px);
-      //     animation: box8 2s;
-      //     animation-iteration-count: infinite;
-      //     animation-direction: alternate;
-      //     animation-timing-function: linear;
-      //   }
-
-      //   @keyframes box8 {
-      //     from {
-      //       transform: translate(100px, 100px);
-      //     }
-      //     to {
-      //       transform: translate(0, 0);
-      //     }
-      //   }
-      // }
     }
   }
 
