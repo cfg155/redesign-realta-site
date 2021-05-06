@@ -413,7 +413,7 @@
   }
 
   .promo {
-    margin: 50px 0;
+    // margin: 50px 0;
     display: flex;
     justify-content: space-around;
 
@@ -422,6 +422,7 @@
       width: 50%;
       @include screen-lg {
         width: 95% !important;
+        padding: 20px;
       }
 
       @include screen-md {
@@ -435,6 +436,10 @@
       box-shadow: $box-shadow;
 
       @include screen-lg {
+        height: 300px;
+      }
+
+      @include screen-md {
         height: 400px;
       }
 
@@ -443,7 +448,7 @@
       }
 
       @include custom-screen-size(375px) {
-        height: 250px;
+        height: 200px;
       }
     }
 
@@ -451,7 +456,7 @@
       width: 800px;
       position: relative;
 
-      @include screen-lg {
+      @include screen-md {
         display: none !important;
       }
 
