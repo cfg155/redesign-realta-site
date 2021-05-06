@@ -456,7 +456,9 @@
       }
 
       .box {
-        background-color: red;
+        background: white;
+        border-radius: $cos-border-size;
+        box-shadow: $box-shadow;
         position: absolute;
       }
     }

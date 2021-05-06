@@ -520,7 +520,9 @@
         .container-fluid .promo--right {
           display: none !important; } }
       .container-fluid .promo--right .box {
-        background-color: red;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px 0px #d6d6d6;
         position: absolute; }
   .container-fluid .about {
     padding: 20px 0 100px 0;
