@@ -488,6 +488,7 @@
         border-bottom-right-radius: 15px;
         overflow: hidden; }
   .container-fluid .promo {
+    margin: 50px 0;
     display: flex;
     justify-content: space-around; }
     .container-fluid .promo__desc {
