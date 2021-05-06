@@ -518,7 +518,7 @@
       position: relative; }
       @media (max-width: 992px) {
         .container-fluid .promo--right {
-          display: none; } }
+          display: none !important; } }
       .container-fluid .promo--right .box {
         background-color: red;
         position: absolute; }
