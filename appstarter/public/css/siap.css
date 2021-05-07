@@ -205,7 +205,10 @@
       opacity: 0.75; }
 
 .super {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1s; }
 
 .super__container {
   max-width: 1970px;

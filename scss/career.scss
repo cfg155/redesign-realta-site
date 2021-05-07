@@ -2,6 +2,9 @@
 
 .super {
   background-color: $cos-secondary-color;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .super__container {
