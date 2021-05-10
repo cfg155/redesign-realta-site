@@ -3,19 +3,18 @@
   "../node_modules/slick-carousel/slick/slick-theme.scss";
 
 .super {
-  background-color: $cos-secondary-color;
   overflow: hidden;
-  opacity: 0;
-  transition: opacity 1s;
 }
 
 .super__container {
   max-width: 1970px;
   margin: auto;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
 }
 
 .container-fluid {
-  background-color: $cos-secondary-color;
   margin-left: 0 !important;
   margin-right: 0 !important;
   padding-left: 0 !important;

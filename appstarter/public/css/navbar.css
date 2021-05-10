@@ -7503,7 +7503,6 @@ textarea.form-control-lg {
   font-family: "MaisonNeue-Book" !important; }
 
 nav {
-  background-color: #fafafa;
   position: relative;
   z-index: 9999; }
   @media (max-width: 768px) {
