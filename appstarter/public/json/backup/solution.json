@@ -1,0 +1,98 @@
+[
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"Hotel System",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/hotel"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"HR System",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/siap"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"Property System",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/property"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"Golf System",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/golf"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"IT Service Management",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/itsm"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"IT Asset Management",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/itam"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"ERP (Enterprise Resource Planning)",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"erp"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"EAM (Enterprise Asset Management)",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/eam"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"CRM (Customer Relationship Management)",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/crm"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"RealPCR Test & System",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"realpcr"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"RealVioleds (UV Leds Solution)",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/realvioleds"
+    },
+    {
+        "bg":"assets/sampleSolutionHeader.png",
+        "logo": "",
+        "productName":"RealROSE (Ordering & Delivery System)",
+        "tag":"HRIS,HRMS,PAYROLL,ATTENDANCE PPH21",
+        "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+        "url":"/realrose"
+    }
+]

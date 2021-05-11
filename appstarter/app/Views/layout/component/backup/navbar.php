@@ -6,32 +6,30 @@
     <div class="nav">
         <div class="nav__container position-relative">
             <div class="nav__container__links d-flex py-3 align-items-center justify-content-between">
-                <a href="index.html"><img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo"></a>
+                <a href="<?php echo base_url('/') ?>"><img src="assets/LOGO-Realta-with-since-1983.png" class="nav--logo"></a>
                 <div class="nav--links">
                     <ul class="list-inline d-flex">
-                        <li class="me-3 position-relative"><a href="solution.html" class="current text-decoration-none text-dark">SOLUTIONS</a>
+                        <li class="me-3 position-relative"><a href="<?php echo base_url('/solution') ?>" class="current text-decoration-none text-dark">SOLUTIONS</a>
                             <div class="dropdown d-flex position-absolute start-0 justify-content-between border border-1 p-3">
                                 <ul class="list-inline me-5 text-nowrap">
-                                    <li><a href="siap-subpage.html" class="text-decoration-none text-dark d-block p-2">Human Resources Information System</a></li>
-                                    <li><a href="rhapsody-subpage.html" class="text-decoration-none text-dark d-block p-2">Hospitality Management System</a></li>
-                                    <li><a href="bimasakti-subpage.html" class="text-decoration-none text-dark d-block p-2">Property Management System</a></li>
-                                    <li><a href="rhapsody-subpage.html" class="text-decoration-none text-dark d-block p-2">Golf Course Management System</a></li>
-                                    <li><a href="itsm-subpage.html" class="text-decoration-none text-dark d-block p-2">IT Service Management</a></li>
-                                    <li><a href="itam-subpage.html" class="text-decoration-none text-dark d-block p-2">IT Asset Management</a></li>
+                                    <li><a href="<?php echo base_url('/siap') ?>" class="text-decoration-none text-dark d-block p-2">HR System</a></li>
+                                    <li><a href="<?php echo base_url('/hotel') ?>" class="text-decoration-none text-dark d-block p-2">Hotel System</a></li>
+                                    <li><a href="<?php echo base_url('/property') ?>" class="text-decoration-none text-dark d-block p-2">Property System</a></li>
+                                    <li><a href="<?php echo base_url('/itsm') ?>" class="text-decoration-none text-dark d-block p-2">IT Service Management</a></li>
+                                    <li><a href="<?php echo base_url('/erp') ?>" class="text-decoration-none text-dark d-block p-2">ERP (Enterprise Resource Planning)</a></li>
                                 </ul>
                                 <ul class="list-inline me-5 text-nowrap">
-                                    <li><a href="erp-subpage.html" class="text-decoration-none text-dark d-block p-2">ERP (Enterprise Resource Planning)</a></li>
-                                    <li><a href="eam-subpage.html" class="text-decoration-none text-dark d-block p-2">EAM (Enterprise Asset Management)</a></li>
-                                    <li><a href="crm-subpage.html" class="text-decoration-none text-dark d-block p-2">CRM (Customer Relationship Management)</a></li>
-                                    <li><a href="realpcr-subpage.html" class="text-decoration-none text-dark d-block p-2">RealPCR Test & System</a></li>
-                                    <li><a href="realvioleds-subpage.html" class="text-decoration-none text-dark d-block p-2">RealVioleds (UV Leds Solution)</a></li>
-                                    <li><a href="realrose-subpage.html" class="text-decoration-none text-dark d-block p-2">RealROSE (Ordering & Delivery System)</a></li>
+                                    <li><a href="<?php echo base_url('eam') ?>" class="text-decoration-none text-dark d-block p-2">EAM (Enterprise Asset Management)</a></li>
+                                    <li><a href="<?php echo base_url('/crm') ?>" class="text-decoration-none text-dark d-block p-2">CRM (Customer Relationship Management)</a></li>
+                                    <li><a href="<?php echo base_url('/realpcr') ?>" class="text-decoration-none text-dark d-block p-2">RealPCR Test & System</a></li>
+                                    <li><a href="<?php echo base_url('/realvioleds') ?>" class="text-decoration-none text-dark d-block p-2">RealVioleds (UV Leds Solution)</a></li>
+                                    <li><a href="<?php echo base_url('/realrose') ?>" class="text-decoration-none text-dark d-block p-2">RealROSE (Ordering & Delivery System)</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="me-3"><a href="#" class="text-decoration-none text-dark">COMPANY</a></li>
-                        <li class="me-3"><a href="career.html" class="text-decoration-none text-dark">SUPPORT</a></li>
-                        <li class="me-3"><a href="blog.html" class="text-decoration-none text-dark">RESOURCES</a></li>
+                        <li class="me-3"><a href="<?php echo base_url('/career') ?>" class="text-decoration-none text-dark">SUPPORT</a></li>
+                        <li class="me-3"><a href="<?php echo base_url('/blog') ?>" class="text-decoration-none text-dark">RESOURCES</a></li>
                         <li class=""><a href="#" class="contact-us py-2 px-3 text-decoration-none text-light rounded-pill" style="white-space: nowrap;">CONTACT US</a></li>
                     </ul>
                 </div>
@@ -55,13 +53,12 @@
                     </svg>
                 </div>
                 <div class="d-flex flex-column text-center">
-                    <a href="solution.html" class="py-3 text-light text-decoration-none">Solutions</a>
+                    <a href="<?php echo base_url('/solution') ?>" class="py-3 text-light text-decoration-none">Solutions</a>
                     <a href="#" class="py-3 text-light text-decoration-none">Company</a>
-                    <a href="career.html" class="py-3 text-light text-decoration-none">Support</a>
-                    <a href="blog.html" class="py-3 text-light text-decoration-none">Resources</a>
+                    <a href="<?php echo base_url('/career') ?>" class="py-3 text-light text-decoration-none">Support</a>
+                    <a href="<?php echo base_url('/blog') ?>" class="py-3 text-light text-decoration-none">Resources</a>
                     <a href="#" class="py-3 text-light text-decoration-none">Contact Us</a>
                 </div>
-
             </div>
         </div>
     </div>

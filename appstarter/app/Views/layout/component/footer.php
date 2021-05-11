@@ -3,34 +3,34 @@
 <footer>
     <div class="container-fluid w-100 pb-5">
         <div class="footer__wrapper p-4 overflow-hidden">
-            <div class="links">
-                <a href="#" class="text-decoration-none text-dark me-4">Solutions</a>
+            <div class="footer__wrapper--links">
+                <a href="solution.html" class="text-decoration-none text-dark me-4">Solutions</a>
                 <a href="#" class="text-decoration-none text-dark me-4">Company</a>
-                <a href="#" class="text-decoration-none text-dark me-4">Support</a>
-                <a href="#" class="text-decoration-none text-dark me-4">Resources</a>
+                <a href="career.html" class="text-decoration-none text-dark me-4">Support</a>
+                <a href="blog.html" class="text-decoration-none text-dark me-4">Resources</a>
             </div>
+
             <hr class="mb-4">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4">
-                    <div class="social-media d-flex align-items-baseline">
-                        <a href="" class="icon me-3">
-                            <img src="assets/Group 133.png" alt="">
-                        </a>
-                        <a href="" class="icon me-3">
-                            <img src="assets/Group 134.png" alt="">
-                        </a>
-                        <a href="" class="icon me-3">
-                            <img src="assets/Group 135.png" alt="">
-                        </a>
-                        <a href="" class="icon me-3">
-                            <img src="assets/Group 136.png" alt="">
-                        </a>
-                        <a href="" class="icon me-3">
-                            <img src="assets/Group 154.png" alt="">
-                        </a>
-                    </div>
+
+            <div class="footer__wrapper--bottom d-flex justify-content-between align-items-center">
+                <div class="social-media d-flex align-items-baseline">
+                    <a href="" class="icon me-3">
+                        <img src="assets/Group 133.png" alt="">
+                    </a>
+                    <a href="" class="icon me-3">
+                        <img src="assets/Group 134.png" alt="">
+                    </a>
+                    <a href="" class="icon me-3">
+                        <img src="assets/Group 135.png" alt="">
+                    </a>
+                    <a href="" class="icon me-3">
+                        <img src="assets/Group 136.png" alt="">
+                    </a>
+                    <a href="" class="icon me-3">
+                        <img src="assets/Group 154.png" alt="">
+                    </a>
                 </div>
-                <div class="col-lg-8 py-3 text-lg-end">
+                <div class="copyright py-3">
                     &copy;2021 PT Realta Chakradarma. All Rights Reserved
                 </div>
 

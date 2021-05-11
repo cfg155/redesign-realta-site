@@ -12,16 +12,14 @@
 
 <body>
     <div class="super">
-        <div id="preload-container"></div>
         <div class="super__container">
             <!-- Include Navbar -->
-            <!-- <?= $this->include('layout/component/navbar'); ?> -->
-            <div id="navbar--placeholder"></div>
+            <?= $this->include('layout/component/navbar'); ?>
 
-            <div class="container-fluid pt-3">
+            <div class="container-fluid">
                 <div class="career__container">
-                    <h2 class="book-text">Career <br> Realta Chakradarma</h2>
-                    <div class="row career--header pt-4" style="margin-left: 0 !important; margin-right: 0 !important;">
+                    <h2>Career <br> Realta Chakradarma</h2>
+                    <div class="row career--header py-4" style="margin-left: 0 !important; margin-right: 0 !important;">
                         <div class="col-lg-4 mb-3" style="margin-left: 0 !important; margin-right: 0 !important;">
                             <div class="input-group">
                                 <span class="input-group-text" id="basic-addon1">
@@ -106,25 +104,10 @@
             </div>
 
             <!-- Include Footer -->
-            <!-- <?= $this->include('layout/component/footer'); ?> -->
-            <div id="footer--placeholder"></div>
+            <?= $this->include('layout/component/footer'); ?>
         </div>
     </div>
 
 </body>
 
 </html>
-<!-- Load Component Statically -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-<script>
-    $("#preload-container").load("preloading.html");
-    $("#navbar--placeholder").load("navbar.html");
-    $("#footer--placeholder").load("footer.html");
-</script>
-<script>
-    window.addEventListener('load',()=>{
-        document.querySelector('.super').style.opacity = '1'
-    })
-</script>
-<!-- Add Preloader -->
-<script src="js/preloader.js"></script>
