@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company</title>
     <link rel="stylesheet" href="css/solution.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="super">
-        <div id="preload-container"></div>
+        <div id="preload-container">
+            <!-- Include Preloader -->
+            <?= $this->include('layout/component/preloading'); ?>
+        </div>
         <div class="super__container">
             <!-- Include Navbar -->
-            <!-- <?= $this->include('layout/component/navbar'); ?> -->
-            <!-- Include Navbar -->
-            <!-- <?= $this->include('layout/component/navbar'); ?> -->
-            <div id="navbar--placeholder"></div>
+            <?= $this->include('layout/component/navbar'); ?>
 
             <div class="container-fluid pb-5">
                 <div class="content">
@@ -29,22 +30,15 @@
 
                 </div>
             </div>
-    
+
             <!-- Include Footer -->
-            <!-- <?= $this->include('layout/component/footer'); ?> -->
-                <div id="footer--placeholder"></div>
+            <?= $this->include('layout/component/footer'); ?>
+            <div id="footer--placeholder"></div>
         </div>
     </div>
 </body>
 
 </html>
 <script src="js/solution.js"></script>
-<!-- Load Component Statically -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-<script>
-    $("#preload-container").load("preloading.html");
-    $("#navbar--placeholder").load("navbar.html");
-    $("#footer--placeholder").load("footer.html");
-</script>
 <!-- Add Preloader -->
 <script src="js/preloader.js"></script>
