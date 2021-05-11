@@ -1,15 +1,15 @@
 @import "variables", "mixins";
 
 .super {
-  background-color: $cos-secondary-color;
   overflow: hidden;
-  opacity: 0;
-  transition: opacity 1s;
 }
 
 .super__container {
   max-width: 1970px;
   margin: auto;
+  opacity: 0;
+  background-color: $cos-secondary-color;
+  transition: opacity 1s;
 }
 
 .container-fluid {
