@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class BlogModel extends Model
+class BlogImgModel extends Model
 {
-    protected $table      = 'blog';
-    protected $primaryKey = 'id';
+    protected $table      = 'blog_img';
+    protected $primaryKey = 'content_id';
 
     protected $useAutoIncrement = true;
 
