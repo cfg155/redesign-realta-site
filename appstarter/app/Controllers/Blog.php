@@ -23,7 +23,7 @@ class Blog extends BaseController
         $data = [
             'blogData' => $blogData
         ];
-        // dd($data);
+        // dd($blogData);
         return view('detailBlog', $data);
     }
 }
