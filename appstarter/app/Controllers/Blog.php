@@ -51,17 +51,17 @@ class Blog extends BaseController
     public function index()
     {
         $blogData = $this->blogModel->findAll();
-        $blogDetailData = $this->blogDetailModel->findAll();
-        $blogImgData = $this->blogImgModel->findAll();
-        // dd($blogData, $blogDetailData, $blogImgData);
+        // $blogDetailData = $this->blogDetailModel->findAll();
+        // $blogImgData = $this->blogImgModel->findAll();
+
         $data = [
             'blogData' => $blogData,
-            'blogDetailData' => $blogDetailData,
-            'blogImgData' => $blogImgData
+            // 'blogDetailData' => $blogDetailData,
+            // 'blogImgData' => $blogImgData,
         ];
 
         dd($data);
-        return view('blog', $data);
+        // return view('blog', $data);
     }
 
     public function detail($id)
