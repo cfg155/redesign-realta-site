@@ -1,0 +1,194 @@
+@import "mixins", "variables";
+@import "../node_modules/slick-carousel/slick/slick.scss",
+  "../node_modules/slick-carousel/slick/slick-theme.scss";
+
+.super {
+  overflow: hidden;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
+}
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+  overflow: hidden;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+
+  .rhapsody-banner {
+    &__wrapper {
+      @include custom-screen-size(376px) {
+        flex-direction: column !important;
+      }
+
+      &--item {
+        img {
+          width: 200px;
+
+          @include screen-lg {
+            width: 150px;
+          }
+
+          @include screen-sm {
+            width: 120px;
+          }
+
+          @include custom-screen-size(376px) {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+
+  .w-75 {
+    @include custom-screen-size(376px) {
+      width: 100% !important;
+    }
+
+    .rhapsody-demo {
+      .col-lg-6:nth-child(2) {
+        @include custom-screen-size(376px) {
+          display: flex !important;
+          flex-direction: column !important;
+        }
+      }
+
+      img {
+        width: 400px;
+
+        @include custom-screen-size(376px) {
+          width: 270px;
+        }
+      }
+
+      .btn--demo {
+        background-color: $cos-primary-color;
+      }
+    }
+
+    .feature {
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+
+      &__items {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+
+        @include screen-lg {
+          font-size: 0.7rem;
+        }
+
+        img {
+          max-width: 100%;
+          margin-bottom: 15px;
+
+          @include screen-lg {
+            max-width: 70%;
+          }
+        }
+      }
+    }
+  }
+
+  .benefit {
+    color: #ffffff;
+    text-align: center;
+
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    .w-75 {
+      display: flex;
+      align-items: flex-start;
+      padding: 20px 0;
+    }
+
+    &__top {
+      background-image: url("../assets/hospitality-system_assets/header-rhapsody-hospitality-2.jpg");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 150px;
+      // padding-bottom: 50px;
+    }
+
+    &__bottom {
+      background-image: url("../assets/hospitality-system_assets/header-rhapsody-hospitality-3.jpg");
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 150px;
+      // padding-top: 50px;
+    }
+
+    &__top--items,
+    &__bottom--items {
+      width: 300px;
+      height: 300px;
+      margin: auto;
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .features-and-modules {
+    &__wrapper {
+      &--item {
+        overflow: hidden;
+
+        .title__container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 350px;
+          height: 50px;
+          padding: 0 10px;
+          background-color: rgb(224, 224, 224);
+          cursor: pointer;
+
+          h5 {
+            margin: 0;
+          }
+        }
+
+        ul {
+          // background-color: red;
+          // max-height: 0;
+          // margin: 0;
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    .col-lg-6:nth-child(1) {
+      .achievement {
+        &--item {
+          margin: 0 5px;
+
+          @include custom-screen-size(376px) {
+            margin: 0;
+          }
+        }
+        font-size: 0.8em;
+        line-height: 15px;
+      }
+    }
+  }
+}
