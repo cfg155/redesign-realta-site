@@ -49,8 +49,12 @@ $routes->get('/realvioleds', 'Solution::realvioleds');
 $routes->get('/blog', 'Blog::index');
 $routes->get('/blog/detail/(:segment)', 'Blog::detail/$1');
 $routes->get('/career', 'Career::index');
+$routes->get('/company', 'Company::index');
+$routes->get('/contact', 'Contact::index');
 
 $routes->get('/form', 'Form::index');
+
+$routes->get('/cookie-dashboard', 'CookieDashboard::index');
 
 /*
  * --------------------------------------------------------------------

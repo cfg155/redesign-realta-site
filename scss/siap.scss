@@ -21,60 +21,46 @@
   padding-right: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
+  padding-top: 150px;
 
-  .siap-banner {
-    &__wrapper {
+  @include custom-screen-size(376px) {
+    width: 100% !important;
+  }
+
+  .siap-demo {
+    @include w-75;
+    padding: $section-gap 0 !important;
+
+    .col-lg-6 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .col-lg-6:nth-child(2) {
       @include custom-screen-size(376px) {
+        display: flex !important;
         flex-direction: column !important;
       }
+    }
 
-      &--item {
-        img {
-          width: 200px;
+    img {
+      width: 400px;
 
-          @include screen-lg {
-            width: 150px;
-          }
-
-          @include screen-sm {
-            width: 120px;
-          }
-
-          @include custom-screen-size(376px) {
-            width: 200px;
-          }
-        }
+      @include custom-screen-size(376px) {
+        width: 270px;
       }
+    }
+
+    .btn--demo {
+      background-color: $cos-primary-color;
     }
   }
 
-  .w-75 {
-    @include custom-screen-size(376px) {
-      width: 100% !important;
-    }
+  .testimonial {
+    @include w-75;
+    margin-bottom: $section-gap;
 
-    .siap-demo {
-      .col-lg-6:nth-child(2) {
-        @include custom-screen-size(376px) {
-          display: flex !important;
-          flex-direction: column !important;
-        }
-      }
-
-      img {
-        width: 400px;
-
-        @include custom-screen-size(376px) {
-          width: 270px;
-        }
-      }
-
-      .btn--demo {
-        background-color: $cos-primary-color;
-      }
-    }
-
-    .testimonial--cards {
+    &--cards {
       .testi-card {
         min-width: 200px;
         .header {
@@ -110,10 +96,25 @@
     background-color: #ffffff;
     border-top-left-radius: 120px;
     border-top-right-radius: 120px;
+    margin-bottom: $section-gap;
 
     @include custom-screen-size(376px) {
       border-top-left-radius: 75px;
       border-top-right-radius: 75px;
+    }
+
+    &--container {
+      @include w-75;
+
+      .col-md-4 {
+        padding-left: 0 !important ;
+        padding-right: 0 !important ;
+
+        .module--item {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
     }
 
     .col-md-4:nth-child(1) {
@@ -147,21 +148,17 @@
   }
 
   .feature {
-    width: 75%;
-    @include screen-xl {
-      width: 100%;
-    }
+    @include w-75;
+    margin-bottom: $section-gap !important;
 
-    @include screen-md {
-      width: 100%;
-    }
-    margin-bottom: 50px;
     &__wrapper {
-      @include custom-screen-size(376px) {
-      }
-
       &--item {
         width: 300px;
+
+        @include screen-md {
+          width: 100%;
+        }
+
         .header {
           position: relative;
 
@@ -189,6 +186,7 @@
           background-color: #ffffff;
           border-bottom-left-radius: $cos-border-size;
           border-bottom-right-radius: $cos-border-size;
+          margin-bottom: 50px;
           .btn-learn {
             background-color: $cos-primary-color;
           }
@@ -198,8 +196,10 @@
   }
 
   .company {
-    @include screen-sm {
-      width: 95%;
+    margin-bottom: $section-gap !important;
+
+    @include screen-lg {
+      width: 95% !important;
       margin: auto;
     }
 
@@ -217,9 +217,8 @@
 
   .client {
     padding: 20px 0;
-    .title {
-      //   margin-bottom: 100px;
-    }
+    margin-bottom: $section-gap;
+
     &__wrapper {
       display: flex;
       align-items: center;
@@ -270,7 +269,11 @@
     }
   }
 
-  .contact-us {
+  .contact-us-form {
+    @include screen-lg {
+      width: 95% !important;
+    }
+
     .col-lg-6:nth-child(1) {
       .achievement {
         &--item {

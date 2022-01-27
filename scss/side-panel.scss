@@ -1,0 +1,45 @@
+@import "mixins", "variables";
+
+.side-panel__container {
+  width: 400px;
+
+  @include screen-md {
+    width: initial;
+  }
+
+  .popular {
+    background-color: #fff;
+    border-radius: $cos-border-size;
+    &__wrapper {
+      &--item {
+        img {
+          width: 200px;
+          @include custom-screen-size(1300px) {
+            width: 100px;
+          }
+        }
+
+        a {
+          @include screen-lg {
+            padding-right: 80px !important;
+          }
+
+          @include screen-md {
+            padding-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .category {
+    background-color: #fff;
+    border-radius: $cos-border-size;
+
+    &__wrapper {
+      span {
+        cursor: pointer;
+      }
+    }
+  }
+}

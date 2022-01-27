@@ -1,0 +1,447 @@
+@import "mixins", "variables";
+@import "../node_modules/slick-carousel/slick/slick.scss",
+  "../node_modules/slick-carousel/slick/slick-theme.scss";
+
+.super {
+  overflow: hidden;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
+}
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+  overflow: hidden;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 150px !important;
+
+  .eam {
+    @include w-75;
+    display: flex;
+    justify-content: space-between;
+    padding: $section-gap 0;
+
+    &--text {
+      padding-bottom: 20px;
+    }
+
+    &--download {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: $box-shadow;
+      padding: 40px;
+      line-height: 36px;
+      .item {
+        padding: 10px 0;
+        .download--link {
+          display: flex;
+          flex-direction: column;
+          a {
+            object,
+            i {
+              pointer-events: none;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .feature {
+    padding-bottom: $section-gap;
+
+    &__container {
+      @include w-75;
+      display: flex;
+      justify-content: space-between;
+
+      @include screen-lg {
+        width: 90%;
+        flex-direction: column;
+      }
+
+      .card {
+        width: 100%;
+        padding: 10px;
+        margin: 0 5px;
+        overflow-wrap: normal;
+        border-radius: 20px;
+        box-shadow: $box-shadow;
+
+        @include screen-lg {
+          max-width: 100%;
+          margin: 20px 0;
+          padding: 20px;
+        }
+
+        h6 {
+          padding: 10px 0;
+          text-align: center;
+        }
+
+        p {
+          @include screen-lg {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .integrate {
+    margin-bottom: $section-gap;
+    background-image: url("../assets/eam/quote-450292701-CERN-1600x800.jpg");
+    background-position: center right;
+    background-size: cover;
+    height: 400px;
+    padding: 40px 0;
+
+    @include screen-sm {
+      height: 700px;
+    }
+
+    &__container {
+      @include w-75;
+      height: 100%;
+      position: relative;
+
+      @include screen-lg {
+        width: 90%;
+      }
+
+      .txt {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ffffff;
+        p {
+          font-size: 24px;
+          width: 600px;
+          padding: 20px 0;
+
+          @include screen-lg {
+            width: 100%;
+          }
+        }
+
+        a {
+          color: white;
+          border: #ffffff 1px solid;
+          text-decoration: none;
+          padding: 10px 30px;
+          border-radius: 7px;
+
+          &:hover {
+            background-color: #ffffff;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .customer-success {
+    @include w-75;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: $box-shadow;
+    border-radius: 20px;
+
+    @include screen-lg {
+      flex-direction: column;
+      width: 90%;
+    }
+
+    .img {
+      width: 500px;
+      min-width: 500px;
+
+      @include screen-lg {
+        width: 100%;
+        min-width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .txt {
+      max-width: 100%;
+      padding: 0 20px;
+
+      @include screen-lg {
+        padding: 30px;
+      }
+    }
+  }
+
+  .productivity {
+    margin: $section-gap 0;
+    &__container {
+      @include w-75;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 0;
+
+      @include screen-lg {
+        width: 90%;
+        flex-direction: column;
+      }
+
+      .item {
+        background-color: #ffffff;
+        color: #000;
+        width: 300px;
+        height: 300px;
+        display: grid;
+        place-items: center;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: $box-shadow;
+
+        @include screen-lg {
+          width: 100%;
+          margin: 20px 0;
+          display: initial;
+          position: relative;
+        }
+
+        .txt {
+          padding: 30px;
+
+          @include screen-lg {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+
+          .percent {
+            font-size: 48px;
+          }
+
+          &--txt {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .what-to-know {
+    padding-bottom: $section-gap;
+    &__container {
+      .item {
+        display: flex !important;
+
+        @include screen-md {
+          flex-direction: column;
+        }
+
+        .txt {
+          width: 400px;
+
+          @include screen-md {
+            width: 100%;
+            padding: 0 10px;
+            margin: auto;
+            text-align: center;
+          }
+        }
+        .card {
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          align-items: center;
+          width: 100%;
+          height: 300px;
+          background-color: transparent;
+          border: transparent 1px;
+
+          @include screen-md {
+            flex-direction: column;
+            height: initial;
+          }
+
+          &--img {
+            width: 500px;
+            height: 100%;
+
+            @include screen-md {
+              width: 100%;
+            }
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          &--txt {
+            padding: 10px 20px;
+            background-color: #ffffff;
+            width: 400px;
+            height: 100%;
+            padding-top: 50px;
+
+            @include screen-lg {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .customers {
+    margin-bottom: $section-gap;
+    h4 {
+      padding-bottom: 50px;
+    }
+    &__container {
+      @include w-75;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 30px;
+      grid-column-gap: 30px;
+
+      @include screen-lg {
+        width: 90%;
+      }
+
+      @include screen-sm {
+        grid-template-columns: 1fr 1fr;
+      }
+      .item {
+        margin: 10px;
+        width: 100%;
+        height: 175px;
+        margin: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        box-shadow: $box-shadow;
+
+        .card {
+          h6 {
+            padding: 10px 0;
+            text-align: center;
+          }
+        }
+
+        a {
+          display: grid;
+          place-items: center;
+          .img {
+            width: 100%;
+
+            @include screen-sm {
+              min-width: 100px;
+            }
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .integrate2 {
+    margin-bottom: $section-gap;
+    background-image: url("../assets/erp/Tech_1600x800-copy_200903_165642.jpg");
+    background-position: center right;
+    background-size: cover;
+    height: 400px;
+    padding: 40px 0;
+
+    @include screen-sm {
+      height: 500px;
+    }
+
+    &__container {
+      @include w-75;
+      height: 100%;
+      position: relative;
+
+      @include screen-lg {
+        width: 90%;
+      }
+
+      .txt {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ffffff;
+        p {
+          width: 600px;
+          padding: 20px 0;
+
+          @include screen-lg {
+            width: 100%;
+          }
+        }
+
+        a {
+          color: white;
+          border: #ffffff 1px solid;
+          text-decoration: none;
+          padding: 10px 30px;
+          border-radius: 7px;
+
+          &:hover {
+            background-color: #ffffff;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .client {
+    margin-bottom: $section-gap;
+    .slick-list {
+      padding: 20px 0;
+    }
+
+    .slick-slide {
+      margin: 0 20px;
+    }
+
+    &__item {
+      img {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: $box-shadow;
+
+        @include screen-sm {
+          width: 220px;
+        }
+
+        @include custom-screen-size(472px) {
+          width: 180px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 160px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 140px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "mixins", "variables";
+
+.super {
+  overflow: hidden;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
+
+  .container-fluid {
+    background-color: $cos-secondary-color;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 150px;
+  }
+}

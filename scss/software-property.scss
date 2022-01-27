@@ -1,0 +1,304 @@
+@import "mixins", "variables";
+@import "../node_modules/slick-carousel/slick/slick.scss",
+  "../node_modules/slick-carousel/slick/slick-theme.scss";
+
+.super {
+  overflow: hidden;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
+}
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+  overflow: hidden;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 150px !important;
+
+  .ict-solution {
+    @include w-75;
+    display: flex;
+    justify-content: space-between;
+    margin: $section-gap auto !important;
+
+    @include screen-lg {
+      flex-direction: column;
+      width: 90%;
+    }
+
+    &--left {
+      min-width: 400px;
+      max-width: 600px;
+      margin: auto;
+
+      @include screen-lg {
+        min-width: 400px;
+        max-width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      @include screen-sm {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &--right {
+      width: 800px;
+      padding: 0 50px;
+
+      .ict-features {
+        width: 100%;
+        .item {
+          display: block;
+          width: 100%;
+          border: 1px solid black;
+          padding: 7px 5px;
+          text-align: center;
+        }
+
+        .meeting {
+          display: block;
+          width: 100%;
+          padding: 7px 5px;
+          text-align: center;
+          background-color: #023c77;
+          border-radius: $cos-border-size;
+          color: white;
+          text-decoration: none;
+        }
+      }
+
+      @include screen-lg {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .ideal--container {
+    background: #0252a4;
+    padding: 30px 0;
+    margin-bottom: $section-gap;
+
+    .ideal {
+      @include w-75;
+      color: #ffffff;
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+      h4 {
+        padding-bottom: 50px;
+      }
+
+      &-items {
+        display: flex;
+        justify-content: space-between;
+
+        @include screen-md {
+          flex-direction: column;
+        }
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .feature {
+    @include w-75;
+    padding-bottom: $section-gap;
+
+    @include screen-lg {
+      width: 90%;
+    }
+
+    p {
+      padding-bottom: 40px;
+    }
+
+    &--container {
+      display: flex;
+      justify-content: space-between;
+
+      @include screen-lg {
+        flex-direction: column;
+      }
+
+      .item {
+        width: 200px;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 20px 0;
+        border-radius: $cos-border-size;
+
+        @include screen-lg {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .solution {
+    background-color: #0252a4;
+    padding: 30px 0;
+    color: #ffffff;
+
+    h4 {
+      margin-top: 40px;
+    }
+
+    &--container {
+      @include w-75;
+      display: flex;
+      justify-content: space-between;
+
+      @include screen-lg {
+        width: 90%;
+      }
+
+      @include screen-md {
+        flex-direction: column;
+      }
+
+      .solution--item {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 350px;
+          height: 100%;
+          margin: auto;
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 50px;
+          .fa {
+            font-size: 75px;
+          }
+        }
+      }
+    }
+  }
+
+  .demo {
+    color: #ffffff;
+    background-image: url("../assets/software-property_assets/realta-ivanti-solution-itsm.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    // height: 200px;
+    padding: 50px 0;
+    display: grid;
+    place-items: center;
+    margin-bottom: $section-gap;
+
+    .demo--container {
+      @include w-75;
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+      @include screen-md {
+        flex-direction: column;
+      }
+
+      h3 {
+        width: 75%;
+        padding-bottom: 20px;
+
+        @include screen-md {
+          width: 100%;
+        }
+      }
+
+      .btn-req {
+        background-color: #0252a4;
+        width: initial;
+        height: fit-content;
+        padding: 20px;
+        border: transparent;
+        color: #ffffff;
+        border-radius: $cos-border-size;
+      }
+    }
+  }
+
+  .client {
+    margin-bottom: $section-gap;
+    .slick-list {
+      padding: 20px 0;
+    }
+
+    .slick-slide {
+      margin: 0 20px;
+    }
+
+    &__item {
+      img {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: $box-shadow;
+
+        @include screen-sm {
+          width: 220px;
+        }
+
+        @include custom-screen-size(472px) {
+          width: 180px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 160px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 140px;
+        }
+      }
+    }
+  }
+
+  .ready {
+    color: #ffffff;
+    background-image: url("../assets/software-property_assets/wallapeper-itsm-ivanti.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    padding: 75px 0;
+    margin-bottom: $section-gap;
+
+    .ready--container {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+
+      h2 {
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+}

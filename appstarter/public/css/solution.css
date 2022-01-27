@@ -11,16 +11,17 @@
 .container-fluid {
   background-color: #fafafa;
   padding-left: 0 !important;
-  padding-right: 0 !important; }
+  padding-right: 0 !important;
+  padding-top: 150px !important; }
   .container-fluid .content {
     width: 75%;
     margin: auto; }
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
       .container-fluid .content {
         width: 95%; } }
-    @media (max-width: 768px) {
-      .container-fluid .content .category__wrapper {
-        width: 100% !important; } }
+    .container-fluid .content .category__wrapper {
+      display: flex;
+      justify-content: center; }
     .container-fluid .content .category__card {
       padding-left: 0 !important;
       padding-right: 0 !important;

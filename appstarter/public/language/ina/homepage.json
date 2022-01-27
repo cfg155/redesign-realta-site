@@ -1,0 +1,137 @@
+[
+    {
+        "productSection" : [
+            {
+                "button":"PELAJARI LEBIH LANJUT",
+                "solutionTxt":"Solusi "
+            }
+        ]
+    },
+    {
+        "clientSection" : [
+            {
+                "title":"Kami membangun solusi <br>membuat perusahaan ini bekerja"
+            }
+        ]
+    },
+    {
+        "moduleSection" : [
+            {
+                "title" : "Kamu bisa kostumisasi solusi<br> sesuai industri mu",
+                "cards":[
+                    {
+                        "title" : "Property",
+                        "listItem" : ["Kontrol Inventoris","Kontrol Biaya","Keuangan dan Akuntansi","Logistik","Tenant Complaint","multi Currency","Multi Payment Term","Automatic Billing Process","Renewal Reminder"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#0E4EAC",
+                        "headerBgColor" : "#09397F"
+                    },
+                    {
+                        "title" : "People",
+                        "listItem" : ["Mobile Attendance","Payroll","Medical & Loan","Personel","Recruitment","Job Comptency","Training","Performance Appraisal","Human Capital Analysis"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#EC008B",
+                        "headerBgColor" : "#B30169"
+                    },
+                    {
+                        "title" : "Manufacturing",
+                        "listItem" : ["Industry ERP","Core Financials","Performance Management","Risk & Compliance","Reduce Costs","Supply Chain Managemeny"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#144788",
+                        "headerBgColor" : "#0D2E57"
+                    },
+                    {
+                        "title" : "IT Service & Asset",
+                        "listItem" : ["Asset Manager","Service Manager","Supply Chain","Endpoint Management","Security","Monitoring Dashboard"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#DF3319",
+                        "headerBgColor" : "#AE2712"
+                    },
+                    {
+                        "title" : "Solutions Covid-19",
+                        "listItem" : ["Asset Manager","Service Manager","Supply Chain","Endpoint Management","Security","Monitoring Dashboard"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#9EC9DB",
+                        "headerBgColor" : "#7595A3"
+                    },
+                    {
+                        "title" : "Hospitality",
+                        "listItem" : ["3+ Stars Hotel","Front & Back Office","Logistic","Mobile Taking Order","Mobile Check-in","Golf Course Management","Restaurant & Bar","Banquet","Budget & Business Hotel"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#99358D",
+                        "headerBgColor" : "#800B72"
+                    },
+                    {
+                        "title" : "Golf Course",
+                        "listItem" : ["Mobile Attendance","Payroll","Medical & Loan","Personel","Recruitment","Job Competency","Training","Performance Appraisal","Human Capital Analysis"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#0E4EAC",
+                        "headerBgColor" : "#09397F"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "featureSection" : [
+            {
+                "title":"How Can We Help?",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.",
+                "accordionItems":[
+                    {
+                        "imgURL" : "assets/mobile-friendly.png",
+                        "title" : "Mobile Friendly",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/cloud-system.png",
+                        "title" : "Cloud System",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/integration-support.png",
+                        "title" : "Integration Support",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/dashboard-monitoring.png",
+                        "title" : "Customize Module",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/cloud-system.png",
+                        "title" : "Dashboard Monitoring",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "promoSection":
+        {
+            "title":"Integrate Seamlessly",
+            "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea."
+        }
+        
+    },
+    {
+        "aboutSection": {
+            "title":"Realta delivers \"Peace of Mind\" <br>to all our clients through ICT ONE Solutions",
+            "card":
+            {
+                "title":"ICT ONE Solutions",
+                "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam suscipit vitae ex porro assumenda quidem facilis, praesentium velit culpa exercitationem.",
+                "link":
+                {
+                    "txt":"ABOUT US",
+                    "href":"#"
+                }
+                ,
+                "img" : ["assets/entitas-privat.png","assets/entitas-privat.png","assets/entitas-privat.png","assets/entitas-privat.png"]
+            }
+            
+            
+        }
+    }
+]

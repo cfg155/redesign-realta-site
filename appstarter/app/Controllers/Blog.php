@@ -5,42 +5,15 @@ namespace App\Controllers;
 use App\Models\BlogDetailModel;
 use App\Models\BlogImgModel;
 use App\Models\BlogModel;
-
-/*
-* important attr
-
-blog
-- content_id
-- introtext
-- created_time
-- min_read
-
-blog_detail
-- content_id
-- created_time
-- title
-- alias
-- fulltext
-- created_by
-- hits
-- min_read
-- meta_key
-- meta_desc
-- meta_data
-
-img
-- id
-- content_id
-- img_category
-- img_alt
-
-*/
+use FFI\CData;
+use function App\Models\CheckCookieAgreement;
 
 class Blog extends BaseController
 {
     protected $blogModel;
     protected $blogDetailModel;
     protected $blogImgModel;
+
     public function __construct()
     {
         $this->blogModel = new BlogModel();
@@ -50,27 +23,45 @@ class Blog extends BaseController
 
     public function index()
     {
-        $blogData = $this->blogModel->findAll();
-        // $blogDetailData = $this->blogDetailModel->findAll();
-        // $blogImgData = $this->blogImgModel->findAll();
+        setcookie('visit', 'blog,' . setDate());
+        CheckCookieAgreement();
+        visitCookie();
 
-        $data = [
-            'blogData' => $blogData,
-            // 'blogDetailData' => $blogDetailData,
-            // 'blogImgData' => $blogImgData,
+        $db = \Config\Database::connect();
+        $getPopularData = $db->query('SELECT id,title,thumbnail_img,introtext,hits,modified_date,min_read FROM `blog` ORDER BY `hits` DESC LIMIT 4');
+        $totalData = [
+            'dataSize' => sizeof($this->blogModel->findAll()),
+            'popularData' => $getPopularData->getResultArray()
         ];
 
-        dd($data);
-        // return view('blog', $data);
+        // d($totalData);
+        return view('blog', $totalData);
+    }
+
+    public function getData($limit, $category)
+    {
+        $db = \Config\Database::connect();
+        function setQuery($category, $db, $limit)
+        {
+            if ($category > 0) {
+                return $db->query('SELECT `id`,`thumbnail_img`,`category`,`title`,`introtext`,`modified_date`,`min_read` FROM `blog` WHERE  `category` = ' . $category . ' ORDER BY `modified_date` DESC LIMIT ' . $limit . ',5 ');
+            } else {
+                return $db->query('SELECT `id`,`thumbnail_img`,`category`,`title`,`introtext`,`modified_date`,`min_read` FROM `blog` ORDER BY `modified_date` DESC LIMIT ' . $limit . ',5 ');
+            }
+        }
+
+        echo json_encode(setQuery($category, $db, $limit)->getResultArray());
     }
 
     public function detail($id)
     {
-        $blogData = $this->blogModel->find($id);
+        $db = \Config\Database::connect();
+        $getPopularData = $db->query('SELECT id,title,thumbnail_img FROM `blog` ORDER BY `hits` DESC LIMIT 4');
         $data = [
-            'blogData' => $blogData
+            'blogData' => $this->blogModel->find($id),
+            'popularData' => $getPopularData->getResultArray()
         ];
-        // dd($blogData);
+        // dd($data);
         return view('detailBlog', $data);
     }
 }

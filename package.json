@@ -4,8 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "scss-server": "node-sass --watch ./scss/ -o ./appstarter/public/css/",
-        "scss-static": "node-sass --watch ./scss/ -o ./live-project/css/",
+        "watch-live-js":"",
         "build-homepage-server": "browserify ./jsORI/homepage.js > ./appstarter/public/js/homepage.js -t babelify --plugin tinyify",
         "build-homepage-static": "browserify ./jsORI/homepage.js > ./live-project/js/homepage.js -t babelify --plugin tinyify",
         "watch-homepage-server": "watchify ./jsORI/homepage.js -o ./appstarter/public/js/homepage.js -t babelify -d -v",
@@ -18,13 +17,43 @@
         "build-siap-static": "browserify ./jsORI/siap.js > ./live-project/js/siap.js -t babelify --plugin tinyify",
         "watch-siap-server": "watchify ./jsORI/siap.js -o ./appstarter/public/js/siap.js -t babelify -d -v",
         "watch-siap-static": "watchify ./jsORI/siap.js -o ./live-project/js/siap.js -t babelify -d -v",
+        "build-hospitality-system-server": "browserify ./jsORI/hospitality-system.js > ./appstarter/public/js/hospitality-system.js -t babelify --plugin tinyify",
+        "build-hospitality-system-static": "browserify ./jsORI/hospitality-system.js > ./live-project/js/hospitality-system.js -t babelify --plugin tinyify",
+        "watch-hospitality-system-server": "watchify ./jsORI/hospitality-system.js -o ./appstarter/public/js/hospitality-system.js -t babelify -d -v",
+        "watch-hospitality-system-static": "watchify ./jsORI/hospitality-system.js -o ./live-project/js/hospitality-system.js -t babelify -d -v",
+        "watch-erp-server": "watchify ./jsORI/erp.js -o ./appstarter/public/js/erp.js -t babelify -d -v",
+        "watch-erp-static": "watchify ./jsORI/erp.js -o ./live-project/js/erp.js -t babelify -d -v",
+        "watch-eam-server": "watchify ./jsORI/eam.js -o ./appstarter/public/js/eam.js -t babelify -d -v",
+        "watch-eam-static": "watchify ./jsORI/eam.js -o ./live-project/js/eam.js -t babelify -d -v",
+        "watch-itsm-server": "watchify ./jsORI/itsm.js -o ./appstarter/public/js/itsm.js -t babelify -d -v",
+        "watch-itsm-static": "watchify ./jsORI/itsm.js -o ./live-project/js/itsm.js -t babelify -d -v",
+        "watch-rhapsody-golf-server": "watchify ./jsORI/rhapsody-golf.js -o ./appstarter/public/js/rhapsody-golf.js -t babelify -d -v",
+        "watch-rhapsody-golf-static": "watchify ./jsORI/rhapsody-golf.js -o ./live-project/js/rhapsody-golf.js -t babelify -d -v",
+
+        "watch-company-static": "watchify ./jsORI/company.js -o ./live-project/js/company.js -t babelify -d -v",
+        
+        "watch-clientSection-server": "watchify ./jsORI/clientSection.js -o ./appstarter/public/js/clientSection.js -t babelify -d -v",
+        "watch-clientSection-static": "watchify ./jsORI/clientSection.js -o ./live-project/js/clientSection.js -t babelify -d -v",
+
+        
+        "scss-server": "node-sass --watch ./scss/ -o ./appstarter/public/css/",
+        "scss-static": "node-sass --watch ./scss/ -o ./live-project/css/",
         "scss-all": "run-p scss-server scss-static",
+
         "watch-homepage-all": "run-p watch-homepage-server watch-homepage-static",
         "build-homepage-all": "run-s build-homepage-server build-homepage-static",
         "watch-solution-all": "run-p watch-solution-server watch-solution-static",
         "build-solution-all": "run-s build-solution-server build-solution-static",
         "watch-siap-all": "run-p watch-siap-server watch-siap-static",
-        "build-siap-all": "run-s build-siap-server build-siap-static"
+        "build-siap-all": "run-s build-siap-server build-siap-static",
+        "watch-hospitality-system-all": "run-p watch-hospitality-system-server watch-hospitality-system-static",
+        "build-hospitality-system-all": "run-s build-hospitality-system-server build-hospitality-system-static",
+        "watch-erp-all": "run-p watch-erp-server watch-erp-static",
+        "watch-eam-all": "run-p watch-eam-server watch-eam-static",
+        "watch-itsm-all": "run-p watch-itsm-server watch-itsm-static",
+        "watch-rhapsody-golf-all": "run-p watch-rhapsody-golf-server watch-rhapsody-golf-static",
+        "watch-clientSection-all": "run-p watch-clientSection-server watch-clientSection-static"
+        
     },
     "repository": {
         "type": "git",

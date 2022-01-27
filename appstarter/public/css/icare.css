@@ -1,0 +1,12 @@
+.icare .para {
+  width: 75%;
+  margin: auto; }
+  @media (max-width: 768px) {
+    .icare .para {
+      width: 95%; } }
+
+.icare .visit a img {
+  width: 200px; }
+
+.icare .download a {
+  background-color: #5d2e8f; }

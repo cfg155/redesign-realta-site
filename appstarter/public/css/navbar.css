@@ -7503,8 +7503,10 @@ textarea.form-control-lg {
   font-family: "MaisonNeue-Book" !important; }
 
 nav {
-  position: relative;
-  z-index: 9999; }
+  position: fixed;
+  z-index: 9999;
+  background-color: #ffffff;
+  max-width: 1970px; }
   @media (max-width: 768px) {
     nav {
       font-size: 0.6em; } }
@@ -7551,10 +7553,38 @@ nav {
     font-size: 1.1rem;
     transform: translateX(-600px);
     opacity: 0;
-    transition: transform 0.8s, opacity 1s; }
+    transition: transform 0.8s, opacity 1s;
+    overflow: scroll; }
+    nav .nav--mobile-menu .mobile-links .dropdown-link {
+      background-color: red; }
     @media (max-width: 576px) {
       nav .nav--mobile-menu {
         display: block !important; } }
+    nav .nav--mobile-menu a,
+    nav .nav--mobile-menu .dropdown__wrapper {
+      padding: 20px 0;
+      background-color: #5d2e8f;
+      border: transparent; }
+    nav .nav--mobile-menu .dropdown__wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      nav .nav--mobile-menu .dropdown__wrapper span {
+        margin-right: 10px; }
+      nav .nav--mobile-menu .dropdown__wrapper .dropdown-icon__wrapper {
+        width: 10px !important;
+        display: grid;
+        place-items: center; }
+        nav .nav--mobile-menu .dropdown__wrapper .dropdown-icon__wrapper img {
+          width: 100%; }
+    nav .nav--mobile-menu .sublinks__wrapper {
+      display: flex;
+      flex-direction: column; }
+      nav .nav--mobile-menu .sublinks__wrapper a {
+        background-color: #522780;
+        height: 0;
+        padding: 0;
+        overflow: hidden; }
     nav .nav--mobile-menu .close {
       height: 10vh; }
       nav .nav--mobile-menu .close svg {
@@ -7565,7 +7595,8 @@ nav {
         transform: translateY(-50%);
         cursor: pointer;
         fill: white; }
-  nav .nav--mobile-menu a:hover {
+  nav .nav--mobile-menu a:hover,
+  nav .nav--mobile-menu .dropdown__wrapper:hover {
     background-color: #522780; }
   @media (max-width: 576px) {
     nav .nav--links {
@@ -7594,16 +7625,3 @@ nav {
     border-radius: 15px; }
   nav .nav--links li .dropdown li a {
     text-align: center; }
-  nav .nav--switch {
-    width: 100px;
-    background-color: #fafafa;
-    margin-right: 70px; }
-    @media (max-width: 768px) {
-      nav .nav--switch {
-        margin-right: 0; } }
-    nav .nav--switch * {
-      background-color: #fafafa; }
-    nav .nav--switch .active {
-      background-color: #5d2e8f !important;
-      color: #ffffff;
-      border-radius: 50rem; }

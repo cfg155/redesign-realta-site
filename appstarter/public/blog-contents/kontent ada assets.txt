@@ -1,0 +1,48 @@
+log
+ID	| DESC
+4	| ada imgs 2nd
+5	| ada imgs 1st
+6	| ada imgs 2nd
+7	| no imgs
+8	| no imgs
+9	| no imgs
+10	| no imgs
+11	| ada imgs 1st
+12	| ada imgs 2nd
+13	| ada imgs 2nd
+14	| ada imgs 2nd
+15	| ada imgs 2nd
+16	| no imgs
+17	| ada imgs 2nd
+18	| ada imgs 1st
+19	| ada imgs 2nd
+20	| ada imgs 1st
+21	| ada imgs 1st
+22	| ada imgs 2nd
+23	| no imgs
+24	| no imgs
+25	| no imgs
+26	| no imgs
+27	| no imgs
+28	| no imgs
+29	| no imgs
+30	| no imgs
+31	| no imgs
+33	| no imgs
+34	| no imgs
+35	| no imgs
+36	| no imgs
+37 	| no imgs
+38	| no imgs
+39	| ada imgs 1st
+40	| no imgs
+41	| no imgs
+52	| ada imgs 2nd
+53	| ada imgs 2nd
+54	| no imgs
+55	| no imgs
+56	| no imgs
+57	| no imgs
+58	| ada imgs 1st
+59	| no imgs
+

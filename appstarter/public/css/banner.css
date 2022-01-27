@@ -1,0 +1,29 @@
+.banner {
+  width: 75% !important;
+  margin: auto !important; }
+  @media (max-width: 992px) {
+    .banner {
+      width: 95% !important; } }
+  .banner .logo {
+    width: 200px; }
+    .banner .logo img {
+      width: 100%; }
+  .banner--txt {
+    width: 50%; }
+    @media (max-width: 992px) {
+      .banner--txt {
+        width: 100%; } }
+  @media (max-width: 376px) {
+    .banner__wrapper {
+      flex-direction: column !important; } }
+  .banner__wrapper--item img {
+    width: 200px; }
+    @media (max-width: 992px) {
+      .banner__wrapper--item img {
+        width: 150px; } }
+    @media (max-width: 576px) {
+      .banner__wrapper--item img {
+        width: 120px; } }
+    @media (max-width: 376px) {
+      .banner__wrapper--item img {
+        width: 200px; } }

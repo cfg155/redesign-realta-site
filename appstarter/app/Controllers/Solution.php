@@ -2,10 +2,16 @@
 
 namespace App\Controllers;
 
+use function App\Models\CheckCookieAgreement;
+
 class Solution extends BaseController
 {
     public function index()
     {
+        setcookie('visit', 'solution,' . setDate());
+        CheckCookieAgreement();
+        visitCookie();
+
         return view('solution');
     }
 

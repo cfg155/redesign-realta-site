@@ -1,17 +1,57 @@
 @import "variables", "mixins";
 
-.super {
-  overflow: hidden;
-}
-
-.super__container {
-  max-width: 1970px;
+.content {
+  width: 75%;
   margin: auto;
-  opacity: 0;
-  background-color: $cos-secondary-color;
-  transition: opacity 1s;
-}
 
-.container-fluid {
-  background-color: $cos-secondary-color;
+  @include screen-lg {
+    width: 95% !important;
+    margin: auto;
+  }
+
+  .stretched-link {
+    opacity: 0;
+  }
+
+  &__blog {
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    @include screen-md {
+      width: 100% !important;
+    }
+
+    @include screen-md {
+      flex-direction: column;
+      width: 95%;
+    }
+    &--main {
+      max-width: 1600px;
+
+      .info {
+        @include screen-sm {
+          flex-direction: column;
+
+          &__published-by,
+          &__time {
+            padding-bottom: 5px;
+          }
+        }
+      }
+
+      .body {
+        p,
+        span {
+          font-size: 1.1rem !important;
+          line-height: 2.2rem;
+
+          @include screen-sm {
+            font-size: 1rem;
+            line-height: 1.7rem;
+          }
+        }
+      }
+    }
+  }
 }

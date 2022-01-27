@@ -21,32 +21,7 @@
   padding-right: 0 !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-
-  .rhapsody-banner {
-    &__wrapper {
-      @include custom-screen-size(376px) {
-        flex-direction: column !important;
-      }
-
-      &--item {
-        img {
-          width: 200px;
-
-          @include screen-lg {
-            width: 150px;
-          }
-
-          @include screen-sm {
-            width: 120px;
-          }
-
-          @include custom-screen-size(376px) {
-            width: 200px;
-          }
-        }
-      }
-    }
-  }
+  padding-top: 150px !important;
 
   .w-75 {
     @include custom-screen-size(376px) {
@@ -54,6 +29,7 @@
     }
 
     .rhapsody-demo {
+      margin-top: $section-gap;
       .col-lg-6:nth-child(2) {
         @include custom-screen-size(376px) {
           display: flex !important;
@@ -78,6 +54,7 @@
       justify-content: space-around;
       align-items: flex-start;
       flex-wrap: wrap;
+      margin-bottom: $section-gap;
 
       &__items {
         width: 120px;
@@ -106,6 +83,7 @@
   .benefit {
     color: #ffffff;
     text-align: center;
+    margin-bottom: $section-gap;
 
     &__title {
       margin-bottom: 40px;
@@ -137,9 +115,14 @@
 
     &__top--items,
     &__bottom--items {
-      width: 300px;
+      // width: 300px;
       height: 300px;
       margin: auto;
+
+      @include screen-lg {
+        height: initial;
+        margin: 20px 0;
+      }
 
       img {
         margin-bottom: 20px;
@@ -148,6 +131,7 @@
   }
 
   .features-and-modules {
+    margin-bottom: $section-gap;
     &__wrapper {
       &--item {
         overflow: hidden;
@@ -159,8 +143,8 @@
           width: 350px;
           height: 50px;
           padding: 0 10px;
-          background-color: rgb(224, 224, 224);
-          cursor: pointer;
+          background-color: #f6fafb;
+          // cursor: pointer;
 
           h5 {
             margin: 0;
@@ -168,7 +152,9 @@
         }
 
         ul {
-          // background-color: red;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background-color: #ffffff;
           // max-height: 0;
           // margin: 0;
         }
@@ -189,6 +175,69 @@
         font-size: 0.8em;
         line-height: 15px;
       }
+    }
+  }
+
+  // .partner {
+  //   margin-bottom: $section-gap;
+  //   &__wrapper {
+  //     max-width: 800px;
+  //     margin: auto;
+  //   }
+  // }
+
+  .client {
+    margin-bottom: $section-gap;
+    .slick-list {
+      padding: 20px 0;
+    }
+
+    .slick-slide {
+      margin: 0 20px;
+    }
+
+    &__item {
+      img {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: $box-shadow;
+
+        @include screen-sm {
+          width: 220px;
+        }
+
+        @include custom-screen-size(472px) {
+          width: 180px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 160px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 140px;
+        }
+      }
+    }
+  }
+
+  .parallax-bg {
+    height: 400px;
+    background-image: url("../assets/hospitality-system_assets/backgorund-city-min-newest.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    // padding-top: 150px 0;
+    margin-bottom: $section-gap !important;
+
+    h1 {
+      height: 100%;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      background-color: RGBA(0, 0, 0, 0.5);
     }
   }
 }

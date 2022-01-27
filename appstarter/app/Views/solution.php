@@ -25,11 +25,15 @@
                     <h1 class="title pb-5 book-text">Solutions<br>Realta Chakradarma</h1>
 
                     <div class="category">
-                        <div class="category__wrapper row w-75 m-auto"></div>
+                        <div class="category__wrapper row"></div>
                     </div>
 
                 </div>
             </div>
+
+            <!-- Include Cookie msg panel -->
+            <?= $this->include('layout/component/cookie_msg'); ?>
+            <!-- <div id="footer--placeholder"></div> -->
 
             <!-- Include Footer -->
             <?= $this->include('layout/component/footer'); ?>

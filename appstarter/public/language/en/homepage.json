@@ -1,0 +1,249 @@
+[
+    {
+        "productSection" : [
+            {
+                "carouselData":[
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Hospitality Management System",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/RHASODY-LOGO-PNG.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"hospitality-system-subpage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Human Resources Information System",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/siapp.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"siap-subpage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Property Management System",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/bimasakti-logo.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Golf Course Management System",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/golf-large (1).png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"IT Service Management",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/ivanti-logo.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"IT Asset Management",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/ivanti-logo.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Enterprise Resource Planning",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/bsi-logo 400px.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Enterprise Asset Management",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/bsi-logo 400px.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Customer Relationship Management",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/l.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"RealPCR Test & System",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"UV Leds Solution",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    },
+                    {
+                        "bg":"assets/sampleSolutionHeader.png",
+                        "logo": "",
+                        "productName":"Ordering & Delivery System",
+                        "tag":"HRIS, HRMS, PAYROLL, ATTENDANCE PPH21",
+                        "solution_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolore incidunt impedit unde excepturi laudantium nisi fugit distinctio autem vitae.",
+                        "product_logoURL" : "assets/RR.png",
+                        "product_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolore exercitationem, assumenda iure quia voluptatum iusto ratione iste ducimus quae optio harum aliquam inventore eum voluptate nemo soluta laboriosam tempora porro molestias, veniam a molestiae sunt? Velit, animi ullam quisquam ipsam placeat rem hic veniam vitae, necessitatibus cupiditate veritatis?",
+                        "product_img":"assets/Group 18.png",
+                        "youtube_url":"",
+                        "url":"emptyPage.html"
+                    }
+                ],
+                "button":"LEARN MORE",
+                "solutionTxt":"Solutions "
+            }
+        ]
+    },
+    {
+        "moduleSection" : [
+            {
+                "title" : "You can customize a solution<br> based on your industry",
+                "cards":[
+                    {
+                        "title" : "Property",
+                        "listItem" : ["Inventory Control","Cost Control","Finance & Accounting","Logistic","Tenant Complaint","multi Currency","Multi Payment Term","Automatic Billing Process","Renewal Reminder"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#0E4EAC",
+                        "headerBgColor" : "#09397F"
+                    },
+                    {
+                        "title" : "People",
+                        "listItem" : ["Mobile Attendance","Payroll","Medical & Loan","Personel","Recruitment","Job Comptency","Training","Performance Appraisal","Human Capital Analysis"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#EC008B",
+                        "headerBgColor" : "#B30169"
+                    },
+                    {
+                        "title" : "Manufacturing",
+                        "listItem" : ["Industry ERP","Core Financials","Performance Management","Risk & Compliance","Reduce Costs","Supply Chain Managemeny"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#144788",
+                        "headerBgColor" : "#0D2E57"
+                    },
+                    {
+                        "title" : "IT Service & Asset",
+                        "listItem" : ["Asset Manager","Service Manager","Supply Chain","Endpoint Management","Security","Monitoring Dashboard"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#DF3319",
+                        "headerBgColor" : "#AE2712"
+                    },
+                    {
+                        "title" : "Solutions Covid-19",
+                        "listItem" : ["Asset Manager","Service Manager","Supply Chain","Endpoint Management","Security","Monitoring Dashboard"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#9EC9DB",
+                        "headerBgColor" : "#7595A3"
+                    },
+                    {
+                        "title" : "Hospitality",
+                        "listItem" : ["3+ Stars Hotel","Front & Back Office","Logistic","Mobile Taking Order","Mobile Check-in","Golf Course Management","Restaurant & Bar","Banquet","Budget & Business Hotel"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#99358D",
+                        "headerBgColor" : "#800B72"
+                    },
+                    {
+                        "title" : "Golf Course",
+                        "listItem" : ["Mobile Attendance","Payroll","Medical & Loan","Personel","Recruitment","Job Competency","Training","Performance Appraisal","Human Capital Analysis"],
+                        "learnMoreURL" : "#",
+                        "bgColor" : "#0E4EAC",
+                        "headerBgColor" : "#09397F"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "featureSection" : [
+            {
+                "title":"How Can We Help?",
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo animi nam distinctio alias, totam nobis amet molestiae. Placeat similique, ratione labore perspiciatis inventore distinctio non, vel corrupti, ad magnam nihil porro perferendis culpa numquam reprehenderit doloremque quisquam cum laudantium. Ea.",
+                "accordionItems":[
+                    {
+                        "imgURL" : "assets/mobile-friendly.png",
+                        "title" : "Mobile Friendly",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/cloud-system.png",
+                        "title" : "Cloud System",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/integration-support.png",
+                        "title" : "Integration Support",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/dashboard-monitoring.png",
+                        "title" : "Customize Module",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    },
+                    {
+                        "imgURL" : "assets/cloud-system.png",
+                        "title" : "Dashboard Monitoring",
+                        "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa totam quasi repellendus ipsam eius error placeat ut veritatis. Voluptatibus voluptatum porro aspernatur impedit, quibusdam ut ratione officiis iure dolorem eligendi labore sapiente. Deleniti laborum necessitatibus consequuntur autem cupiditate sit."
+                    }
+                ]
+            }
+        ]
+    }
+]

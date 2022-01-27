@@ -1,0 +1,299 @@
+@import "mixins", "variables";
+@import "../node_modules/slick-carousel/slick/slick.scss",
+  "../node_modules/slick-carousel/slick/slick-theme.scss";
+
+.super {
+  overflow: hidden;
+}
+
+.super__container {
+  max-width: 1970px;
+  margin: auto;
+  background-color: #ffffff;
+  opacity: 0;
+  transition: opacity 1s, background-color 1s;
+}
+
+.container-fluid {
+  background-color: $cos-secondary-color;
+  overflow: hidden;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 150px !important;
+
+  .rhapsody-demo {
+    @include w-75;
+    display: flex;
+    align-items: center;
+    padding: $section-gap 0;
+
+    @include screen-lg {
+      flex-direction: column;
+    }
+
+    .img {
+      width: 600px;
+      height: 100%;
+      padding: 20px;
+
+      @include screen-lg {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .txt {
+      width: 600px;
+      padding: 0 !important;
+
+      @include screen-lg {
+        width: 100%;
+      }
+    }
+  }
+
+  .benefit {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: $section-gap !important;
+
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    &__top {
+      background-image: url("../assets/hospitality-system_assets/header-rhapsody-hospitality-2.jpg");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 150px;
+      padding-bottom: 50px;
+
+      .list-item {
+        @include w-75;
+      }
+    }
+
+    &__bottom {
+      background-image: url("../assets/hospitality-system_assets/header-rhapsody-hospitality-3.jpg");
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 150px;
+      // padding-top: 50px;
+
+      .list-item {
+        @include w-75;
+      }
+    }
+
+    &__top--items,
+    &__bottom--items {
+      padding: 0 !important;
+      @include screen-lg {
+        height: initial;
+        margin: 20px 0;
+      }
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .key-benefits {
+    @include w-75;
+    padding-bottom: $section-gap;
+
+    &__container {
+      display: grid;
+      grid-column-gap: 30px;
+      grid-row-gap: 50px;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      @include screen-lg {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @include screen-md {
+        grid-template-columns: 1fr;
+      }
+
+      .key-benefits--item {
+        .content {
+          background-color: #ffffff;
+          padding: 60px;
+          border-radius: 15px;
+          box-shadow: $box-shadow;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .solution-and-modules {
+    padding-bottom: $section-gap !important;
+    background-color: #ffffff;
+
+    &__container {
+      @include w-75;
+    }
+
+    &__wrapper {
+      width: 100%;
+      margin: auto;
+      &--item {
+        padding: 50px 20px;
+
+        @include screen-lg {
+          padding: 50px 0;
+        }
+
+        .content {
+          background-color: #ffffff;
+          padding: 60px;
+          border-radius: 15px;
+          box-shadow: $box-shadow;
+          ul {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            // max-height: 0;
+            // margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .our-client {
+    padding-bottom: $section-gap;
+    @include w-75;
+
+    &__container {
+      .item {
+        padding: 20px 10px;
+        .content {
+          text-decoration: none;
+          color: #000;
+          text-align: center;
+          display: block;
+          background-color: #ffffff;
+          padding: 20px;
+          height: 100%;
+          border-radius: 15px;
+          box-shadow: $box-shadow;
+
+          p {
+            width: 50%;
+            margin: auto;
+            min-height: 50px;
+            max-height: 50px;
+          }
+
+          .img {
+            width: 100%;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-us {
+    .col-lg-6:nth-child(1) {
+      .achievement {
+        &--item {
+          margin: 0 5px;
+
+          @include custom-screen-size(376px) {
+            margin: 0;
+          }
+        }
+        font-size: 0.8em;
+        line-height: 15px;
+      }
+    }
+  }
+
+  .partner {
+    padding: 100px 0;
+    background-color: #ffffff;
+    &__container {
+      @include w-75;
+
+      .list-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .item {
+          width: 50%;
+          margin: auto;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .client {
+    margin-bottom: $section-gap;
+    .slick-list {
+      padding: 20px 0;
+    }
+
+    .slick-slide {
+      margin: 0 20px;
+    }
+
+    &__item {
+      img {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: $box-shadow;
+
+        @include screen-sm {
+          width: 220px;
+        }
+
+        @include custom-screen-size(472px) {
+          width: 180px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 160px;
+        }
+
+        @include custom-screen-size(380px) {
+          width: 140px;
+        }
+      }
+    }
+  }
+
+  .parallax-bg {
+    height: 400px;
+    background-image: url("../assets/hospitality-system_assets/backgorund-city-min-newest.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    margin-bottom: $section-gap !important;
+
+    h1 {
+      height: 100%;
+      display: grid;
+      place-items: center;
+      color: #ffffff;
+      background-color: RGBA(0, 0, 0, 0.5);
+    }
+  }
+}

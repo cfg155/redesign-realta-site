@@ -1,1 +1,0 @@
-103 gk ada karena sqlnya kegedean

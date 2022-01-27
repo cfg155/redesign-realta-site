@@ -19,10 +19,11 @@
   margin-right: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  padding-top: 150px !important;
   overflow: hidden;
 
   .product {
-    margin-bottom: 40px;
+    margin-bottom: $section-gap;
     display: flex;
 
     .left-product {
@@ -209,6 +210,7 @@
   }
 
   .client {
+    margin-bottom: $section-gap;
     .slick-list {
       padding: 20px 0;
     }
@@ -251,7 +253,7 @@
     margin-right: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    margin: 100px;
+    margin-bottom: $section-gap;
 
     @include screen-sm {
       border-top-left-radius: 80px;
@@ -303,7 +305,7 @@
 
   .feature {
     overflow: hidden;
-    margin: 50px 0;
+    margin-bottom: $section-gap;
 
     &__wrapper {
       .left-feature {
@@ -414,30 +416,34 @@
   }
 
   .promo {
-    margin: 50px 0;
+    width: 75%;
+    margin: $section-gap auto;
     display: flex;
     justify-content: space-around;
+    // height: 90vh;
+
+    @include screen-lg {
+      width: 100%;
+      height: initial;
+    }
 
     &__desc {
-      padding-left: 10%;
+      // padding-left: 170px;
       width: 50%;
-      @include screen-lg {
-        width: 95% !important;
-        padding: 20px;
-      }
 
-      @include screen-md {
+      @include screen-lg {
         width: 95%;
       }
     }
 
     .promo-youtube {
-      width: 100%;
-      height: 320px;
+      width: 400px;
+      height: 300px;
       box-shadow: $box-shadow;
 
       @include screen-lg {
-        height: 300px;
+        width: 100%;
+        height: 400px;
       }
 
       @include screen-md {
@@ -457,7 +463,7 @@
       width: 800px;
       position: relative;
 
-      @include screen-md {
+      @include screen-lg {
         display: none !important;
       }
 
@@ -466,39 +472,107 @@
         border-radius: $cos-border-size;
         box-shadow: $box-shadow;
         position: absolute;
+        display: grid;
+        align-items: center;
+
+        img {
+          width: 90%;
+          margin: auto;
+        }
+      }
+
+      .box:nth-child(2) {
+        img {
+          width: 70%;
+        }
+      }
+
+      .box:nth-child(9) {
+        img {
+          width: 50%;
+        }
       }
     }
   }
 
   .about {
+    width: 75%;
+    margin: $section-gap auto;
     padding: 20px 0 100px 0;
-    margin: auto;
+
+    @include screen-lg {
+      width: 95%;
+      max-width: 95%;
+    }
 
     h2 {
       width: 95%;
       margin: auto;
     }
 
-    &__wrapper {
-      box-shadow: $box-shadow;
-      background-color: #ffffff !important;
-      border-top-left-radius: $cos-border-size;
-      border-bottom-left-radius: $cos-border-size;
-      border-top-right-radius: $cos-border-size;
-      border-bottom-right-radius: $cos-border-size;
-      padding: 0 !important;
+    // &__wrapper {
+    //   box-shadow: $box-shadow;
+    //   background-color: #ffffff !important;
+    //   border-top-left-radius: $cos-border-size;
+    //   border-bottom-left-radius: $cos-border-size;
+    //   border-top-right-radius: $cos-border-size;
+    //   border-bottom-right-radius: $cos-border-size;
+    //   padding: 0 !important;
 
-      .col-lg-6:nth-child(2) {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        img {
-          border-top-right-radius: $cos-border-size;
-          border-bottom-right-radius: $cos-border-size;
+    //   .col-lg-6:nth-child(2) {
+    //     padding-right: 0 !important;
+    //     padding-left: 0 !important;
+    //     img {
+    //       border-top-right-radius: $cos-border-size;
+    //       border-bottom-right-radius: $cos-border-size;
 
-          @include screen-lg {
-            border-top-right-radius: 0;
-            border-bottom-left-radius: $cos-border-size;
+    //       @include screen-lg {
+    //         border-top-right-radius: 0;
+    //         border-bottom-left-radius: $cos-border-size;
+    //       }
+    //     }
+    //   }
+    // }
+
+    .award__wrapper {
+      justify-content: center;
+      background-color: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .slick-track {
+        display: flex;
+      }
+      .slick-track .slick-slide {
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .award--item {
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        height: 100%;
+
+        .award--img {
+          display: flex;
+          justify-content: center;
+          max-width: 200px;
+          margin: auto;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          height: 200px;
+
+          img {
+            width: 100%;
           }
+        }
+
+        .award--text {
+          text-align: center;
         }
       }
     }

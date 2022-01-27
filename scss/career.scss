@@ -20,6 +20,8 @@
   margin-left: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  padding-top: 150px !important;
+
   .career__container {
     width: 75%;
     margin: auto;
@@ -47,6 +49,38 @@
       .footer {
         a {
           background-color: $cos-primary-color;
+        }
+      }
+    }
+  }
+
+  .pages {
+    &__wrapper {
+      display: flex;
+      justify-content: center;
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      .arrow {
+        padding: 0 5px;
+      }
+
+      .page-list {
+        display: flex;
+        justify-content: center;
+        padding: initial;
+
+        li {
+          list-style: none;
+          padding: 0 5px;
+        }
+
+        .current {
+          text-decoration: underline;
+          font-weight: bold;
         }
       }
     }

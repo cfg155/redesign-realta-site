@@ -27,3 +27,12 @@
     @content;
   }
 }
+
+@mixin w-75 {
+  width: 75% !important;
+  margin: auto !important;
+
+  @include screen-lg {
+    width: 95% !important;
+  }
+}

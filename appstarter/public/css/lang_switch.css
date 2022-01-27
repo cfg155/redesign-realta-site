@@ -1,0 +1,13 @@
+label {
+  width: 100px;
+  background-color: #fafafa;
+  margin-right: 70px; }
+  @media (max-width: 768px) {
+    label {
+      margin-right: 0; } }
+  label * {
+    background-color: #fafafa; }
+  label .active {
+    background-color: #5d2e8f !important;
+    color: #ffffff;
+    border-radius: 15px; }

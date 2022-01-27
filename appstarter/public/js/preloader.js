@@ -8,5 +8,9 @@ window.addEventListener('load',()=>{
     setTimeout(() => {
         superContainer.style.opacity = '1'
         superContainer.style.backgroundColor = '#fafafa'
+
+        setTimeout(() => {
+            svgPreloader.remove()
+        }, 500);
     }, 500);
 })

@@ -1,0 +1,21 @@
+@import "mixins", "variables";
+
+label {
+  width: 100px;
+  background-color: $cos-secondary-color;
+  margin-right: 70px;
+
+  @include screen-md {
+    margin-right: 0;
+  }
+
+  * {
+    background-color: $cos-secondary-color;
+  }
+
+  .active {
+    background-color: $cos-primary-color !important;
+    color: #ffffff;
+    border-radius: $cos-border-size;
+  }
+}

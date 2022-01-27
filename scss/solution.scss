@@ -16,6 +16,7 @@
   background-color: $cos-secondary-color;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  padding-top: 150px !important;
 
   .content {
     width: 75%;
@@ -25,15 +26,14 @@
     // margin-left: 0 !important;
     // margin-right: 0 !important;
 
-    @include screen-md {
+    @include screen-lg {
       width: 95%;
     }
 
     .category {
       &__wrapper {
-        @include screen-md {
-          width: 100% !important;
-        }
+        display: flex;
+        justify-content: center;
       }
 
       &__card {

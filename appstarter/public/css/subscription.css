@@ -1,0 +1,23 @@
+.subscription__wrapper {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -150%);
+  width: 500px;
+  max-width: 500px;
+  background-color: #fff;
+  z-index: 9999999;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px #d6d6d6; }
+  @media (max-width: 768px) {
+    .subscription__wrapper {
+      width: 100%; } }
+  .subscription__wrapper input {
+    padding: 5px; }
+  .subscription__wrapper .btn--decline {
+    color: #0078d1; }
+  .subscription__wrapper .btn--allow {
+    background-color: #0078d1;
+    color: #fff; }
+  .subscription__wrapper .btn--allow:hover {
+    color: #fff; }
